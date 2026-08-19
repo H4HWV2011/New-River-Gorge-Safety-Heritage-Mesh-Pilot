@@ -1,21 +1,25 @@
 # Harmony for Hope Community Connectivity & Local Knowledge Portfolio
 
-Harmony for Hope, Inc. is an Appalachian community organization active since 2011 and formally established in 2017. This repository organizes the materials supporting our Community Connectivity & Local Knowledge Portfolio: a practical, place-based effort to build locally governed access, heritage interpretation, and resilient public information for Mount Hope and the New River Gorge region of West Virginia.
+Harmony for Hope, Inc. is a West Virginia community nonprofit formally established in 2017. Its founders and collaborators bring community arts, heritage, and local-service experience dating to 2011.
+
+This repository organizes the materials supporting our Community Connectivity & Local Knowledge Portfolio: a practical, place-based effort to build locally governed access, heritage interpretation, and resilient public information for Mount Hope and the New River Gorge region of West Virginia.
 
 ## The Project
 
 Our immediate focus is the **New River Gorge Safety & Heritage Mesh Pilot**.
 
-The pilot is designed to begin at the Fayette County Community Arts Center in Mount Hope. Future phases may connect the Mount Hope Historic Walking Trail and other heritage-sensitive community locations, including Thurmond, subject to site permissions, partner coordination, technical review, funding, and demonstrated public benefit.
+Harmony for Hope proposes the Fayette County Community Arts Center in Mount Hope as the initial pilot location, subject to site permission, technical review, funding, and implementation agreements. Future phases may connect the Mount Hope Historic Walking Trail and other heritage-sensitive community locations, including Thurmond, subject to documented permissions, partner coordination, technical review, funding, and demonstrated public benefit.
+
+> **Project status:** Planning and funding readiness. The New River Gorge Safety & Heritage Mesh Pilot is not currently deployed as a public Wi-Fi network, emergency communications system, or corridor-wide service. All future sites, equipment, operating arrangements, data practices, and partnerships remain subject to appropriate approvals, funding, feasibility review, and documented agreements.
 
 The work is intended to demonstrate that a small Appalachian community can operate useful local digital infrastructure that supports:
 
-- Free public connectivity.
-- Locally managed community information.
-- Heritage interpretation and visitor resources.
-- Local events, programs, and service information.
-- Resilient access to useful information when commercial connectivity is unreliable.
-- Community stewardship of local stories, knowledge, and participation.
+- Free public connectivity
+- Locally managed community information
+- Heritage interpretation and visitor resources
+- Local events, programs, and service information
+- Locally maintained access to selected public-interest information, including in conditions where commercial connectivity may be limited or unreliable
+- Community stewardship of local stories, knowledge, and participation
 
 This is a phased proof of concept. It is not a claim that a corridor-wide network is already deployed.
 
@@ -29,13 +33,13 @@ Harmony for Hope is building a public-benefit approach to community connectivity
 
 Harmony for Hope, Inc. supports community-based arts, heritage, volunteer service, and local infrastructure work in southern West Virginia. Current and related initiatives include:
 
-- Fayette County Community Arts Center.
-- Mount Hope Historic Walking Trail.
-- Coalfields Chronicles.
-- Mount Hope Regional Band.
-- Oakvale Area Outreach Team.
-- MountainShares Commons, a developing community-participation and value-recognition framework intended to support long-term local stewardship.
-- Community connectivity and local-information infrastructure.
+- Fayette County Community Arts Center
+- Mount Hope Historic Walking Trail
+- Coalfields Chronicles
+- Mount Hope Regional Band
+- Oakvale Area Outreach Team
+- MountainShares Commons, a developing community-participation and value-recognition framework intended to support long-term local stewardship
+- Community connectivity and local-information infrastructure
 
 ## Pilot Concept
 
@@ -49,7 +53,7 @@ Public connectivity + local information point
         |
         +--> Heritage and visitor information
         |
-        +--> Local knowledge interface and resilient information resources
+        +--> Local knowledge interface and locally maintained public-interest information
         |
         v
 Mount Hope Historic Walking Trail / future kiosk or QR extension
@@ -58,18 +62,18 @@ Mount Hope Historic Walking Trail / future kiosk or QR extension
 Future heritage-sensitive community nodes, including Thurmond
 ```
 
-## Project Partners and Support
+## Partnerships and Support
 
-Harmony for Hope is assembling the relationships needed to move from planning to a visible, fundable first deployment.
+Harmony for Hope is developing the relationships needed to move from planning toward a visible, fundable first deployment.
 
-- **WV Hive / New River Gorge Regional Development Authority:** Signed partnership agreement.
-- **WV Community Development Hub pathway:** Connection through the Preservation Alliance of West Virginia, the Fayette County Resource Coordinators Office, and regional-development guidance from Gabe Peña.
+- **WV Hive / New River Gorge Regional Development Authority:** A signed client agreement is maintained in this repository.
+- **WV Community Development Hub pathway:** Referral and regional-development guidance are documented through relevant collaboration materials.
 - **WV Grant Resource Centers:** Referred through WV Hive for grant-development support.
-- **Letters of support:** New River Gorge National Park and Preserve, City of Mount Hope, Town of Thurmond, WVU, and Starry Eyes Media.
-- **Higher-education relationships:** Ongoing relationship development with WVU and Marshall University.
-- **Legal readiness:** Legal-support relationship positioned to activate as funding becomes available.
+- **Letters of support:** Letters and other written support materials are maintained in the partnerships section as available.
+- **Higher-education relationships:** Harmony for Hope is pursuing relationship development with West Virginia University and Marshall University.
+- **Legal readiness:** Legal-support planning may be activated as funding and project needs develop.
 
-Relationship descriptions in this repository are intentionally precise. A letter of support is not represented as a formal partnership, and a warm relationship is not represented as an institutional commitment unless documented as such.
+Each relationship is described according to the documentation available. A letter of support is not a site permission, funding commitment, operational agreement, or deployment authorization. Informal relationship development is not represented as an institutional commitment.
 
 ## Start Here
 
@@ -79,10 +83,12 @@ Relationship descriptions in this repository are intentionally precise. A letter
 - [First-Year Implementation Timeline](03_project/implementation_timeline/First_Year_Implementation_Timeline.md)
 - [Master First-Year Pilot Budget](03_project/pilot_budget/Master_First_Year_Pilot_Budget.md)
 - [Partnerships and Letters of Support](04_partnerships/README.md)
+- [Mount Hope Historic Walking Trail Evidence](06_evidence/community_programs/Mount_Hope_Historic_Walking_Trail/README.md)
+- [Historic Walking Trail Sign Package — GitHub Releases](../../releases)
 
-## Repository Guide
+## Intended Repository Structure
 
-The folders below represent the intended portfolio structure. Existing folders are populated as materials are reviewed; additional sections will be added as supporting documents are ready for public release.
+The following structure guides ongoing portfolio development. Some folders may be added or populated as materials are reviewed for accuracy, permissions, privacy, and public-release suitability.
 
 ```text
 .
@@ -133,15 +139,15 @@ The principal portfolio should enable a funder, collaborator, or community stake
 
 Core portfolio sections include:
 
-- Executive summary.
-- Organization history and community role.
-- Community need and project purpose.
-- Pilot scope, sites, and phasing.
-- Implementation plan and technical approach.
-- Partnerships and letters of support.
-- Budget, funding request, and sustainability approach.
-- Success measures.
-- Appendix index.
+- Executive summary
+- Organization history and community role
+- Community need and project purpose
+- Pilot scope, sites, and phasing
+- Implementation plan and technical approach
+- Partnerships and letters of support
+- Budget, funding request, and sustainability approach
+- Success measures
+- Appendix index
 
 ## Guiding Principles
 
@@ -159,12 +165,12 @@ Harmony for Hope is seeking grant-development, technical, and funding support to
 
 Immediate needs include:
 
-- Network and site planning.
-- Equipment and installation.
-- Connectivity and recurring operating support.
-- Local information portal and heritage-content preparation.
-- Public access, safety, privacy, and stewardship planning.
-- Pilot evaluation and documentation.
+- Network and site planning
+- Equipment and installation
+- Connectivity and recurring operating support
+- Local information portal and heritage-content preparation
+- Public access, safety, privacy, and stewardship planning
+- Pilot evaluation and documentation
 
 ## Contact
 
