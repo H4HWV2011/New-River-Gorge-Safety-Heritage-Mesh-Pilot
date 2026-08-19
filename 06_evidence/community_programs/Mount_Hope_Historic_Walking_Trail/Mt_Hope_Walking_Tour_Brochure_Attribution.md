@@ -1,21 +1,13 @@
-# Mount Hope Walking Tour Brochure — Authorship and Attribution
+# Mount Hope Walking Tour Brochure 
 
-## Historical Research and Written Content
+## Authorship and Attribution
 
-The historical research and written interpretive content for the Mount Hope Walking Tour brochure were authored by **Carrie Ann Kidd** during her AmeriCorps service with the **Preservation Alliance of West Virginia (PAWV)**.
+The Mount Hope Walking Tour brochure was developed through a collaborative heritage and community-development project led by **Active Southern West Virginia** and the **National Coal Heritage Authority**.
 
-The work was completed for the **Fayette County Coordinator’s Resource Office** through a local partnership involving the **Fayette County Urban Renewal Authority** and the **Office of the Fayette County Commission**.
+- **Primary historical research and written interpretive content:** Carrie Ann Kidd, completed during AmeriCorps service with the Preservation Alliance of West Virginia while serving through the Fayette County Resource Coordinators Office.
+- **Contributed brochure section:** “A Walkable Community Gateway to the New River,” written by Tighe Bullock.
+- **Brochure design, graphic layout, and production:** [Digital Relativity](https://digitalrelativity.com/).
 
-## Design and Production
+At the time of this work, the Fayette County Resource Coordinators Office operated under the Fayette County Urban Renewal Authority, which was under the oversight of the Fayette County Commission. Ms. Kidd’s AmeriCorps position was funded through that public-sector structure.
 
-**Brochure design, graphic layout, and production:** [Digital Relativity](https://digitalrelativity.com/)
-
-## Current Portfolio Use
-
-Harmony for Hope, Inc. includes this brochure as evidence of Carrie Ann Kidd’s prior place-based heritage research, public interpretation, partnership coordination, and visitor-information work in Fayette County.
-
-Harmony for Hope does not claim to have authored, commissioned, owned, or produced the brochure as an organization. The brochure is included to document the relevant experience and continuity of local heritage work that informs the proposed New River Gorge Safety & Heritage Mesh Pilot.
-
-## Relevance to the Mesh Pilot
-
-The brochure demonstrates experience translating local history into accessible public information through cross-sector collaboration. The proposed mesh pilot applies related skills to a future digital public-access and heritage-information environment, subject to funding, permissions, partner coordination, and appropriate site review.
+Harmony for Hope, Inc. includes the brochure as evidence of Carrie Ann Kidd’s prior heritage research, public interpretation, coordination, and visitor-information experience in Fayette County. Harmony for Hope does not claim organizational authorship, ownership, or production of the brochure.
