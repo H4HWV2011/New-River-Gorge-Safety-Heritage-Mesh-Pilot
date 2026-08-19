@@ -5,90 +5,80 @@
 **Program Sponsor:** Harmony for Hope, Inc.  
 **First Public Anchor:** Fayette County Community Arts Center, Mount Hope, West Virginia  
 **Budget Period:** First 12 months following award or project start  
-**Budget Status:** Planning estimate for grant development. Final costs, procurement, contractor scope, and funding allocations remain subject to written agreements, site review, and funder requirements.
+**Budget Status:** Planning estimate for grant development; final costs remain subject to written agreements, site review, procurement, and funder requirements.
 
-## Budget Purpose
+## Investment Summary
 
-This master budget combines the physical Mount Hope pilot build, first-year operations, public-information development, legal and governance support, expanded project administration, and a six-month paid community evaluation cohort.
+Harmony for Hope, Inc. seeks support for the first year of the New River Gorge Safety & Heritage Mesh Pilot: a community-governed public connectivity and local-information proof of concept anchored at the Fayette County Community Arts Center in Mount Hope.
 
-It is structured in layers so that a funder may support one eligible component without needing to fund the entire project. The core first-year public pilot can be funded independently of the community evaluation cohort.
+The budget supports a practical public deployment, including equipment and installation; a public-facing local-information experience; connectivity service; legal, governance, and compliance support; professional project administration; and a six-month paid community evaluation cohort.
 
-## Master Budget Summary
+| Investment area | Amount |
+|---|---:|
+| First-year public pilot | $30,684 |
+| Six-month community evaluation cohort | $30,000 |
+| **Total first-year investment** | **$60,684** |
 
-| Budget component | Amount | Purpose |
+## First-Year Public Pilot
+
+The first-year public pilot funds the installation, operation, stewardship, and evaluation preparation needed to establish a useful local connectivity and information resource at the Fayette County Community Arts Center.
+
+| Expense item | Amount | Purpose |
 |---|---:|---|
-| Minimum viable physical infrastructure | $7,592 | Equipment, site work, installation, and build contingency |
-| Revised core first-year public pilot | $30,684 | Physical build, public information, administration, legal support, service, and operations |
-| Six-month paid community evaluation cohort | $30,000 | Six paid community evaluators at $5,000 each |
-| **Full master budget total** | **$60,684** | Core first-year pilot plus community evaluation cohort |
-
-> The $7,592 infrastructure subtotal is included within the $30,684 revised core first-year public-pilot total. It is shown separately so equipment-only or capital-focused funders can support the minimum viable build without double-counting it in the master total.
-
-## A. Minimum Viable Physical Infrastructure
-
-| Expense item | Estimated cost | Notes |
-|---|---:|---|
-| Equipment and materials | $2,602 | FCCAC local server and connectivity hardware, trailhead kiosk node, solar-support components, LoRa backup node, field supplies, and related materials |
+| Equipment and materials | $2,602 | Local server and connectivity hardware, trailhead kiosk node, solar-support components, LoRa backup node, field supplies, and related materials |
 | Site assessment, electrical work, weatherproofing, installation, and installation contingency | $4,000 | Site readiness, electrical and contractor work as needed, protective materials, installation support, and field contingency |
-| Build contingency allowance | $990 | Price changes, small replacement parts, additional mounting, cabling, or site-readiness needs |
-| **Minimum viable physical infrastructure subtotal** | **$7,592** | Physical Mount Hope deployment layer |
+| Public website and local-information landing page | $4,000 | Public-facing local-resource and heritage-information experience, accessibility, and basic maintenance setup |
+| Contract project administration, grant compliance, and implementation coordination | $10,000 | Vendor and partner coordination, grant reporting, recordkeeping, implementation tracking, meeting support, scheduling, and closeout preparation |
+| Legal counsel and governance support | $5,000 | Project agreements, governance, compliance, site and partner documentation, privacy, and public-use review as appropriate |
+| Connectivity service, first year | $2,880 | Estimated first-year recurring connectivity service for the pilot |
+| Project contingency | $2,202 | Unanticipated operating, maintenance, content, coordination, or site-readiness needs |
+| **First-year public-pilot total** | **$30,684** | |
 
-## B. Revised Core First-Year Public Pilot
+## Community Evaluation Cohort
 
-| Expense item | Estimated cost | Notes |
-|---|---:|---|
-| Equipment and materials | $2,602 | FCCAC local server and connectivity hardware, trailhead kiosk node, solar-support components, LoRa backup node, field supplies, and related materials |
-| Site assessment, electrical work, weatherproofing, installation, and installation contingency | $4,000 | Site readiness, electrical and contractor work as needed, protective materials, installation support, and field contingency |
-| Public website and local-information landing page | $4,000 | Public-facing landing page, local-resource and heritage-information presentation, accessibility, and basic maintenance setup |
-| Contract project administration and implementation coordination | $10,000 | May be outsourced; includes grant compliance, vendor and partner coordination, meeting and record support, scheduling, implementation tracking, reporting, and closeout preparation |
-| Legal counsel retainer | $5,000 | Project governance, compliance, agreements, site and partner documentation, privacy review, and public-use review as appropriate |
-| Starlink internet service, first year | $2,880 | Estimated recurring connectivity service for the pilot period |
-| Project contingency allowance | $2,202 | Unanticipated pilot operating, content, maintenance, or coordination needs |
-| **Revised core first-year public-pilot total** | **$30,684** | Full first-year public pilot, excluding the optional evaluation cohort |
+A six-month paid community evaluation cohort will assess the pilot from the standpoint of real users, local institutions, and community stewards.
 
-## C. Six-Month Paid Community Evaluation Cohort
-
-| Expense item | Estimated cost | Notes |
+| Expense item | Amount | Purpose |
 |---|---:|---|
 | Six paid community evaluators | $30,000 | Six evaluator stipends of $5,000 each for a defined six-month pilot-evaluation period |
-| **Community evaluation cohort subtotal** | **$30,000** | Separate validation and workforce-development scope |
+| **Community-evaluation total** | **$30,000** | |
 
-### Community-Evaluation Deliverables
+### Evaluation Activities
 
-The paid community evaluation cohort will test and document:
+The community evaluation cohort will document:
 
-- Access, usability, and accessibility of the public connectivity and local-information experience.
-- Local-information quality, relevance, and content gaps.
+- Public access, usability, and accessibility.
+- Quality, relevance, and gaps in local information.
 - Privacy, stewardship, and public-use expectations.
 - Reliability and resilience observations during the pilot period.
-- Issue reports, improvement recommendations, and a final evaluation memo.
+- Issues, recommendations, and a final evaluation memo to guide responsible next steps.
 
-## Funding Layers
+## Physical Infrastructure Option
 
-| Funding layer | Amount | Use |
-|---|---:|---|
-| Minimum viable infrastructure request | $7,592 | Physical Mount Hope build only |
-| Revised core first-year public-pilot request | $30,684 | Physical build plus first-year operations, public information, administration, legal support, and connectivity |
-| Optional six-month community evaluation cohort | $30,000 | Paid community evaluation, validation, and pilot feedback |
-| **Full master budget request** | **$60,684** | Revised core pilot plus community evaluation cohort |
+For equipment-only, capital, or restricted funding opportunities, Harmony for Hope may request support for the minimum viable physical build as a standalone component.
 
-## Reconciliation Note
-
-The original first-year operating pilot worksheet totaled $24,684 and included $4,000 for project management and grant administration.
-
-This master budget increases that project-management line to $10,000 so Harmony for Hope may contract professional project-administration and implementation-coordination support when funding permits.
-
-| Adjustment | Amount |
+| Physical infrastructure item | Amount |
 |---|---:|
-| Original core first-year pilot | $24,684 |
-| Added outsourced administration capacity | $6,000 |
-| **Revised core first-year public pilot** | **$30,684** |
+| Equipment and materials | $2,602 |
+| Site assessment, electrical work, weatherproofing, installation, and installation contingency | $4,000 |
+| Build contingency allowance | $990 |
+| **Minimum viable physical infrastructure** | **$7,592** |
 
-## Budget Administration Notes
+This physical-infrastructure amount is included in the first-year public-pilot budget above and is presented separately only for funders whose support is limited to capital or equipment-related costs.
 
-- This is a first-year public-benefit pilot budget. It does not claim that a corridor-wide network is already deployed.
-- Grant restrictions vary. Some funders may support equipment but not recurring service, legal counsel, contracted administration, or evaluator stipends.
-- The layered budget allows Harmony for Hope to match eligible expenses to each funding opportunity.
-- Community-evaluator payments are compensation for defined evaluation work and deliverables; they should not be described as volunteer payments.
-- Any paid contractor, vendor, or related-party service must follow applicable funder requirements, written scopes of work, conflict-of-interest procedures, approval processes, and documentation standards.
-- Final funding requests should be adjusted to each funder’s allowable-cost rules, award period, reporting requirements, and any required matching-fund structure.
+## Funding Opportunities
+
+The budget is designed to support a layered funding strategy. Individual funders may support eligible components of the total investment according to their program guidelines.
+
+| Funding opportunity | Potential use |
+|---|---|
+| Capital or equipment support | Hardware, site preparation, installation, and protective materials |
+| Program and operating support | Connectivity service, local-information development, administration, maintenance, and public access |
+| Capacity-building support | Project coordination, grant compliance, legal counsel, governance, agreements, and evaluation |
+| Workforce or community-engagement support | Paid community evaluation cohort and structured pilot feedback |
+
+## Responsible Stewardship
+
+Harmony for Hope will use all funds in accordance with applicable grant requirements, approved project scopes, written agreements, procurement expectations, conflict-of-interest procedures, and reporting obligations.
+
+The proposed work is a phased proof of concept. Funding supports a practical first-year pilot and evaluation process; it does not represent a claim that a corridor-wide network is already deployed.
