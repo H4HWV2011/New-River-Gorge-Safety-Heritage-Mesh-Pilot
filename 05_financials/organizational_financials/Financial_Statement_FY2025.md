@@ -2,14 +2,14 @@
 ## Financial Statements — Fiscal Year Ending December 31, 2025
 ### Prepared for Grant Application Purposes | Unaudited
 
-*Harmony for Hope, Inc. is a small tax-exempt nonprofit organization (EIN: 81-1907024) that files the IRS Form 990-N (e-Postcard) annually. Gross receipts do not exceed $50,000. These statements are unaudited and prepared by the organization's authorized representative for grant application purposes. Formal audit is not required for organizations at this revenue level.*
+*Harmony for Hope, Inc. is a small tax-exempt nonprofit organization (EIN: 81-1907024) that files the IRS Form 990-N (e-Postcard) annually. Based on the organization’s records, its gross receipts are normally $50,000 or less. These statements are unaudited, prepared on the cash basis of accounting, and prepared by the organization’s authorized representative for grant-application purposes.*
 
 ---
 
-## Statement of Financial Position (Balance Sheet)
+## Statement of Financial Position
 ### As of December 31, 2025
 
-### ASSETS
+### Assets
 
 | | Amount |
 |---|---:|
@@ -17,100 +17,120 @@
 | Cash and cash equivalents | $345.60 |
 | Accounts receivable | $0.00 |
 | Prepaid expenses | $0.00 |
-| **Total Current Assets** | $345.60 |
+| **Total Current Assets** | **$345.60** |
 | **Non-Current Assets** | |
-| Equipment and technology (net of depreciation) | $0.00 |
-| In-kind platform development (contributed by Kidd's Technical Services) | $0.00 |
-| **Total Non-Current Assets** | $0.00 |
-| **TOTAL ASSETS** | $345.60 |
+| Equipment and technology, net of depreciation | $0.00 |
+| **Total Non-Current Assets** | **$0.00** |
+| **Total Assets** | **$345.60** |
 
-### LIABILITIES AND NET ASSETS
+### Liabilities and Net Assets
 
 | | Amount |
 |---|---:|
 | **Current Liabilities** | |
 | Accounts payable | $0.00 |
 | Accrued liabilities | $0.00 |
-| **Total Current Liabilities** | $0.00 |
+| **Total Current Liabilities** | **$0.00** |
 | **Net Assets** | |
 | Without donor restrictions | $345.60 |
 | With donor restrictions | $0.00 |
-| **Total Net Assets** | $345.60 |
-| **TOTAL LIABILITIES AND NET ASSETS** | $345.60 |
+| **Total Net Assets** | **$345.60** |
+| **Total Liabilities and Net Assets** | **$345.60** |
 
 ---
 
-## Statement of Activities (Income Statement)
+## Statement of Activities
 ### For the Year Ended December 31, 2025
 
-### REVENUE AND SUPPORT
+### Revenue and Support
 
 | | Amount |
 |---|---:|
-| Contributions and donations (Secret Sandwich Society, November 2025) | $600.00 |
+| Contributions and donations — Secret Sandwich Society, November 2025 | $600.00 |
 | Program service revenue | $0.00 |
 | Interest income | $0.00 |
-| **Total Revenue and Support** | $600.00 |
+| **Total Revenue and Support** | **$600.00** |
 
-### EXPENSES
+### Expenses
 
 | | Amount |
 |---|---:|
 | **Program Services** | |
-| Program technology services — Claude Pro AI subscription (Anthropic, Jan–Dec 2025) | $254.40 |
-| **Total Program Services** | $254.40 |
+| Program technology expense — Claude Pro AI subscription, Anthropic, January–December 2025 | $254.40 |
+| **Total Program Services** | **$254.40** |
 | **Management and General** | |
 | Administrative and organizational expenses | $0.00 |
 | Filing fees and compliance | $0.00 |
-| **Total Management and General** | $0.00 |
-| **TOTAL EXPENSES** | $254.40 |
+| **Total Management and General** | **$0.00** |
+| **Total Expenses** | **$254.40** |
 
-### CHANGE IN NET ASSETS
+### Change in Net Assets
 
 | | Amount |
 |---|---:|
 | Total Revenue and Support | $600.00 |
 | Less: Total Expenses | ($254.40) |
-| **Change in Net Assets** | $345.60 |
-| Net Assets, Beginning of Year (January 1, 2025) | $0.00 |
-| **Net Assets, End of Year (December 31, 2025)** | $345.60 |
+| **Change in Net Assets** | **$345.60** |
+| Net Assets, Beginning of Year — January 1, 2025 | $0.00 |
+| **Net Assets, End of Year — December 31, 2025** | **$345.60** |
 
 ---
 
 ## Notes to Financial Statements
 
-**Note 1 — Organization**
+### Note 1 — Organization
 
-Harmony for Hope, Inc. is a West Virginia nonprofit corporation and federally recognized 501(c)(3) public charity (EIN: 81-1907024), granted tax-exempt status effective March 16, 2017. The organization's mission is: *Uniting West Virginia with music, art, and Appalachian heritage through technology.* The organization operates from 706 Main Street, Mount Hope, West Virginia 25880. Principal programs include the Mount Hope Historic Walking Trail, the Fayette County Community Arts Center, and the MountainShares Commons community heritage platform.
+Harmony for Hope, Inc. is a West Virginia nonprofit corporation and federally recognized 501(c)(3) public charity (EIN: 81-1907024), with tax-exempt status effective March 16, 2017.
 
-**Note 2 — Basis of Accounting**
+The organization’s mission is: *Uniting West Virginia with music, art, and Appalachian heritage through technology.*
 
-These financial statements are prepared on the cash basis of accounting. Harmony for Hope, Inc. files the IRS Form 990-N (e-Postcard) annually and is not required to undergo an independent audit at this revenue level. These statements are unaudited and prepared by the organization's authorized representative for grant application purposes.
+Harmony for Hope operates from 706 Main Street, Mount Hope, West Virginia 25880. Its programs and planning activities include the Mount Hope Historic Walking Trail, the Fayette County Community Arts Center, the MountainShares Commons community-heritage platform, and related community heritage, technology, and public-information work.
 
-**Note 3 — Program Technology Expense**
+### Note 2 — Basis of Accounting and Presentation
 
-Harmony for Hope, Inc. paid a monthly Claude Pro AI subscription (Anthropic) at $21.20 per month for the period January through December 2025, totaling $254.40. This subscription supported technical development and program delivery work performed by Kidd's Technical Services on behalf of Harmony for Hope. Payment records are maintained via Stripe invoicing.
+These financial statements are prepared on the cash basis of accounting from the organization’s available books and records. Under the cash basis, revenue is recognized when received and expenses are recognized when paid.
 
-**Note 4 — Related Party**
+Harmony for Hope files the IRS Form 990-N (e-Postcard) annually. These statements are unaudited and have not been audited, reviewed, or compiled by an independent accountant. They were prepared by the organization’s authorized representative for grant-application and organizational-record purposes.
 
-Carrie Ann Kidd serves as both the authorized representative of Harmony for Hope, Inc. and the owner of Kidd's Technical Services. The organization manages this relationship through conflict-of-interest governance procedures and the executed Master Services Agreement between the two entities. The program technology expense described in Note 3 relates to this arrangement and will be documented through board conflict-of-interest procedures.
+### Note 3 — Program Technology Expense
 
-**Note 5 — In-Kind Contributions**
+During the year ended December 31, 2025, Harmony for Hope paid $254.40 for a Claude Pro AI subscription provided by Anthropic, calculated at $21.20 per month from January through December 2025.
 
-Harmony for Hope, Inc. receives significant in-kind technical services from Kidd's Technical Services, including ALLIS platform access, system configuration, technical documentation, and development support. These contributions are not recorded as revenue or expense in these statements given the related-party nature of the arrangement and the cash basis of accounting used by the organization.
+The subscription supported organizational technical-development, documentation, and program-delivery activities. Available payment records are maintained through Stripe invoicing.
 
-**Note 6 — Grant and Partnership Activity**
+### Note 4 — Related-Party Disclosure
 
-During fiscal year 2025 and continuing into fiscal year 2026, Harmony for Hope has pursued and secured concept-stage letters of support from the New River Gorge National Park and Preserve, the Town of Thurmond, Starry Eyes Media, and Dr. Anurag K. Srivastava of West Virginia University. Active grant applications are in development for the Beckley Area Foundation, Bank of Richmond CTFI Cohort, MIT/Truist Foundation Inspire Awards, and Marshall University partnership. No grant revenues from these applications have been recorded in the fiscal year 2025 statements.
+Carrie Ann Kidd serves as the Founder and authorized representative of Harmony for Hope, Inc. and is also the owner of Kidd’s Technical Services.
+
+Technical support associated with the program technology expense described in Note 3 was connected to work performed by Kidd’s Technical Services on behalf of Harmony for Hope. This relationship is disclosed for transparency. The organization has adopted a Conflict-of-Interest and Recusal Policy.
+
+No amount due to or from Kidd’s Technical Services is recorded in the Statement of Financial Position as of December 31, 2025.
+
+### Note 5 — In-Kind Support
+
+Harmony for Hope may receive informal technical assistance and platform support, including assistance related to documentation, system configuration, and community heritage technology activities.
+
+No in-kind contribution revenue or related expense has been recognized in these unaudited cash-basis financial statements. The organization has not assigned a financial value to this informal support in these statements.
+
+### Note 6 — Grant Development and Partnership Activity
+
+During fiscal year 2025 and continuing into fiscal year 2026, Harmony for Hope undertook partnership-development and grant-planning activities related to community heritage, public information access, and the proposed New River Gorge Safety & Heritage Mesh Pilot.
+
+The organization maintains relevant correspondence, agreements, letters of support, and funding-development materials separately where available. No grant revenue related to prospective applications, funding opportunities, or concept-stage project development was recognized in these fiscal year 2025 financial statements.
 
 ---
 
-*I certify that the information in these financial statements is, to the best of my knowledge, complete and accurate.*
+## Certification
+
+I certify that these unaudited financial statements were prepared from the organization’s available books and records on the cash basis of accounting and, to the best of my knowledge and belief, fairly present the financial position and activities of Harmony for Hope, Inc. for the fiscal year ended December 31, 2025.
+
+These statements have not been audited, reviewed, or compiled by an independent accountant and have not been presented as board-approved financial statements.
 
 **Carrie Ann Kidd**  
 Founder / Authorized Representative  
 Harmony for Hope, Inc.  
-706 Main Street, Mount Hope, WV 25880  
-ckidd@harmonyforhopewv.org  
+706 Main Street  
+Mount Hope, WV 25880  
+[ckidd@harmonyforhopewv.org](mailto:ckidd@harmonyforhopewv.org)
 
 Date: June 23, 2026
