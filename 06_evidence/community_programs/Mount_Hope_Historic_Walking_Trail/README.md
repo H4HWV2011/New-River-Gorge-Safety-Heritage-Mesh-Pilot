@@ -6,7 +6,7 @@ The trail provides a self-guided, approximately 1.25-mile walk through downtown 
 
 The program interprets Mount Hope’s Native American and early-settlement history, coalfields development, racial and cultural history, the Great Fire of 1910, the community’s rebuilding as the “Phoenix City of the New River Gorge,” historic architecture, civic institutions, and local community life.
 
-Harmony for Hope developed the trail through community-based heritage-preservation work with funding from WOW and the Massey Foundation. Carrie Ann Kidd led historical research, interpretive writing, graphic design, and project development, including coordination with the City of Mount Hope regarding sign ordinances, placement, and public-right-of-way requirements.
+Harmony for Hope developed the trail through community-based heritage-preservation work with funding from the Massey Foundation. Carrie Ann Kidd led historical research, interpretive writing, graphic design, and project development, including coordination with the City of Mount Hope regarding sign ordinances, placement, and public-right-of-way requirements.
 
 The trail includes commissioned community artwork, including the Phoenix Wings Mural by Colette Miller, along with other credited creative contributions. Contributors, artists, historic-image sources, and project partners retain the attribution identified in associated trail materials.
 
