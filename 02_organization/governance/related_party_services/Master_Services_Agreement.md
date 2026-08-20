@@ -1,4 +1,6 @@
-> **Public reference copy:** This Markdown document is provided for transparency and readability. The executed, signed agreement is retained in the parties’ records. If a discrepancy exists, the executed agreement controls.# Master Services Agreement
+> **Public reference copy:** This Markdown document is provided for transparency and readability. The executed, signed agreement is retained in the parties’ records. If a discrepancy exists, the executed agreement controls.
+
+# Master Services Agreement
 
 ## Harmony for Hope, Inc.  
 ### Carrie Ann Kidd d/b/a Kidd’s Technical Services
