@@ -102,7 +102,11 @@ The subscription supported organizational technical-development, documentation, 
 
 Carrie Ann Kidd serves as the Founder and authorized representative of Harmony for Hope, Inc. and is also the owner of Kidd’s Technical Services.
 
-Technical support associated with the program technology expense described in Note 3 was connected to work performed by Kidd’s Technical Services on behalf of Harmony for Hope. This relationship is disclosed for transparency. The organization has adopted a Conflict-of-Interest and Recusal Policy.
+During fiscal year 2025, Harmony for Hope paid $254.40 for a Claude Pro AI subscription used in organizational technical-development, documentation, and program-delivery activities. The subscription supported work associated with technical services provided by Carrie Ann Kidd d/b/a Kidd’s Technical Services.
+
+The relationship is governed by an executed Master Services Agreement and applicable executed Statements of Work between Harmony for Hope, Inc. and Carrie Ann Kidd d/b/a Kidd’s Technical Services. Public Markdown copies are maintained for reference; the executed records are retained separately in the organization’s files and control in the event of any discrepancy.
+
+Harmony for Hope has adopted a Conflict-of-Interest and Recusal Policy. This related-party relationship and the associated program technology expense are disclosed for transparency.
 
 No amount due to or from Kidd’s Technical Services is recorded in the Statement of Financial Position as of December 31, 2025.
 
