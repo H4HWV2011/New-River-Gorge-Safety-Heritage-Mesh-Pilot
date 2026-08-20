@@ -6,7 +6,6 @@
 **Document Number:** COI-001
 **Version:** 1.0
 **Date:** June 19, 2026
-**Status:** Draft — For Board Adoption and Counsel Review
 **Related Documents:** Master Services Agreement, SOW-000, SOW-001, FA-001, FTIS-001, Founder Capital Instrument Agreement, MountainShares DAO Governance Charter, MountainShares Program Rules
 
 > **Notice:** This policy is a condition precedent to execution of the Founder Capital Instrument Agreement (§13, condition 5) and is referenced as a material condition in SOW-000 §10, SOW-001 §10, FA-001 §12, and FTIS-001 §12. It must be adopted by the H4H Board of Directors and reflected in DAO/DUNA governance records before any related-party transaction, Treasury Reserve draw for formation or transition costs, or founder-side capitalization instrument is executed.
@@ -328,8 +327,6 @@ Date: __________________
 
 *COI-001 — Conflict-of-Interest and Recusal Policy*
 *Harmony for Hope, Inc. | With DAO/DUNA Mirror Provisions*
-*Draft — Not legal, tax, accounting, securities, or benefits advice*
-
 ---
 
 **End of COI-001 v1.0**
