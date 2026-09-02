@@ -8,7 +8,6 @@
 **SOW Number:** SOW-000  
 **Version:** 1.1  
 **Date:** July 6, 2025  
-**Status:** Draft — For Board and Counsel Review  
 **Master Agreement:** Master Services Agreement between Harmony for Hope, Inc. and Carrie Ann Kidd d/b/a Kidd's Technical Services  
 **Project Phase:** Pre-Formation / Early Infrastructure and Program Buildout
 
