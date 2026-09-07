@@ -336,7 +336,7 @@ Findings may be summarized in aggregated or de-identified form where appropriate
 
 ---
 
-## Relationship to Marshall, WV Hive, and Other Partners
+## Relationship to WV Hive, and Other Partners
 
 This cohort model may create distinct but complementary opportunities for different partners.
 
