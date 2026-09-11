@@ -110,20 +110,22 @@ During fiscal year 2025, Harmony for Hope paid $254.40 for a Claude Pro AI subsc
 
 The H4H–Contractor relationship is governed by an **executed Master Services Agreement** between Harmony for Hope, Inc. and Carrie Ann Kidd d/b/a Kidd’s Technical Services.
 
-**SOW-000 is also maintained as an executed Statement of Work under that Master Services Agreement.** Public Markdown reference copies of the executed Master Services Agreement and SOW-000 are maintained in the repository for transparency and readability; the executed and signed originals are retained separately in the parties' official records and control in the event of any discrepancy.
+**SOW-000 and SOW-001 are also maintained as executed Statements of Work under that Master Services Agreement.**
 
-**SOW-001 is maintained separately as a draft for Board and counsel review and is not represented as executed, effective, or as an operative work authorization.**
+Public Markdown reference copies of the executed Master Services Agreement, SOW-000, and SOW-001 are maintained in the repository for transparency, readability, and portfolio review. The executed and signed originals are retained separately in the parties' official records and control in the event of any discrepancy.
 
-The presence of a draft, proposed agreement, or future service scope in the public repository does not itself establish:
+Execution of the Master Services Agreement and the Statements of Work establishes the governing contractual relationship and authorized service scopes. It does not by itself establish:
 
-* Board approval;
-* execution;
-* payment authorization;
-* reimbursement authority;
-* current liability;
-* or an obligation to perform or fund the contemplated work.
+* that every contemplated service has been performed;
+* that every possible expenditure has been approved;
+* that every reimbursement or payment has been authorized;
+* that a current liability exists for every service within the authorized scope;
+* that every technical or program component has been deployed;
+* or that every future related-party action has separately satisfied applicable approval requirements.
 
 Harmony for Hope has adopted a Conflict-of-Interest and Recusal Policy. Related-party transactions are subject to the organization’s applicable disclosure, recusal, disinterested-review, and documentation requirements.
+
+The executed status of the Master Services Agreement, SOW-000, and SOW-001 does not eliminate the need for separate review and documentation of later amendments, payments, reimbursements, compensation decisions, licensing arrangements, or other related-party actions where those procedures apply.
 
 This related-party relationship and the associated program technology expense are disclosed for transparency.
 
@@ -149,7 +151,7 @@ No grant revenue related to prospective applications, pending applications, fund
 
 For financial-reporting purposes:
 
-```text id="fgkdo0"
+```text
 grant concept
     ≠
 revenue
