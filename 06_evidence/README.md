@@ -11,10 +11,11 @@ The purpose of this section is to preserve evidence of:
 * grant development;
 * submitted funding applications;
 * research informing the project;
+* independently prepared analysis relevant to portfolio communities or development questions;
 * organizational learning; and
 * the experience that supports Harmony for Hope's current implementation readiness.
 
-Evidence in this repository is intended to help reviewers distinguish between **what Harmony for Hope has already done**, **what has been researched or developed**, **what has been submitted for funding**, and **what remains proposed for future implementation**.
+Evidence in this repository is intended to help reviewers distinguish between **what Harmony for Hope has already done**, **what has been researched or developed**, **what has been independently analyzed**, **what has been submitted for funding**, and **what remains proposed for future implementation**.
 
 ---
 
@@ -26,7 +27,7 @@ A document demonstrates only what the document actually supports.
 
 For example:
 
-```text id="2cncr1"
+```text
 prior community program
         ≠
 current pilot deployment
@@ -51,18 +52,26 @@ research
         ≠
 demonstrated local outcome
 
+independent analysis
+        ≠
+H4H-funded project deliverable
+
+independent recommendation
+        ≠
+adopted policy or agency decision
+
 technical design
         ≠
 operational public system
 ```
 
-The purpose of maintaining these distinctions is to create a portfolio that can support ambitious future development without overstating current status.
+The purpose of maintaining these distinctions is to create a portfolio that can support ambitious future development without overstating current status, authorship, funding, authority, or implementation.
 
 ---
 
 ## Current Evidence Structure
 
-```text id="2urnkr"
+```text
 06_evidence/
 ├── README.md
 │
@@ -77,8 +86,12 @@ The purpose of maintaining these distinctions is to create a portfolio that can 
 │   ├── development/
 │   └── submitted-applications/
 │
-└── research/
-    └── Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md
+├── research/
+│   └── Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md
+│
+└── independent_analysis/
+    ├── README.md
+    └── Thurmond_Historic_District_Economic_Outlook_September_2026.pdf
 ```
 
 ---
@@ -143,7 +156,7 @@ Grant activity is treated as evidence because it documents:
 
 The grant archive currently separates materials into three principal stages:
 
-```text id="hh7vng"
+```text
 grants/
 ├── concepts/
 ├── development/
@@ -232,7 +245,7 @@ It does not establish that:
 
 The repository maintains the following basic distinction:
 
-```text id="z9z87x"
+```text
 funding idea
     ↓
 grant concept
@@ -287,6 +300,138 @@ It does not demonstrate that the same result has already been achieved in Mount 
 
 ---
 
+## 4. Independent Analysis
+
+* [Independent Analysis](independent_analysis/README.md)
+
+The `independent_analysis/` directory preserves **independently prepared analytical reports and decision-support materials** that are relevant to communities, issues, or development questions represented within the broader Harmony for Hope Community Connectivity & Local Knowledge Portfolio.
+
+This category exists because relevant analysis may originate outside Harmony for Hope's funded project structure.
+
+`independent_analysis/` can eventually contain more than one report without falsely making those reports part of the funded H4H project.
+
+Independent analysis may include:
+
+* economic studies;
+* preservation-investment analyses;
+* feasibility studies;
+* GIS or spatial analysis;
+* tourism and market analysis;
+* infrastructure assessments;
+* governance or leadership analysis;
+* decision-support reports;
+* place-based assessments; and
+* other original analytical work relevant to portfolio communities or future development questions.
+
+Inclusion in this directory does **not** establish that:
+
+* Harmony for Hope commissioned the work;
+* Harmony for Hope funded the work;
+* the report is an H4H project deliverable;
+* the analysis is part of the current New River Gorge Safety & Heritage Mesh Pilot budget;
+* H4H adopted every finding or recommendation;
+* a public body adopted the analysis;
+* a partner endorsed its conclusions;
+* a recommendation was authorized;
+* funding was committed; or
+* implementation occurred.
+
+The distinction is:
+
+```text
+relevant to the portfolio
+        ≠
+funded by the portfolio
+
+independent analysis
+        ≠
+H4H project deliverable
+
+analysis
+        ≠
+authorization
+
+recommendation
+        ≠
+adopted decision
+
+identified opportunity
+        ≠
+approved implementation
+```
+
+### Current Independent Analysis
+
+The current archive includes:
+
+* [Thurmond Historic District Economic Outlook and Preservation Investment Case](independent_analysis/Thurmond_Historic_District_Economic_Outlook_September_2026.pdf)
+
+The report was independently prepared by **Kidd's Technical Services** in September 2026.
+
+It analyzes:
+
+* existing Thurmond and New River Gorge visitor demand;
+* potential local visitor-spending capture;
+* adaptive reuse;
+* federal historic leasing;
+* historic tax-credit finance;
+* state tourism-development incentives;
+* preservation funding;
+* federal asset economics;
+* comparable preservation transactions;
+* property-level transaction readiness;
+* and a proposed time-bounded economic reuse demonstration.
+
+It is maintained within the evidence portfolio because its subject matter is directly relevant to Thurmond, which is already documented as a future federal-phase opportunity within the broader portfolio.
+
+Its inclusion does **not** transform the report into:
+
+* an H4H-funded project deliverable;
+* part of the current Mount Hope first-year funding scope;
+* an adopted Town of Thurmond policy;
+* a National Park Service decision;
+* a federal site authorization;
+* a lease proposal;
+* or evidence that its recommendations have been accepted.
+
+The original authorship, purpose, date, and advisory status should remain visible.
+
+### Independent Analysis and Historical Provenance
+
+Where an independent analysis has been formally distributed or submitted to an outside entity, the submitted version should be preserved as a historical artifact.
+
+Later:
+
+* corrections;
+* responses;
+* correspondence;
+* supplemental evidence;
+* updated analyses;
+* implementation records;
+* or academic case studies
+
+should be preserved separately rather than silently changing the original submitted report.
+
+Recommended progression:
+
+```text
+independent analysis
+        ↓
+submission or distribution
+        ↓
+institutional response / nonresponse / decision
+        ↓
+additional evidence
+        ↓
+supplement or revised analysis
+        ↓
+later evaluation or case study
+```
+
+A later use of an independent report for leadership research, university study, grant development, or project planning does not retroactively change what the original report was when it was created.
+
+---
+
 # How Evidence Relates to the Current Pilot
 
 The evidence section supports the current Mount Hope first-phase project in several different ways.
@@ -316,7 +461,26 @@ The evidence section supports the current Mount Hope first-phase project in seve
 * conceptual grounding; and
 * consideration of broader community-network and digital-sovereignty practice.
 
-None of these categories, individually or together, should be treated as evidence that the proposed Mount Hope public-connectivity infrastructure is already deployed.
+### Independent analysis demonstrates:
+
+* that a relevant issue or community has received substantive original analysis;
+* the evidence, assumptions, and methods used by the identified author;
+* questions that may warrant further investigation;
+* possible development or decision pathways;
+* contemporaneous professional analysis that may later support evaluation or case-study work; and
+* organizational or project learning where the analysis is later considered by Harmony for Hope.
+
+Independent analysis does **not** automatically demonstrate:
+
+* H4H sponsorship;
+* H4H funding;
+* adoption by the current pilot;
+* institutional agreement with the findings;
+* public authority;
+* implementation approval; or
+* demonstrated project outcomes.
+
+None of these evidence categories, individually or together, should be treated as evidence that the proposed Mount Hope public-connectivity infrastructure is already deployed.
 
 ---
 
@@ -336,6 +500,8 @@ The evidence archive does not represent that Harmony for Hope currently operates
 * MountainShares payment or transaction functions;
 * a regional emergency-communications system; or
 * other proposed future infrastructure unless separately documented as operational.
+
+The existence of independent analysis concerning Thurmond or another community likewise does not place that analysis, its recommendations, or any proposed activity within the funded Mount Hope first-year project unless a governing project document expressly does so.
 
 The current Mount Hope project is intended to move from existing evidence and planning into a real, measurable implementation.
 
@@ -392,15 +558,20 @@ These are future evidence categories, not directories represented as currently p
 
 # Thurmond Evidence Boundary
 
-Thurmond remains a **future federal-phase implementation opportunity**.
+Thurmond remains a **future federal-phase implementation opportunity** within the New River Gorge Safety & Heritage Mesh Pilot portfolio.
 
-Existing support, planning, research, grant-development materials, or letters concerning Thurmond may demonstrate:
+Evidence concerning Thurmond may come from several different sources and therefore must retain its own status and provenance.
+
+Existing support, planning, research, independent analysis, grant-development materials, correspondence, or letters concerning Thurmond may demonstrate:
 
 * interest;
 * partnership development;
 * project relevance;
-* planning history; or
-* support for continued development.
+* planning history;
+* independent professional analysis;
+* identified economic or preservation questions;
+* support for continued investigation; or
+* support for continued project development.
 
 They do not, by themselves, demonstrate:
 
@@ -409,8 +580,17 @@ They do not, by themselves, demonstrate:
 * completed compliance;
 * approved technical design;
 * procurement;
-* equipment installation; or
-* an operational Thurmond node.
+* equipment installation;
+* adoption of an independent recommendation;
+* approval of an economic-development proposal;
+* authorization of a lease;
+* or an operational Thurmond node.
+
+The **Thurmond Historic District Economic Outlook and Preservation Investment Case** is an independent Kidd's Technical Services analysis.
+
+Its presence in this repository documents that the analysis exists and is relevant to the portfolio.
+
+It does not convert the report into an H4H project deliverable or establish that the Town of Thurmond, National Park Service, Harmony for Hope, or another institution has adopted its recommendations.
 
 Future Thurmond implementation remains contingent on:
 
@@ -437,11 +617,28 @@ Where practical, evidence should identify:
 * provenance;
 * relationship to the project;
 * whether the record is original or derivative;
+* whether the record was independently produced;
 * permission or public-release status;
 * relevant funding or program context; and
 * any limitations affecting how the evidence should be interpreted.
 
 Evidence should not be stripped of context in a way that makes it appear to prove more than it actually proves.
+
+For independently prepared work, the repository should preserve the distinction among:
+
+```text
+author
+        ≠
+repository host
+
+repository relevance
+        ≠
+project sponsorship
+
+project consideration
+        ≠
+project adoption
+```
 
 ---
 
@@ -459,7 +656,15 @@ For example, a submitted grant application may preserve:
 * a prior implementation assumption; or
 * a funding structure that is no longer current.
 
-Where the document accurately records what was submitted at the time, preserving the original may be more appropriate than rewriting it.
+Likewise, an independent analysis may preserve:
+
+* the evidence available at the time;
+* assumptions current when it was written;
+* recommendations made before later decisions;
+* questions that were unresolved at submission; or
+* an institutional environment that later changed.
+
+Where the document accurately records what was submitted, distributed, or analyzed at the time, preserving the original may be more appropriate than rewriting it.
 
 Current project status should instead be established through current project documents.
 
@@ -469,21 +674,22 @@ Current project status should instead be established through current project doc
 
 For reviewer clarity:
 
-| Record                | What It Can Demonstrate                  | What It Does Not Automatically Demonstrate |
-| --------------------- | ---------------------------------------- | ------------------------------------------ |
-| Prior program record  | Prior organizational activity            | Current pilot deployment                   |
-| Heritage artifact     | Existing heritage work or interpretation | Current digital infrastructure             |
-| Research document     | Investigation and comparative context    | Local proof of outcome                     |
-| Grant concept         | Funding-development thinking             | Submitted request                          |
-| Development framework | Program-development maturity             | Funding                                    |
-| Submitted application | A request was actually submitted         | Award                                      |
-| Letter of support     | Documented support                       | Funding or site authority                  |
-| Budget                | Estimated or requested costs             | Available cash                             |
-| Award notice          | Funding awarded                          | Every proposed activity approved           |
-| Approved agreement    | Authority within its actual terms        | Authority beyond those terms               |
-| Installation evidence | Something was physically implemented     | Long-term effectiveness                    |
-| Testing evidence      | Tested behavior                          | Permanent reliability                      |
-| Evaluation evidence   | Observed results                         | Universal replicability                    |
+| Record | What It Can Demonstrate | What It Does Not Automatically Demonstrate |
+| --- | --- | --- |
+| Prior program record | Prior organizational activity | Current pilot deployment |
+| Heritage artifact | Existing heritage work or interpretation | Current digital infrastructure |
+| Research document | Investigation and comparative context | Local proof of outcome |
+| Independent analysis | Original analysis by its identified author | H4H sponsorship, institutional adoption, or implementation authority |
+| Grant concept | Funding-development thinking | Submitted request |
+| Development framework | Program-development maturity | Funding |
+| Submitted application | A request was actually submitted | Award |
+| Letter of support | Documented support | Funding or site authority |
+| Budget | Estimated or requested costs | Available cash |
+| Award notice | Funding awarded | Every proposed activity approved |
+| Approved agreement | Authority within its actual terms | Authority beyond those terms |
+| Installation evidence | Something was physically implemented | Long-term effectiveness |
+| Testing evidence | Tested behavior | Permanent reliability |
+| Evaluation evidence | Observed results | Universal replicability |
 
 ---
 
@@ -513,6 +719,10 @@ Materials involving third-party copyright, personal information, restricted reco
 
 Public transparency does not require publishing information that would violate privacy, contractual duties, intellectual-property rights, security responsibilities, or applicable law.
 
+Independent authorship should likewise remain clearly attributed.
+
+Repository inclusion should not obscure who created an analysis, why it was created, who received it, or what authority it did and did not possess.
+
 ---
 
 ## Related Portfolio Materials
@@ -538,6 +748,14 @@ Public transparency does not require publishing information that would violate p
 
 * [Grant Evidence](grants/README.md)
 
+### Research
+
+* [Research Materials](research/)
+
+### Independent Analysis
+
+* [Independent Analysis](independent_analysis/README.md)
+
 ### Privacy
 
 * [Privacy and Data Stewardship Statement](../07_privacy/Privacy_and_Data_Stewardship.md)
@@ -552,10 +770,12 @@ It is to make each claim **traceable to the evidence that actually supports it**
 
 The portfolio should therefore preserve the difference between:
 
-```text id="2f9o85"
+```text
 idea
     ↓
 research
+    ↓
+independent analysis
     ↓
 development
     ↓
@@ -574,10 +794,27 @@ evaluation
 replication decision
 ```
 
-That distinction is what allows Harmony for Hope to document a large, evolving vision without confusing future potential with demonstrated reality.
+That sequence is not intended to imply that every independent analysis becomes an H4H project.
+
+Independent analysis may instead remain an external or parallel evidence record, inform later development, become relevant to academic or leadership study, or produce no project action at all.
+
+The governing principle is:
+
+```text
+preserve the evidence
+        ↓
+identify who produced it
+        ↓
+state what it actually demonstrates
+        ↓
+keep funding and authority boundaries clear
+        ↓
+preserve later developments separately
+```
+
+That distinction is what allows Harmony for Hope to document a large, evolving vision without confusing **relevance with ownership**, **analysis with authority**, or **future potential with demonstrated reality**.
 
 ---
 
-*Harmony for Hope, Inc. — Evidence Portfolio*
+*Harmony for Hope, Inc. — Evidence Portfolio*  
 *Community Connectivity & Local Knowledge Portfolio*
-
