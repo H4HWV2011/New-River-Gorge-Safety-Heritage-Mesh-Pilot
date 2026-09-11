@@ -1,518 +1,1935 @@
-# Installation Workflow for Crew
+# Mount Hope Heritage Infrastructure Workflow
 
-## Purpose
+## New River Gorge Safety & Heritage Mesh Pilot
 
-This document is a field guide for the crew installing the public equipment at 704 Main Street and the Mount Hope walking trail kiosk location. It explains what equipment is being installed, how materials are staged, the order of work, what must be tested, and what must be documented before the installation is complete.
-
-Every phase in this guide includes a reason for the steps described. That reason is there so crew members understand the thinking behind the work — not to invite debate in the field. If something in this guide does not make sense or seems wrong for site conditions, stop and bring the question back to H4H before making a decision independently. On-the-fly changes that seem reasonable in the moment have a history of creating problems that are harder to fix after the fact.
+### Implementation Planning, Field Decision, Commissioning, and Evidence Framework
 
 ---
 
-## Project Scope
+## Document Status
 
-This installation covers equipment located at 704 Main Street and the public kiosk location serving the Mount Hope walking trail. The installed system includes an indoor internet and equipment point at 704 Main Street and an outdoor public-use location with its own power and communications hardware.
+**Status:** Working implementation-planning document
+**Initial implementation community:** Mount Hope, West Virginia
+**Program:** New River Gorge Safety & Heritage Mesh Pilot
+**Organization:** Harmony for Hope, Inc.
+**Purpose:** Govern the transition from funded scope and site review through implementation, commissioning, evidence capture, evaluation, and future replication.
 
----
+This document is the **master implementation workflow** for the Mount Hope first phase.
 
-## Equipment Covered by This Workflow
+It coordinates the detailed phase materials maintained in this directory and establishes the status boundaries that apply to all of them.
 
-The crew should plan around the following equipment groups:
+This workflow does **not** constitute:
 
-- Starlink internet hardware for the main building.
-- Local network equipment for distribution at the main building.
-- One small edge computer or mini PC at the main building.
-- One existing outdoor kiosk location used as a hotspot point.
-- One outdoor Starlink receiver point with solar power support.
-- One LoRa backup communications node with solar support.
-- Supporting parts such as brackets, enclosures, poles, cable runs, anchors, conduit, weather protection, and power accessories.
+* final engineering;
+* construction drawings;
+* an electrical design;
+* a network construction specification;
+* a procurement authorization;
+* a permit;
+* a site-access agreement;
+* a cybersecurity authorization;
+* a final equipment schedule;
+* or authorization for unqualified personnel to perform regulated technical work.
 
----
+Final implementation must follow:
 
-## Responsibilities
+* the funded and approved scope;
+* actual site conditions;
+* property and site permissions;
+* final equipment selections;
+* manufacturer requirements;
+* applicable technical requirements;
+* electrical, structural, network, privacy, and cybersecurity review where applicable;
+* qualified professional review where required;
+* and the project's evidence and governance standards.
 
-| Area | Responsible party |
-|------|-------------------|
-| Equipment ownership | H4H |
-| Site access and placement approval | H4H |
-| Power and internet service | H4H |
-| Monthly internet cost | H4H |
-| Equipment records after install | H4H |
-| Physical maintenance after install | H4H |
-| Optional outside technical help | Only if separately contracted by H4H |
-
----
-
-## Installation Order
-
-The crew should complete the work in the following order:
-
-1. Complete procurement and staging.
-2. Verify all site kits and parts.
-3. Confirm the install points.
-4. Inspect hardware before field placement.
-5. Prepare the building and kiosk locations.
-6. Install internet equipment and local network hardware.
-7. Install solar hardware and weatherproof enclosures.
-8. Mount the kiosk and related field equipment.
-9. Connect power and network lines.
-10. Start and test all equipment.
-11. Photograph, label, and log each completed install.
-12. Report any missing, unsafe, or incomplete work before leaving the site.
-
-**Why this order matters:** Each phase depends on the one before it. Outdoor equipment cannot be tested until indoor internet is confirmed live. Solar hardware must be secure before kiosk equipment is closed up. Testing cannot happen until all connections are made. Working out of order often means discovering a problem after hardware is already mounted and sealed, which creates extra work and potential damage.
+Where this workflow conflicts with an approved design, permit, agreement, manufacturer instruction, or qualified technical determination, the controlling requirement governs.
 
 ---
 
-## Step-by-Step Workflow
+# 1. Purpose
 
-### Phase 1: Procurement and Staging
+The original Mount Hope workflow was written as a field guide so that implementation would occur deliberately rather than through improvisation.
 
-**Why this phase exists:** Equipment that arrives incomplete, damaged, or mismatched to the install location creates field delays that cannot be recovered without a return trip. This phase prevents that. A crew that arrives on site with every part in hand, pre-sorted by location, can focus entirely on installation. A crew that arrives with missing or wrong parts will spend the day improvising or waiting — both of which cost more time and produce worse results than taking the extra day before deployment to verify everything is correct.
+That purpose remains correct.
 
-#### 1. Define Equipment by Location
+The governing principle is:
 
-The crew lead or project lead should assign every item to a specific install point before ordering.
+> **Do not improvise a permanent system in the field merely because a plausible solution is available.**
 
-Location groups for this project:
+If actual conditions differ from the plan:
 
-- 704 Main Street indoor equipment point.
-- Walking trail kiosk location.
-- Outdoor solar and communications mounting point.
+```text
+observe
+    ↓
+document
+    ↓
+stop where necessary
+    ↓
+review
+    ↓
+approve or redesign
+    ↓
+continue
+```
 
-**Why:** Assigning items to locations before ordering prevents the common problem of buying the right quantity of a product but not having the right configuration at the right place. A surge protector bought for the indoor rack that ends up at the kiosk is not useful to either location.
+The field team should understand **why** each phase exists.
 
-#### 2. Parts List for Procurement and Staging
+That understanding supports judgment.
 
-The following list is the working procurement and staging list for the crew. Where a real product page has already been confirmed, it is linked directly. Where no exact product has been locked yet, an example link is provided for discussion and later final source selection. Example links are not purchase approvals — H4H must confirm compatibility, pricing, and sourcing before any order is placed.
+It does not authorize unreviewed changes to:
 
-| Site ID | Location | Item | Description | Qty | Link |
-|---------|----------|------|-------------|-----|------|
-| FCCAC-01 | 704 Main Street | Starlink kit | Main Starlink internet hardware kit | 1 | [Starlink Standard 4 X kit — Home Depot](https://www.homedepot.com/p/STARLINK-Standard-4-X-High-Speed-Low-Latency-Internet-Kit-Latest-Model-02534001/329052560) |
-| FCCAC-01 | 704 Main Street | Starlink mount | Roof, wall, or pole mount for Starlink dish | 1 | Example mount types at [Starlink accessories — Home Depot](https://www.homedepot.com/b/STARLINK/N-5yc1vZya4) |
-| FCCAC-01 | 704 Main Street | Router | Main internet router | 1 | Included with Starlink kit |
-| FCCAC-01 | 704 Main Street | Small network switch | Local wired distribution switch | 1 | Example: [TP-Link TL-SG105 5-port gigabit switch — Amazon](https://www.amazon.com/Ethernet-Splitter-Optimization-Unmanaged-TL-SG105/dp/B00A128S24) |
-| FCCAC-01 | 704 Main Street | Wi-Fi access point | Indoor wireless coverage unit if needed | 1 | May not be needed until testing confirms coverage |
-| FCCAC-01 | 704 Main Street | Mini PC | Small edge computer or NUC-style unit | 1 | Example: [Beelink Mini S12 Pro Intel N100 mini PC — Amazon](https://www.amazon.com/Beelink-Intel-N100-Computer-Desktop-Display/dp/B0BVFS94J5) — or browse [Intel N100 mini PC search — Amazon](https://www.amazon.com/intel-n100-mini-pc/s?k=intel+n100+mini+pc) |
-| FCCAC-01 | 704 Main Street | UPS battery backup | Small battery backup for router and mini PC | 1 | Example: [APC BE600M1 600VA UPS — Amazon](https://www.amazon.com/APC-Battery-Protector-BE600M1-Back-UPS/dp/B01FWAZEIU) |
-| FCCAC-01 | 704 Main Street | Surge protector | Power protection strip | 2 | Example: [Tripp Lite TLP606B 6-outlet surge protector — Amazon](https://www.amazon.com/Tripp-Lite-Protector-INSURANCE-TLP606B/dp/B000UD4LIY) |
-| FCCAC-01 | 704 Main Street | Ethernet cable | Pre-made or bulk CAT6 cable | 4 runs | Indoor example: [trueCABLE 500ft CAT6 riser — Amazon](https://www.amazon.com/trueCABLE-Copper-Unshielded-Twisted-Ethernet/dp/B0BW9LMSVF) — Outdoor run example: [CAT6 direct burial 500ft — Amazon](https://www.amazon.com/Ethernet-Shielded-Resistant-Waterproof-Connectors/dp/B0D41QXTNX) |
-| FCCAC-01 | 704 Main Street | Cable clips and ties | Cable management supplies | 1 lot | Example: [DRIVUU 311-piece cable management kit — Amazon](https://www.amazon.com/DRIVUU-Management-Organizer-200Fasten-Electronics/dp/B0B6VYX66N) |
-| FCCAC-01 | 704 Main Street | Wall anchors and screws | Mounting fasteners | 1 lot | Example: [1110-piece stainless screws, nuts, bolts, and washers assortment — Amazon](https://www.amazon.com/Assortment-Stainless-Hardware-Assorted-Washers%EF%BC%88/dp/B0C5N5VSJ2) |
-| FCCAC-01 | 704 Main Street | Conduit or raceway | Cable protection for exposed runs | 1 lot | Example: [Kable Kontrol paintable cable raceway kit — Amazon](https://www.amazon.com/Kontrol-Paintable-Self-Adhesive-Management-Concealer/dp/B08Z25B57Y) — or [StarTech solid raceway channel — Amazon](https://www.amazon.com/StarTech-com-Cable-Management-Raceway-78in/dp/B08FCRD4MX) |
-| KIOSK-01 | Walking trail kiosk | Existing kiosk structure | Existing kiosk already on site | 1 | Existing asset — no purchase needed |
-| KIOSK-01 | Walking trail kiosk | Hotspot sign | Small Wi-Fi sign or Wi-Fi symbol sign | 1 | Example: [My Sign Center Free Wireless Internet Hotspot sign — Amazon](https://www.amazon.com/Sign-MS-280960-polystyrene-My-Center/dp/B0F67LYHXM) — or [Wi-Fi Zone vinyl banner — Amazon](https://www.amazon.com/WI-FI-BANNER-internet-hotspot-signs/dp/B005NISMW2) |
-| KIOSK-01 | Walking trail kiosk | Outdoor weatherproof enclosure | Lockable enclosure for equipment | 1 | [Sixfab IP65 Outdoor Project Enclosure — Sixfab](https://sixfab.com/product/raspberry-pi-ip65-outdoor-iot-project-enclosure/) |
-| KIOSK-01 | Walking trail kiosk | Raspberry Pi | Small controller or receiver unit | 1 | Example options: [Raspberry Pi 5 desktop kit accessories — Adafruit](https://www.adafruit.com/product/5824) and [Raspberry Pi 5 starter kit bundle — Gigaparts](https://www.gigaparts.com/raspberry-pi-5-starter-kit-8gb-micro-sd-16gb-case-with-fan-hdmi-cable-psu-5-1v-5-0a-rpi5-starterkit-8g.html) |
-| KIOSK-01 | Walking trail kiosk | Raspberry Pi power supply | Power adapter for Raspberry Pi | 1 | Included in [Adafruit Raspberry Pi 5 desktop kit accessories](https://www.adafruit.com/product/5824) |
-| KIOSK-01 | Walking trail kiosk | MicroSD card | Storage card for Raspberry Pi | 1 | Included in [Adafruit Raspberry Pi 5 desktop kit accessories](https://www.adafruit.com/product/5824) |
-| KIOSK-01 | Walking trail kiosk | Short HDMI or adapter cable | Display connection as needed | 1 | Included in [Gigaparts Raspberry Pi 5 starter kit bundle](https://www.gigaparts.com/raspberry-pi-5-starter-kit-8gb-micro-sd-16gb-case-with-fan-hdmi-cable-psu-5-1v-5-0a-rpi5-starterkit-8g.html) |
-| KIOSK-01 | Walking trail kiosk | Outdoor power cable | Weather-rated power cable | 1 | Example: [Southwire Yellow Jacket 12/3 SJTW heavy-duty outdoor extension cord — Amazon](https://www.amazon.com/2883-Heavy-Duty-Contractor-Extension-Lighted/dp/B000KKLMO8) |
-| KIOSK-01 | Walking trail kiosk | Exterior cable gland set | Waterproof cable pass-through fittings | 1 set | Included with some enclosures; verify against [Sixfab assembly instructions](https://docs.sixfab.com/page/raspberry-pi-ip54-outdoor-project-enclosure-assembly-instructions) |
-| SOLAR-01 | Outdoor solar point | Solar panel | 200W solar panel | 1 | [Rich Solar MEGA 200 — Rich Solar](https://richsolar.com/products/mega-200-200-watt-12-volt-solar-panel) |
-| SOLAR-01 | Outdoor solar point | Solar charge controller | Charge controller sized for panel and battery | 1 | Example: [ExpertPower 20A MPPT solar charge controller — ExpertPower](https://www.expertpower.us/products/20a-mppt-solar-charge-controller-2) |
-| SOLAR-01 | Outdoor solar point | Battery | 12V 100Ah battery | 1 | Example options: [LiTime 12V 100Ah battery family — LiTime](https://www.litime.com/collections/12v-100ah-batteries) or [Battle Born 100Ah 12V LiFePO4 — Battle Born](https://battlebornbatteries.com/products/100ah-12v-lifepo4-deep-cycle-battery) |
-| SOLAR-01 | Outdoor solar point | Battery box | Weather-protected battery housing | 1 | Example: [NOCO BG31 Snap-Top Group 24–31 battery box — Amazon](https://www.amazon.com/NOCO-Snap-Top-Battery-Automotive-Batteries/dp/B0CSTDNC2F) |
-| SOLAR-01 | Outdoor solar point | Pole or mounting frame | Support for solar panel and radio hardware | 1 | Example: [Solar panel pole mount double-arm bracket kit — Amazon](https://www.amazon.com/Solar-Universal-Bracket-Adjustable-Mounting/dp/B07NK8YCLL) |
-| SOLAR-01 | Outdoor solar point | Panel mounting brackets | Hardware for securing solar panel | 1 set | Example: [Adjustable aluminum solar panel tilt mount brackets 2-set — Amazon](https://www.amazon.com/Adjustable-Solar-Panel-Mount-Brackets/dp/B0CGDQJ9QF) — see also [Rich Solar panel family](https://richsolar.com/collections/solar-panels) for panel-specific hardware context |
-| SOLAR-01 | Outdoor solar point | Weatherproof electronics enclosure | Sealed box for power and communication parts | 1 | Example outdoor enclosure family: [Sixfab enclosure category — Sixfab](https://sixfab.com/product-category/development-tools/enclosures/) |
-| SOLAR-01 | Outdoor solar point | Fuse block or inline fuses | Electrical protection hardware | 1 set | Example: [RVBOATPAT 12V 150A bus bar power distribution block — Amazon](https://www.amazon.com/RVBOATPAT-400A-600A-Bus-Bar/dp/B0FD9LK2J4) |
-| SOLAR-01 | Outdoor solar point | DC wiring set | Power wire, terminals, and connectors | 1 lot | Final gauge and connector type depends on locked battery and controller selection; search [solar DC wiring kit — Amazon](https://www.amazon.com/solar-dc-wiring/s?k=solar+dc+wiring+kit) as a starting point |
-| SOLAR-01 | Outdoor solar point | Grounding hardware | Ground rod, clamp, and wire if required | 1 set | Example: [THE CIMPLE CO 4-ft copper grounding rod with clamp — Amazon](https://www.amazon.com/CIMPLE-CO-Grounding-Diameter-Satellite/dp/B07WL7X8BS) — or [CYANTEKOMS 3-pack grounding rods with clamps — Amazon](https://www.amazon.com/CYANTEKOMS-Grounding-Electrical-Satellite-Generator/dp/B0CJX5VSSG) |
-| SOLAR-01 | Outdoor solar point | Starlink receiver point hardware | Hardware needed at outdoor receive point | 1 set | Depends on final mount and enclosure layout; see [Starlink accessories — Home Depot](https://www.homedepot.com/b/STARLINK/N-5yc1vZya4) |
-| LORA-01 | Outdoor communications point | LoRa node | LILYGO T-Beam or Heltec LoRa32 class device | 1 | Example hardware guidance: [Meshtastic LoRa hardware notes — Meshtastic](https://meshtastic.org/docs/hardware/antennas/lora-antenna/) |
-| LORA-01 | Outdoor communications point | LoRa antenna | External or matched antenna | 1 | Example antenna guidance: [LoRa antenna selection notes — Meshtastic](https://meshtastic.org/docs/hardware/antennas/lora-antenna/) |
-| LORA-01 | Outdoor communications point | Small solar support kit | Solar support for LoRa backup node | 1 | See [Rich Solar small panel options](https://richsolar.com/collections/solar-panels) paired with a small MPPT controller; the ExpertPower 20A example above applies here as well |
-| LORA-01 | Outdoor communications point | LoRa enclosure | Small weatherproof box | 1 | Example enclosure family: [Sixfab enclosure category — Sixfab](https://sixfab.com/product-category/development-tools/enclosures/) |
-| LORA-01 | Outdoor communications point | Pole clamps or mount straps | Hardware for mounting the node | 1 set | Example: [U-bolt antenna mast clamp aluminum 2-pack — Amazon](https://www.amazon.com/Antenna-Mount-Clamp-Bracket-Outdoor/dp/B0C8T2JLTQ) — or [stainless steel mounting straps for poles — Amazon](https://www.amazon.com/Stainless-Steel-Mounting-Strap-Diameter/dp/B00728Z170) |
-| ALL-LOC | All locations | Labels | Equipment ID labels | 1 lot | Example: [Brady M210 portable label printer kit — Amazon](https://www.amazon.com/Brady-M210-Portable-Label-Printer/dp/B09WZDDGCZ) — or [Brady BMP21-PLUS kit — Amazon](https://www.amazon.com/Brady-BMP21-PLUS-KIT1-Printer-Kit/dp/B0922FZD29) |
-| ALL-LOC | All locations | Photo log sheet | Install record sheet | 1 set | Internal print item |
-| ALL-LOC | All locations | Spare fasteners | Spare screws, anchors, bolts, and washers | 1 lot | Example: [720-piece stainless screws, nuts, bolts, and washers assortment — Amazon](https://www.amazon.com/Bolts-Assortment-Phillips-Stainless-Washers/dp/B0CWGXD5XH) |
-| ALL-LOC | All locations | Sealant | Outdoor weather sealant | 1 tube | Example: [Dicor 501LSW-1 self-leveling EPDM lap sealant — Amazon](https://www.amazon.com/Dicor-501LSW-1-Self-Leveling-Sealant-10-3-Fluid_Ounces/dp/B000BRF7QE) |
-| ALL-LOC | All locations | Electrical tape and heat shrink | Wire protection supplies | 1 lot | Example: [Eventronic 600-piece heat shrink tubing assortment kit — Amazon](https://www.amazon.com/560PCS-Heat-Shrink-Tubing-Eventronic/dp/B072PCQ2LW) |
-
-#### 3. Receive and Inspect Equipment
-
-All equipment should be checked as soon as it arrives.
-
-Checklist:
-- Match each delivered item to the parts list.
-- Inspect for broken parts, dents, cracks, or missing accessories.
-- Record serial numbers for Starlink hardware, mini PC, Raspberry Pi, and radio hardware where available.
-- Separate damaged or incomplete items from field-ready items.
-
-**Why:** Damaged or missing items discovered on the day of installation mean the crew either proceeds with incomplete equipment or leaves the site unfinished. Both outcomes cost more time and money than catching the problem before loading the vehicles. Serial number records are required for warranty claims, insurance documentation, and H4H's asset inventory.
-
-#### 4. Stage Site Kits
-
-Each location should have its own labeled kit so the crew can load and unload efficiently.
-
-Required site kits:
-- FCCAC-01 indoor kit.
-- KIOSK-01 outdoor kiosk kit.
-- SOLAR-01 solar power kit.
-- LORA-01 backup communications kit.
-
-Each kit should include:
-- Main device or hardware assigned to that site.
-- All required fasteners and mounts.
-- Power parts and adapters.
-- Cables and cable protection.
-- Printed copy of that site's parts list.
-- Printed site notes.
-
-**Why:** Pre-staged kits prevent the crew from digging through a common pile of parts at each location trying to figure out what belongs where. When everything for one location travels together, the crew can work through one location at a time without interruption and without accidentally using a part that was intended for a different site.
-
-#### 5. Pre-Field Verification
-
-Before vehicles are loaded, confirm the following:
-
-- All site kits are complete.
-- Internet hardware is in hand.
-- Solar parts are complete.
-- Batteries are ready for installation.
-- Labels, paperwork, and tools are packed.
-- Spare fasteners and spare cable are packed.
-
-**Why:** Loading a vehicle and driving to a job site only to realize something was left behind is a preventable loss of time. This checklist takes five minutes. A return trip to retrieve a missing part takes hours.
+* electrical design;
+* structural attachment;
+* network architecture;
+* privacy controls;
+* radio configuration;
+* public access;
+* or project scope.
 
 ---
 
-### Phase 2: Confirm the Work Plan
+# 2. Current Mount Hope Scope Boundary
 
-**Why this phase exists:** Site conditions do not always match what was planned in the office. A wall that looked solid in a photograph may not support a mount. A pole position that seemed ideal may be in the wrong location once the crew is standing there. This phase gives the crew a structured moment to look at the actual site, confirm that the planned install points still make sense, and surface any problems before tools are out and hardware is being handled.
+Mount Hope is the project's **initial/current implementation and funding path**.
 
-Checklist:
-- Confirm 704 Main Street equipment placement.
-- Confirm kiosk placement.
-- Confirm solar mounting point.
-- Confirm where the LoRa backup node will be attached.
-- Confirm who approves final placement on site.
+The first phase is intended to establish a real public-benefit implementation and produce evidence concerning:
 
-**Why each step:** Placement decisions made without authorization from H4H can result in equipment going in the wrong location, creating access problems, aesthetic problems, or conflicts with building structure. The crew does not make final placement calls independently. If a proposed location is not workable, the crew raises that to H4H and waits for guidance before proceeding.
+* public connectivity;
+* heritage access;
+* physical infrastructure;
+* community usability;
+* application and browser behavior;
+* accessibility;
+* governance;
+* privacy;
+* maintenance;
+* resilience concepts where justified;
+* implementation cost;
+* and operational lessons.
 
----
+The project is not required to install every technology that has appeared in earlier planning documents.
 
-### Phase 3: Inspect Hardware Before Placement
+Candidate technologies remain candidates until the implementation process shows that they are:
 
-**Why this phase exists:** Equipment can be damaged in transport even when it looked fine at staging. Checking hardware before placement means any damage is caught before the crew spends time mounting something that will not work.
-
-Checklist:
-- Verify the correct device is in the correct site kit.
-- Check that no hardware was damaged during transport.
-- Check that all required power supplies, brackets, and cables are present.
-
-**Why:** Mounting a device and then discovering it is the wrong unit — or that the required bracket did not make it into the kit — means unmounting it and starting over. Thirty seconds of verification before touching a mount saves that cycle.
-
----
-
-### Phase 4: Prepare the Site
-
-**Why this phase exists:** Mounting hardware into an unprepared surface, or routing cable through an area that has not been checked for clearance and safety, produces installations that either fail structurally or create hazards. Site preparation is the step that prevents those problems.
-
-Checklist:
-- Check walls, poles, surfaces, and install heights.
-- Confirm safe cable routes.
-- Confirm public safety and access.
-- Confirm weather exposure and drainage.
-- Confirm power access where needed.
-
-**Why each step:** Mounting surfaces must be load-rated for what is being attached. Cable routes through walls, conduit, or outdoor runs must be clear of sharp edges, pinch points, and water infiltration paths. Equipment installed in a public location must not create trip hazards, snag points, or access barriers. Outdoor hardware must be positioned so water drains away from enclosures rather than pooling against them. Power must be confirmed present and accessible before any wired equipment is committed to a location.
+* needed;
+* appropriate;
+* fundable;
+* maintainable;
+* technically compatible;
+* governable;
+* and justified by the actual use case.
 
 ---
 
-### Phase 5: Install Internet and Indoor Equipment
+# 3. Implementation Principle
 
-**Why this phase exists:** The indoor Starlink installation is the source of the entire project's internet connectivity. Nothing else on the outdoor network functions without it. Installing this first confirms the core service is active before any outdoor work is closed up and sealed.
+The Mount Hope pilot follows this progression:
 
-Checklist:
-- Install the Starlink mount.
-- Install the Starlink hardware.
-- Route cable safely into the building.
-- Install router, switch, and indoor wireless unit if used.
-- Install the mini PC.
-- Install UPS and surge protection.
-- Confirm internet service is live.
+```text
+funded / approved scope
+        ↓
+requirements
+        ↓
+site verification
+        ↓
+candidate architecture
+        ↓
+technical and governance review
+        ↓
+approved design
+        ↓
+procurement
+        ↓
+staging
+        ↓
+installation
+        ↓
+as-built record
+        ↓
+integration review
+        ↓
+commissioning
+        ↓
+public release
+        ↓
+testing and evaluation
+        ↓
+evidence
+        ↓
+replication decision
+```
 
-**Why each step:**
+The project should not reverse this sequence into:
 
-The mount must go in before the dish so the attachment point is confirmed solid before the hardware is committed to it. Routing cable into the building before securing the interior equipment means the cable path is established and the crew knows how much slack to leave. Router and switch come after confirmed cable entry so the crew can immediately test connectivity without running to a different location. The UPS and surge protection go in at the end of the indoor sequence because they protect equipment that is already installed and confirmed working — power protection added before devices are confirmed functional could mask startup problems during testing.
-
-Confirming internet service is live before leaving the indoor location is not optional. The outdoor equipment depends on this connection. If connectivity is not confirmed at this stage, the problem needs to be resolved before proceeding.
-
----
-
-### Phase 6: Install Solar and Outdoor Support Hardware
-
-See the detailed phase document:
-[Phase 6: Install Solar and Outdoor Support Hardware](Phase%206.md)
-
-**Why this phase exists:** The outdoor kiosk equipment and the LoRa node both depend on power from the solar system. Installing the power infrastructure before the devices that use it means those devices can be connected and tested immediately after mounting, rather than waiting for power to be sorted out after the fact.
-
-Checklist:
-- Mount the 200W solar panel.
-- Install the panel brackets and support frame.
-- Install the charge controller.
-- Install the 12V 100Ah battery in its battery box.
-- Install fuse protection and DC wiring.
-- Install the weatherproof equipment enclosure.
-- Confirm secure weather protection.
-
-**Why each step:**
-
-The panel mounts before the brackets are locked because the panel position determines the final bracket angle. Getting the angle right requires the panel to be physically present during adjustment. The charge controller comes after the panel is in place because the controller is wired to the panel, and verifying that wire run is clean is easier when both endpoints are already installed. The battery goes into its box before it is wired because a battery that is outside its housing is a safety risk — exposed terminals in a field environment can short against tools, metal parts, or fastener kits. Fuse protection is installed before any DC wiring is connected because connecting wires to an unfused battery creates a fire and shock risk. The weatherproof enclosure goes on last in this phase to confirm all interior wiring and hardware is correctly placed before the access door is closed. Confirming weather protection means checking that the enclosure seal is intact, that cable glands are tight, and that no wiring exits the enclosure without appropriate strain relief and waterproofing.
-
----
-
-### Phase 7: Install Kiosk Hotspot Equipment
-
-See the detailed phase document:
-[Phase 7: Install Kiosk Hotspot Equipment](Phase%207.md)
-
-**Why this phase exists:** The kiosk is the public-facing point of contact for people using the walking trail. It must be structurally sound, clearly marked, and fully functional before it is considered complete. Installing it after the power infrastructure is in place means the equipment inside the enclosure can be connected to power immediately and tested before the enclosure is sealed.
-
-Checklist:
-- Confirm the existing kiosk is structurally sound.
-- Install the outdoor enclosure.
-- Install the Raspberry Pi and storage card if used for local control or monitoring.
-- Install the hotspot sign or Wi-Fi symbol sign.
-- Secure and protect all exposed wiring.
-
-**Why each step:**
-
-The structural check happens first because an unstable kiosk is a public safety risk, and mounting additional hardware to it makes the problem worse, not better. If the kiosk is not structurally sound, stop and report to H4H before proceeding. The enclosure goes in before the Raspberry Pi because the Pi and its accessories need a protected mounting point before they are handled in an outdoor environment. The hotspot sign is installed after the enclosure so it can be positioned in relation to the final hardware placement. Wiring is secured and protected last because the exact path of every wire is not known until all hardware is in its final position.
+```text
+buy equipment
+    ↓
+find somewhere to install it
+    ↓
+make the architecture fit the purchase
+```
 
 ---
 
-### Phase 8: Install Backup Communications Node
+# 4. Evidence Principle
 
-See the detailed phase document:
-[Phase 8: Install Backup Communications Node](Phase%208.md)
+Each implementation stage proves only what that stage actually demonstrates.
 
-**Why this phase exists:** The LoRa node is the backup communication layer for the network. It is not the primary path, but it must be operational and protected independently from the main system. Installing it after the main outdoor hardware means it can share pole and mounting resources without competing for access during installation of higher-priority equipment.
+```text
+planned component
+        ≠
+approved component
 
-Checklist:
-- Install the LoRa node.
-- Install the antenna.
-- Install the small solar support kit if separate from the main solar hardware.
-- Mount the node in the weatherproof box.
-- Confirm it is secure and protected.
+approved component
+        ≠
+purchased component
 
-**Why each step:**
+purchased component
+        ≠
+installed component
 
-The node goes in before the antenna so the physical unit is stabilized before the antenna is attached, which reduces torque stress on the node's connector. The antenna is the most exposed part of this assembly and should be the last thing connected before the box is closed. Solar support for the node is installed after the node is in position so the panel angle can be optimized for the node's actual mounted location rather than a pre-planned position that may not match site conditions. The node goes into its enclosure before the final antenna connection is made so that only the antenna connector is exposed during that last step. Confirming the unit is secure means physically checking that the enclosure is latched, the pole clamps are tight, and the antenna is not under mechanical stress from the mount position.
+installed component
+        ≠
+commissioned component
 
----
+commissioned component
+        ≠
+demonstrated public outcome
 
-### Phase 9: Connect Power and Network
+successful Mount Hope test
+        ≠
+automatic replication approval
+```
 
-See the detailed phase document:
-[Phase 9: Connect Power and Network](Phase%209.md)
-
-
-**Why this phase exists:** This phase is the point at which all installed hardware becomes a connected system rather than a collection of independent devices. Connections made without checking strain relief, weather sealing, and cable protection first are the most common source of failures that appear days or weeks after installation rather than immediately.
-
-Checklist:
-- Connect indoor equipment to power and UPS.
-- Connect outdoor kiosk equipment to the assigned power source.
-- Connect internet and local network lines as required.
-- Confirm cable strain relief and weather sealing.
-- Confirm exposed wiring is protected.
-
-**Why each step:**
-
-Indoor power connections happen first because they are the lowest-risk connections to make — the environment is controlled and the equipment is already confirmed mounted and functional. Outdoor power connections come after because they require weather sealing, which takes time to do correctly. Network lines are connected after power is confirmed because testing network function requires power to be live at both ends of the connection. Strain relief is confirmed after all connections are made because it is only possible to verify that cables are not under stress once they are routed and connected in their final positions. Weather sealing is confirmed last because it seals the installation against the environment permanently, and reopening a sealed enclosure to address a wiring problem is significantly more work than catching the problem before sealing.
+The purpose of the pilot is to create evidence strong enough to support later decisions.
 
 ---
 
-### Phase 10: Start and Test Equipment
+# 5. Current Site Model
 
-**Why this phase exists:** No installation is complete until every device has been confirmed operational in its installed location. A device that powers on in a staging environment may fail in the field due to a wiring error, a bad connection, an incompatible power level, or a configuration issue that only appears when the hardware is connected to the live network. This phase catches those problems while the crew is still on site and the system is accessible.
+The Mount Hope first phase centers on the **Fayette County Community Arts Center public anchor** and the existing Mount Hope heritage/walking-trail context.
 
-Checklist:
-- Power on Starlink and confirm connection.
-- Power on router, switch, and mini PC.
-- Confirm indoor network access.
-- Power on kiosk equipment.
-- Confirm the Raspberry Pi starts correctly.
-- Confirm the kiosk hotspot function works.
-- Confirm the LoRa backup node powers on.
-- Restart each main device once if needed to confirm stable startup.
+Working field documents may refer to individual buildings, kiosk locations, or equipment points.
 
-**Why the restart step:** A device that powers on correctly the first time but fails to recover after a restart reveals a configuration or hardware problem that will manifest during a power outage or scheduled reboot. Catching that before leaving the site means it can be addressed while the crew has tools and access.
+Those references should be treated as site-planning identifiers until the final implementation record confirms:
 
-**Why the sequence:** Starlink and the indoor network are tested first because they are prerequisites for the outdoor network. There is no point testing the kiosk hotspot if the source connection is not confirmed live. The LoRa node is tested last because it is the backup layer — it does not depend on the main network to function, but testing it in sequence prevents it from being forgotten.
+* property authority;
+* exact mounting location;
+* approved equipment location;
+* cable path;
+* public-use area;
+* and final as-built configuration.
 
----
-
-### Phase 11: Record the Installation
-
-**Why this phase exists:** Installation records serve multiple functions that are not immediately visible during the installation itself. They provide H4H with proof that work was completed, a reference for future maintenance, documentation for insurance and grant reporting, and a starting point for any troubleshooting that happens after the crew has left the site. Records made in the field at the time of installation are always more accurate than records reconstructed later from memory.
-
-Checklist:
-- Apply equipment labels.
-- Photograph each installed device.
-- Photograph cable runs, enclosures, and solar hardware.
-- Record the final install location.
-- Record any issue, limitation, or follow-up need.
-
-**Why photographs specifically:** A photograph of each device in its installed position documents what was installed, where it is physically located, how cable runs are routed, and what condition the site was in at the time of completion. That information is essential for any future technician who needs to maintain or replace equipment without having been present during installation.
-
-**Why labels:** Equipment labels allow any person who encounters the hardware later — including people who were not part of the install crew — to identify what the device is, what location it belongs to, and how to cross-reference it against H4H's inventory records.
+A planning address or equipment point should not be treated as permanent infrastructure evidence merely because it appears in a workflow.
 
 ---
 
-### Phase 12: Close Out the Site
+# 6. Functional Layers
 
-**Why this phase exists:** The site is a public location. A clean, safe close-out is not a nicety — it is a requirement. Packaging materials left on site become litter and potential hazards. Incomplete work left without a report to H4H means the problem may not be addressed until a member of the public encounters it.
+The implementation may involve several functional layers.
 
-Checklist:
-- Confirm the site is clean and safe.
-- Remove packaging and scrap material.
-- List incomplete items.
-- Report any condition that prevents public use.
+Not every layer necessarily requires separate hardware.
 
-**Why the incomplete items list:** If any item from the installation checklist was not completed — for any reason — H4H needs to know before the crew leaves the site. An undocumented incomplete item may delay public access to the service and will create confusion for whoever is assigned to follow up. The list does not need to be long. It needs to be accurate.
+## Public connectivity layer
 
----
+Potential functions include:
 
-## Minimum Acceptance Standard
-
-A location is complete only when all of the following are true:
-
-- The correct hardware is installed in the correct location.
-- Indoor internet hardware is active.
-- The mini PC is installed and powered.
-- The kiosk is secure and weather protected.
-- The Raspberry Pi starts correctly.
-- The solar panel, controller, and battery are installed safely.
-- The LoRa backup node is mounted and powered.
-- Required photos and equipment records are complete.
-- Any unresolved issue has been reported to H4H.
-
-**Why a minimum acceptance standard exists:** This list defines the point at which the location is considered done. Without a clear standard, individual crew members may have different opinions about whether a location is ready. The standard removes that ambiguity. If any item on this list is not true, the location is not complete, regardless of how much else has been accomplished.
+* public internet access;
+* project information;
+* visitor information;
+* heritage resources;
+* and approved public digital services.
 
 ---
 
-## Issues That Must Be Reported Immediately
+## Local infrastructure layer
 
-The crew should stop and report to H4H if any of the following occur:
+Potential functions include:
 
-- No safe mounting surface is available.
-- No usable power path is available.
-- Internet service cannot be activated.
-- Solar hardware cannot be mounted safely.
-- Equipment arrives damaged or incomplete.
-- A mounted unit cannot be secured.
-- Weather or site conditions prevent safe completion.
-
-**Why stopping matters:** Proceeding through a problem without reporting it does not make the problem go away — it makes it harder to address later. A mounting surface that is not safe becomes a liability. Equipment installed without proper power becomes a damage risk. Hardware secured with improvised substitutes may fail in ways that are not immediately visible. The crew's job is to install correctly or stop and report — not to find workarounds to keep the schedule moving.
+* routing;
+* switching;
+* local computing;
+* service hosting;
+* monitoring;
+* or another approved edge function.
 
 ---
 
-## Site Kit Checklist
+## Outdoor support layer
 
-Each site kit should include all parts needed for one location.
+Potential functions include:
 
-### FCCAC-01 Indoor Kit
-- Starlink kit.
-- Starlink mount.
-- Router.
-- Small network switch.
-- Wi-Fi unit if used.
-- Mini PC.
-- UPS battery backup.
-- Surge protector.
-- Ethernet cables.
-- Cable clips, ties, anchors, and screws.
-- Conduit or raceway sections.
-
-### KIOSK-01 Outdoor Kiosk Kit
-- Existing kiosk structure.
-- Hotspot sign.
-- Outdoor weatherproof enclosure.
-- Raspberry Pi.
-- Raspberry Pi power supply.
-- MicroSD card.
-- Short display cable or adapter.
-- Outdoor power cable.
-- Exterior cable glands.
-
-### SOLAR-01 Solar Kit
-- 200W solar panel.
-- Solar charge controller.
-- 12V 100Ah battery.
-- Battery box.
-- Pole or support frame.
-- Panel mounting brackets.
-- Weatherproof electronics enclosure.
-- Fuse protection and bus bar.
-- DC wiring set.
-- Grounding hardware if required.
-
-### LORA-01 Backup Communications Kit
-- LoRa node.
-- LoRa antenna.
-- Small solar support kit.
-- LoRa enclosure.
-- Pole clamps or mount straps.
-
-### ALL-LOC Shared Field Kit
-- Equipment ID labels and label maker.
-- Spare fasteners assortment.
-- Outdoor weather sealant.
-- Electrical tape and heat shrink assortment.
-- Photo log sheets.
-- Spare CAT6 cable.
+* mounting;
+* environmental protection;
+* power;
+* energy storage;
+* enclosures;
+* and approved outdoor communications equipment.
 
 ---
 
-## After Installation
+## Heritage access layer
 
-After the crew finishes the installation, H4H remains responsible for the equipment, internet service, ongoing costs, and future upkeep. Outside technical help may be brought in later only if H4H chooses to contract for it separately.
+Potential functions include:
 
----
-
-## Procurement SKU Sheet
-
-This section is appended for ordering. The links below are confirmed or example product pages for the main items identified for this build. Items marked as examples require H4H review and final selection before purchase.
-
-| Category | Item | Model / SKU | Vendor | Purchase link | Notes |
-|----------|------|-------------|--------|---------------|-------|
-| Internet uplink | Starlink Standard kit | Model 02534001 / Internet #329052560 / Store SKU #1011034206 | Home Depot | [Starlink Standard 4 X kit](https://www.homedepot.com/p/STARLINK-Standard-4-X-High-Speed-Low-Latency-Internet-Kit-Latest-Model-02534001/329052560) | Confirmed retail listing. Includes dish, power supply, cables, base, and router. Monthly service plan required separately. |
-| Solar panel | 200W solar panel | MEGA 200 | Rich Solar | [Rich Solar MEGA 200](https://richsolar.com/products/mega-200-200-watt-12-volt-solar-panel) | Panel only. Battery and controller ordered separately unless a full kit is selected. |
-| Outdoor enclosure (kiosk) | Raspberry Pi weatherproof enclosure | Sixfab IP65 Outdoor Project Enclosure | Sixfab | [Sixfab IP65 enclosure](https://sixfab.com/product/raspberry-pi-ip65-outdoor-iot-project-enclosure/) | Compatible with Raspberry Pi and outdoor cable routing. |
-| Battery — example | 12V 100Ah LiFePO4 battery | 12V 100Ah class | LiTime | [LiTime 12V 100Ah family](https://www.litime.com/collections/12v-100ah-batteries) | Example family page. Final battery selection still required. |
-| Battery — example | 12V 100Ah LiFePO4 battery | 100Ah 12V | Battle Born | [Battle Born 100Ah 12V battery](https://battlebornbatteries.com/products/100ah-12v-lifepo4-deep-cycle-battery) | Premium option for comparison. Higher cost. |
-| Charge controller — example | 20A MPPT charge controller | 20A MPPT | ExpertPower | [ExpertPower 20A MPPT controller](https://www.expertpower.us/products/20a-mppt-solar-charge-controller-2) | Example controller class for discussion. |
-| Raspberry Pi — example | Raspberry Pi 5 accessories bundle | Desktop kit accessories | Adafruit | [Raspberry Pi 5 desktop kit accessories](https://www.adafruit.com/product/5824) | Accessory example. Pi board sold separately. |
-| Raspberry Pi — example | Raspberry Pi 5 starter kit | Starter Kit 8GB | Gigaparts | [Raspberry Pi 5 starter kit bundle](https://www.gigaparts.com/raspberry-pi-5-starter-kit-8gb-micro-sd-16gb-case-with-fan-hdmi-cable-psu-5-1v-5-0a-rpi5-starterkit-8g.html) | Example bundle including Pi board, case, SD card, and PSU. |
-| Network switch — example | 5-port gigabit unmanaged switch | TL-SG105 | TP-Link / Amazon | [TP-Link TL-SG105 — Amazon](https://www.amazon.com/Ethernet-Splitter-Optimization-Unmanaged-TL-SG105/dp/B00A128S24) | Example product class. Plug-and-play, no configuration required. |
-| Mini PC — example | Intel N100 mini PC | Mini S12 Pro | Beelink / Amazon | [Beelink Mini S12 Pro — Amazon](https://www.amazon.com/Beelink-Intel-N100-Computer-Desktop-Display/dp/B0BVFS94J5) | Example class. Final selection should confirm RAM, storage, and port requirements. |
-| UPS battery backup — example | 600VA uninterruptible power supply | BE600M1 | APC / Amazon | [APC BE600M1 600VA UPS — Amazon](https://www.amazon.com/APC-Battery-Protector-BE600M1-Back-UPS/dp/B01FWAZEIU) | Example. Confirm VA rating against actual load before purchase. |
-| Surge protector — example | 6-outlet surge protector strip | TLP606B | Tripp Lite / Amazon | [Tripp Lite TLP606B — Amazon](https://www.amazon.com/Tripp-Lite-Protector-INSURANCE-TLP606B/dp/B000UD4LIY) | Example. Confirm outlet count and joule rating for actual load. |
-| Ethernet cable — indoor example | 500ft bulk CAT6 riser cable | CMR rated | trueCABLE / Amazon | [trueCABLE 500ft CAT6 riser — Amazon](https://www.amazon.com/trueCABLE-Copper-Unshielded-Twisted-Ethernet/dp/B0BW9LMSVF) | For indoor runs. Cut to length on site. |
-| Ethernet cable — outdoor example | 500ft outdoor direct burial CAT6 | Shielded FTP | Generic / Amazon | [Outdoor direct burial CAT6 500ft — Amazon](https://www.amazon.com/Ethernet-Shielded-Resistant-Waterproof-Connectors/dp/B0D41QXTNX) | For outdoor or buried runs. Confirm shielding and UV rating. |
-| Cable management — example | 311-piece cable management kit | Mixed clips, ties, sleeves | DRIVUU / Amazon | [DRIVUU cable management kit — Amazon](https://www.amazon.com/DRIVUU-Management-Organizer-200Fasten-Electronics/dp/B0B6VYX66N) | Example all-in-one kit for indoor cable routing. |
-| Cable raceway — example | Paintable self-adhesive cable raceway kit | 144-inch kit | Kable Kontrol / Amazon | [Kable Kontrol cable raceway kit — Amazon](https://www.amazon.com/Kontrol-Paintable-Self-Adhesive-Management-Concealer/dp/B08Z25B57Y) | For exposed wall runs. Paintable PVC. |
-| Hotspot sign — example | Free Wi-Fi hotspot sign | MS-280960 | My Sign Center / Amazon | [My Sign Center Free Wi-Fi sign — Amazon](https://www.amazon.com/Sign-MS-280960-polystyrene-My-Center/dp/B0F67LYHXM) | Example. Pre-drilled for mounting. Weather resistant. |
-| Outdoor power cable — example | 12/3 SJTW heavy-duty outdoor extension cord | Yellow Jacket 25ft | Southwire / Amazon | [Southwire Yellow Jacket 12/3 SJTW — Amazon](https://www.amazon.com/2883-Heavy-Duty-Contractor-Extension-Lighted/dp/B000KKLMO8) | Weather-rated for outdoor use. Confirm length needed on site. |
-| Battery box — example | Group 24–31 snap-top battery box | BG31 | NOCO / Amazon | [NOCO BG31 battery box — Amazon](https://www.amazon.com/NOCO-Snap-Top-Battery-Automotive-Batteries/dp/B0CSTDNC2F) | Fits Group 24 through 31 12V batteries. UV and acid resistant. |
-| Panel mount — example | Adjustable aluminum solar panel tilt mount brackets | 2-set adjustable tilt | Generic / Amazon | [Adjustable solar panel tilt mount brackets — Amazon](https://www.amazon.com/Adjustable-Solar-Panel-Mount-Brackets/dp/B0CGDQJ9QF) | Example. Confirm compatibility with panel frame dimensions. |
-| Pole mount — example | Solar panel double-arm pole mount bracket kit | Universal double arm | Generic / Amazon | [Solar panel pole mount double-arm bracket kit — Amazon](https://www.amazon.com/Solar-Universal-Bracket-Adjustable-Mounting/dp/B07NK8YCLL) | For pole-mounted panel configuration. |
-| Fuse block — example | 12V 150A DC bus bar power distribution block | 150A bus bar | RVBOATPAT / Amazon | [RVBOATPAT 12V 150A bus bar — Amazon](https://www.amazon.com/RVBOATPAT-400A-600A-Bus-Bar/dp/B0FD9LK2J4) | Example. Confirm amperage against actual system load. |
-| Grounding hardware — example | 4-ft copper grounding rod with clamp | 3/8-inch diameter | THE CIMPLE CO / Amazon | [THE CIMPLE CO 4-ft grounding rod — Amazon](https://www.amazon.com/CIMPLE-CO-Grounding-Diameter-Satellite/dp/B07WL7X8BS) | Single rod with pre-installed clamp. |
-| Pole clamps — example | U-bolt antenna mast clamp aluminum 2-pack | U-bolt mount | Generic / Amazon | [U-bolt antenna mast clamp 2-pack — Amazon](https://www.amazon.com/Antenna-Mount-Clamp-Bracket-Outdoor/dp/B0C8T2JLTQ) | For LoRa node pole attachment. |
-| Mount straps — example | Stainless steel mounting straps for poles | 8.5-inch diameter strap | Generic / Amazon | [Stainless steel pole mounting straps — Amazon](https://www.amazon.com/Stainless-Steel-Mounting-Strap-Diameter/dp/B00728Z170) | Alternative to U-bolt for larger poles. |
-| Labels — example | Portable label printer kit | M210-KIT | Brady / Amazon | [Brady M210 label printer kit — Amazon](https://www.amazon.com/Brady-M210-Portable-Label-Printer/dp/B09WZDDGCZ) | Field-ready handheld printer for equipment labeling. |
-| Spare fasteners — example | 720-piece stainless screws, nuts, bolts, and washers assortment | #6-32 through 1/4-20 | SATANTECH / Amazon | [720-piece stainless hardware assortment — Amazon](https://www.amazon.com/Bolts-Assortment-Phillips-Stainless-Washers/dp/B0CWGXD5XH) | General field spare. |
-| Sealant — example | Self-leveling EPDM lap sealant | 501LSW-1 | Dicor / Amazon | [Dicor 501LSW-1 self-leveling sealant — Amazon](https://www.amazon.com/Dicor-501LSW-1-Self-Leveling-Sealant-10-3-Fluid_Ounces/dp/B000BRF7QE) | Adheres to aluminum, metal, concrete, and vinyl. UV resistant. |
-| Heat shrink — example | 600-piece heat shrink tubing assortment | 2:1 ratio, 5 colors, 12 sizes | Eventronic / Amazon | [Eventronic 600-piece heat shrink kit — Amazon](https://www.amazon.com/560PCS-Heat-Shrink-Tubing-Eventronic/dp/B072PCQ2LW) | For wire protection and connection sealing. |
+* physical kiosk use;
+* signs;
+* QR-linked resources;
+* digital interpretation;
+* walking-trail materials;
+* and accessible visitor information.
 
 ---
 
-## Procurement Notes
+## Resilience research layer
 
-- The Starlink hardware link is a confirmed retail listing for the Standard 4 X kit. It is the identified starting point for the internet uplink portion of this project.
-- All other links in this document are examples provided so H4H and the crew can review actual products before locking final selections.
-- Example links are not purchase approvals. H4H must confirm compatibility, pricing, weather rating, and sourcing for each item before any order is placed.
-- DC wiring gauge and connector type for the solar system cannot be finalized until the battery and charge controller are locked. Wire the system to the specifications of the confirmed equipment, not to a generic estimate.
+Potential functions may include testing:
+
+* independent low-bandwidth communications;
+* low-power radio;
+* alternative communications paths;
+* or other resilience concepts.
+
+This is an **experimental layer unless and until evidence supports a stronger operational claim**.
+
+---
+
+## Governance and trust layer
+
+Every technical layer must operate within:
+
+* privacy;
+* cybersecurity;
+* public/private network boundaries;
+* administrative responsibility;
+* evidence provenance;
+* and applicable organizational governance.
+
+---
+
+# 7. Roles and Responsibilities
+
+Final responsibilities should be confirmed before implementation.
+
+At minimum, the project should identify responsibility for:
+
+| Area                      | Responsibility to establish          |
+| ------------------------- | ------------------------------------ |
+| Project scope             | H4H                                  |
+| Funding compliance        | H4H                                  |
+| Site authority            | Applicable property/site authority   |
+| Project management        | Assigned project lead                |
+| Procurement approval      | H4H-authorized process               |
+| Technical architecture    | Assigned technical responsibility    |
+| Electrical work           | Qualified party where required       |
+| Structural review         | Qualified party where required       |
+| Network administration    | Assigned administrator               |
+| Privacy/governance review | H4H / applicable counsel or reviewer |
+| Cybersecurity             | Assigned technical responsibility    |
+| Equipment inventory       | H4H                                  |
+| Evidence record           | H4H                                  |
+| Public communications     | H4H                                  |
+| Ongoing maintenance       | Assigned before launch               |
+| Incident response         | Assigned before launch               |
+
+A function should not become operational simply because nobody has yet decided who owns it.
+
+---
+
+# 8. Stop-and-Review Authority
+
+Anyone working on the implementation should be able to flag a condition that appears:
+
+* unsafe;
+* inconsistent with the approved plan;
+* structurally questionable;
+* electrically questionable;
+* environmentally unsuitable;
+* inaccessible;
+* privacy-sensitive;
+* insecure;
+* outside scope;
+* or otherwise materially different from what was approved.
+
+The correct response is:
+
+```text
+stop the affected work
+        ↓
+document the condition
+        ↓
+escalate
+        ↓
+resolve
+        ↓
+record the decision
+```
+
+Schedule pressure does not convert an unresolved condition into an approved one.
+
+---
+
+# 9. Master Phase Sequence
+
+The Mount Hope workflow uses twelve implementation phases.
+
+```text
+Phase 1   Scope Lock, Procurement Planning, and Staging
+Phase 2   Confirm the Work Plan and Site Authority
+Phase 3   Receive, Inspect, and Verify Approved Equipment
+Phase 4   Site Readiness and Existing-Condition Review
+Phase 5   Establish the Approved Indoor Connectivity Foundation
+Phase 6   Solar and Outdoor Support Hardware
+Phase 7   Public Hotspot and Kiosk Access Layer
+Phase 8   Resilient Low-Bandwidth Communications Evaluation
+Phase 9   System Integration and Pre-Commissioning Review
+Phase 10  Commissioning and Demonstrated Behavior
+Phase 11  Evidence, Asset, and As-Built Record
+Phase 12  Site Closeout and Release Decision
+```
+
+The phases are sequential in governance.
+
+Some physical tasks may overlap after appropriate review.
+
+No overlap should erase a required approval or evidence boundary.
+
+---
+
+# Phase 1: Scope Lock, Procurement Planning, and Staging
+
+## Why This Phase Exists
+
+The earlier workflow began procurement from a detailed equipment list.
+
+The revised workflow begins one step earlier:
+
+> **What does the approved Mount Hope scope actually require?**
+
+Procurement should follow the approved architecture.
+
+It should not determine the architecture.
+
+---
+
+## Phase 1 Objectives
+
+Before ordering permanent equipment:
+
+* identify the funded scope;
+* identify allowable costs;
+* confirm current project priorities;
+* identify required site functions;
+* identify candidate technologies;
+* identify decisions that require field testing;
+* identify professional or technical review requirements;
+* and distinguish confirmed requirements from preliminary assumptions.
+
+---
+
+## Requirements Register
+
+Maintain a working register such as:
+
+| Function                      |  Required? | Candidate solution                       | Decision status       |
+| ----------------------------- | ---------: | ---------------------------------------- | --------------------- |
+| Public internet source        | Yes/No/TBD | To be selected                           | Open/Approved         |
+| Public kiosk access           | Yes/No/TBD | Existing coverage / added AP / other     | Open/Approved         |
+| Local computing               | Yes/No/TBD | Edge device if justified                 | Open/Approved         |
+| Outdoor independent power     | Yes/No/TBD | Solar / building / other                 | Open/Approved         |
+| Low-bandwidth resilience test | Yes/No/TBD | Candidate LoRa/Meshtastic or alternative | Experimental decision |
+| Public signage                | Yes/No/TBD | Final design                             | Open/Approved         |
+
+The final register should contain actual project decisions.
+
+---
+
+## Candidate Equipment Register
+
+Named products may be maintained during planning for:
+
+* cost comparison;
+* availability;
+* feature comparison;
+* grant budgeting;
+* interoperability research;
+* or procurement preparation.
+
+But the status should remain explicit:
+
+| Status                   | Meaning                                    |
+| ------------------------ | ------------------------------------------ |
+| Research example         | Product used only as a reference           |
+| Candidate                | Being evaluated                            |
+| Technically reviewed     | Compatibility reviewed                     |
+| Approved for procurement | Authorized to purchase                     |
+| Purchased                | Acquired                                   |
+| Received                 | In inventory                               |
+| Installed                | Physically deployed                        |
+| Commissioned             | Demonstrated in the installed architecture |
+
+Retail links are **not** technical approvals.
+
+---
+
+## Procurement Record
+
+For items approved for purchase, record:
+
+* function;
+* manufacturer;
+* model;
+* quantity;
+* approved cost;
+* funding source;
+* vendor;
+* approval date;
+* warranty;
+* expected delivery;
+* and responsible purchaser.
+
+Detailed live retail links may be maintained in an internal procurement worksheet rather than serving as the controlling public implementation specification.
+
+---
+
+## Staging
+
+After procurement, equipment should be staged by its **approved function and location**.
+
+Possible field groups may include:
+
+* indoor public-anchor equipment;
+* kiosk/public-access equipment;
+* approved outdoor-support equipment;
+* experimental resilience equipment where authorized;
+* shared installation materials;
+* test equipment;
+* documentation materials.
+
+A candidate device should not be packed as though its installation is mandatory if the decision to deploy it still depends on field testing.
+
+---
+
+## Phase 1 Completion Boundary
+
+Phase 1 is complete when:
+
+```text
+scope is understood
+    ↓
+required functions are identified
+    ↓
+open architecture decisions are visible
+    ↓
+approved equipment can be distinguished from candidates
+    ↓
+procurement is authorized
+    ↓
+field materials are staged
+```
+
+---
+
+# Phase 2: Confirm the Work Plan and Site Authority
+
+## Why This Phase Exists
+
+Planning assumptions must be tested against the real site before permanent installation begins.
+
+This phase confirms:
+
+* where work is proposed;
+* who has authority over the site;
+* what functions each location must support;
+* what field decisions remain open;
+* and who has authority to resolve those decisions.
+
+---
+
+## Review
+
+Confirm, as applicable:
+
+* public-anchor location;
+* kiosk location;
+* potential outdoor-support location;
+* network-source location;
+* candidate cable paths;
+* candidate mounting areas;
+* power availability;
+* public-use area;
+* maintenance access;
+* site permissions;
+* preservation considerations;
+* accessibility;
+* and responsible decision-maker.
+
+---
+
+## Site Decision Record
+
+For each proposed location, record:
+
+* intended function;
+* current status;
+* property/site authority;
+* approved placement;
+* unresolved constraint;
+* and final decision.
+
+---
+
+## Phase 2 Completion Boundary
+
+Phase 2 is complete when the project knows:
+
+> **where work may occur, who can authorize it, and which field conditions still require resolution.**
+
+---
+
+# Phase 3: Receive, Inspect, and Verify Approved Equipment
+
+## Why This Phase Exists
+
+Equipment can arrive:
+
+* damaged;
+* incomplete;
+* substituted;
+* incompatible;
+* mis-shipped;
+* or different from what was approved.
+
+It should be verified before reaching the installation point.
+
+---
+
+## Verification
+
+For approved equipment, confirm as appropriate:
+
+* manufacturer;
+* model;
+* quantity;
+* physical condition;
+* accessories;
+* power requirements;
+* compatibility;
+* environmental rating;
+* firmware or software where relevant;
+* warranty information;
+* and serial number.
+
+---
+
+## Asset Status
+
+Record equipment as:
+
+```text
+approved
+    ↓
+ordered
+    ↓
+received
+    ↓
+inspected
+    ↓
+staged
+```
+
+Do not jump directly from `ordered` to `installed`.
+
+---
+
+## Phase 3 Completion Boundary
+
+Phase 3 is complete when the equipment being taken to the field is:
+
+* approved;
+* accounted for;
+* physically suitable for field deployment;
+* and traceable to the project record.
+
+---
+
+# Phase 4: Site Readiness and Existing-Condition Review
+
+## Why This Phase Exists
+
+A valid equipment choice can still fail at an unsuitable site.
+
+Before installation, review actual conditions.
+
+---
+
+## Site Readiness Areas
+
+Review, as applicable:
+
+* mounting surfaces;
+* existing kiosk condition;
+* walls;
+* roofs;
+* poles;
+* ground conditions;
+* drainage;
+* flooding;
+* snow and ice exposure;
+* wind;
+* sunlight and shading;
+* utility locations;
+* cable paths;
+* pedestrian movement;
+* vehicle interaction;
+* maintenance access;
+* vandalism risk;
+* accessibility;
+* historic-resource sensitivity;
+* and public safety.
+
+---
+
+## Existing Kiosk
+
+The existing walking-trail kiosk should be treated as an asset requiring condition verification before new equipment or signage is attached.
+
+Document:
+
+* visible condition;
+* movement;
+* deterioration;
+* water damage;
+* mounting surfaces;
+* roof/canopy condition;
+* existing hardware;
+* public approach;
+* and required repair or follow-up.
+
+A field observation is not an engineering certification.
+
+If structural adequacy is uncertain, further review is required.
+
+---
+
+## Phase 4 Completion Boundary
+
+Phase 4 is complete when the project has enough site evidence to determine whether the approved design remains appropriate.
+
+If it does not, return to design review before installation.
+
+---
+
+# Phase 5: Establish the Approved Indoor Connectivity Foundation
+
+## Why This Phase Exists
+
+The public-access layer requires a defined upstream connectivity source and managed network foundation.
+
+The original workflow assumed a specific satellite-internet, router, switch, mini-PC, UPS, and surge-protection arrangement.
+
+Those remain possible components only where the final approved architecture requires them.
+
+---
+
+## Phase 5 Questions
+
+Before installation, determine:
+
+* What is the approved upstream internet source?
+* Where will it terminate?
+* What gateway or router is required?
+* Is additional switching required?
+* Is local computing required?
+* If so, what function does it perform?
+* What backup power is required?
+* Who administers the network?
+* What is the private/public segmentation model?
+* How will failure be detected?
+* What recurring service cost exists?
+
+---
+
+## Installation
+
+Install only the equipment required by the final architecture.
+
+Follow:
+
+* site authorization;
+* manufacturer requirements;
+* approved mounting;
+* approved electrical arrangements;
+* network architecture;
+* cybersecurity decisions;
+* and applicable technical review.
+
+---
+
+## Baseline Service Test
+
+Before relying on the upstream source for later phases, establish a baseline.
+
+Record, as appropriate:
+
+* service active/inactive;
+* test date;
+* connection behavior;
+* representative performance;
+* equipment position;
+* network configuration;
+* and any known limitation.
+
+This is a baseline, not a guarantee of future service.
+
+---
+
+## Phase 5 Completion Boundary
+
+Phase 5 is complete when the approved indoor connectivity foundation is:
+
+```text
+installed
+    ↓
+administered
+    ↓
+secured
+    ↓
+baseline-tested
+    ↓
+documented
+```
+
+---
+
+# Phase 6: Solar and Outdoor Support Hardware
+
+Detailed phase document:
+
+[Phase 6: Solar and Outdoor Support Hardware](Phase_6.md)
+
+Phase 6 evaluates and implements the **approved outdoor power and support architecture**.
+
+It no longer assumes that one fixed solar configuration must be installed.
+
+The final design may use:
+
+* solar;
+* building-supplied power;
+* another approved source;
+* or a combination.
+
+---
+
+## Governing Questions
+
+Phase 6 should establish:
+
+* actual outdoor load;
+* required runtime;
+* environmental conditions;
+* mounting method;
+* power architecture;
+* energy storage;
+* protection;
+* enclosure design;
+* maintenance;
+* and commissioning requirements.
+
+---
+
+## Phase 6 Completion Boundary
+
+Phase 6 is complete only when the approved power/support system has been:
+
+```text
+reviewed
+    ↓
+authorized
+    ↓
+installed
+    ↓
+commissioned
+    ↓
+documented
+```
+
+A proposed panel or battery size is not an installed system.
+
+---
+
+# Phase 7: Public Hotspot and Kiosk Access Layer
+
+Detailed phase document:
+
+[Phase 7: Public Hotspot and Kiosk Access Layer](Phase_7.md)
+
+Phase 7 determines the simplest safe and maintainable architecture that provides the approved public service at the kiosk area.
+
+---
+
+## Governing Principle
+
+```text
+test existing coverage first
+        ↓
+does it meet the defined service criteria?
+        ↓
+     yes / no
+      ↓     ↓
+use the     evaluate the
+simpler     least-complex
+path        added architecture
+```
+
+The project should not purchase or install a Raspberry Pi, outdoor access point, or other kiosk hardware merely because it appeared in an earlier planning list.
+
+---
+
+## Public Readiness
+
+Before public release, Phase 7 must address:
+
+* service acceptance criteria;
+* coverage;
+* reliability;
+* public/private network separation;
+* privacy;
+* logging;
+* cybersecurity;
+* administration;
+* maintenance;
+* signage;
+* and commissioning.
+
+---
+
+## Phase 7 Completion Boundary
+
+Phase 7 is complete when the approved public-access layer has been:
+
+```text
+measured
+    ↓
+designed
+    ↓
+reviewed
+    ↓
+installed
+    ↓
+secured
+    ↓
+commissioned
+    ↓
+documented
+    ↓
+released for public use
+```
+
+---
+
+# Phase 8: Resilient Low-Bandwidth Communications Evaluation
+
+Detailed phase document:
+
+[Phase 8: Resilient Low-Bandwidth Communications Layer](Phase_8.md)
+
+Phase 8 evaluates whether an independent low-power communications layer adds enough real resilience value to justify deployment.
+
+LoRa and Meshtastic remain candidate technologies.
+
+They are not presumed emergency infrastructure.
+
+---
+
+## Governing Principle
+
+```text
+define resilience use case
+        ↓
+identify users
+        ↓
+technical / governance review
+        ↓
+bench test
+        ↓
+field propagation test
+        ↓
+deployment decision
+        ↓
+commissioning if justified
+        ↓
+controlled resilience exercise
+        ↓
+evidence
+```
+
+---
+
+## Evidence Boundary
+
+The project must distinguish among:
+
+```text
+configured node
+    ≠
+radio link
+
+radio link
+    ≠
+mesh
+
+mesh
+    ≠
+community communications capability
+
+community communications capability
+    ≠
+emergency infrastructure
+```
+
+---
+
+## Phase 8 Completion Boundary
+
+Phase 8 is complete when the resilience concept has been:
+
+* defined;
+* evaluated;
+* tested;
+* installed if justified;
+* commissioned;
+* exercised where appropriate;
+* and documented.
+
+A decision **not** to deploy is a valid pilot result.
+
+---
+
+# Phase 9: System Integration and Pre-Commissioning Review
+
+Detailed phase document:
+
+[Phase 9: System Integration and Pre-Commissioning Review](Phase_9.md)
+
+Phase 9 examines the actual installed components as one system.
+
+It is the formal go/no-go gate before commissioning.
+
+---
+
+## Governing Principle
+
+```text
+approved design
+    ↓
+installation
+    ↓
+as-built record
+    ↓
+integration review
+    ↓
+discrepancy resolution
+    ↓
+READY / NOT READY
+```
+
+---
+
+## Review Areas
+
+Phase 9 addresses:
+
+* actual installed architecture;
+* deviations;
+* physical condition;
+* power readiness;
+* network topology;
+* segmentation;
+* administrative ownership;
+* environmental protection;
+* software/firmware;
+* privacy;
+* logging;
+* cybersecurity;
+* monitoring;
+* and unresolved blockers.
+
+---
+
+## Phase 9 Completion Boundary
+
+Phase 9 does not prove that the system works.
+
+It proves that:
+
+> **the project has a defensible basis for beginning commissioning.**
+
+---
+
+# Phase 10: Commissioning and Demonstrated Behavior
+
+## Why This Phase Exists
+
+Installation evidence and operating evidence are different.
+
+Phase 10 establishes what the **as-built system actually does**.
+
+The old workflow described this as “start and test all equipment.”
+
+The revised phase is broader.
+
+It should test the behavior that matters to the project rather than merely verify that indicator lights turn on.
+
+---
+
+## Commissioning Plan
+
+Before commissioning begins, establish:
+
+* system under test;
+* approved architecture;
+* test objectives;
+* acceptance criteria;
+* test participants;
+* test equipment;
+* required safety controls;
+* required technical personnel;
+* evidence to capture;
+* and failure/escalation process.
+
+---
+
+## Commissioning Categories
+
+Test only the components that were actually retained in the final architecture.
+
+Possible categories include:
+
+### Upstream connectivity
+
+Verify:
+
+* service connection;
+* recovery;
+* basic stability;
+* and expected routing.
+
+---
+
+### Public access
+
+Verify:
+
+* network visibility;
+* connection;
+* designated public resources;
+* coverage;
+* representative devices;
+* stability;
+* and segmentation.
+
+---
+
+### Local infrastructure
+
+Where present, verify:
+
+* startup;
+* approved services;
+* management;
+* recovery;
+* and monitoring.
+
+---
+
+### Outdoor power
+
+Where present, verify:
+
+* system state;
+* charging;
+* load support;
+* protection behavior as appropriate;
+* monitoring;
+* and recovery.
+
+Detailed electrical commissioning should follow the approved design and qualified procedures.
+
+---
+
+### Resilience layer
+
+Where retained, verify only the defined experimental use case.
+
+Possible tests include:
+
+* known-node message exchange;
+* recovery after restart;
+* internet-independent operation;
+* or a controlled resilience exercise.
+
+---
+
+### Privacy and security
+
+Confirm:
+
+* public users cannot reach unauthorized administrative services;
+* default credentials have been addressed;
+* approved logging configuration is active;
+* sensitive interfaces are protected;
+* and required notices are available.
+
+---
+
+## Failure Is Evidence
+
+If a test fails:
+
+```text
+record failure
+    ↓
+classify
+    ↓
+correct if appropriate
+    ↓
+retest
+    ↓
+retain both the failure and correction record
+```
+
+The pilot should not erase unsuccessful tests simply to produce a cleaner narrative.
+
+---
+
+## Phase 10 Commissioning Result
+
+Each tested capability should receive an evidence-based status such as:
+
+| Status                          | Meaning                             |
+| ------------------------------- | ----------------------------------- |
+| Not tested                      | No test performed                   |
+| Test blocked                    | Prerequisite missing                |
+| Failed                          | Acceptance criteria not met         |
+| Corrected and retested          | Failure addressed                   |
+| Passed under test conditions    | Criteria met during documented test |
+| Operational observation ongoing | Longer evidence period underway     |
+
+Avoid using `operational` as shorthand for `powered on`.
+
+---
+
+## Phase 10 Completion Boundary
+
+Phase 10 is complete when:
+
+* required commissioning tests have been performed;
+* failures are documented;
+* blockers are identified;
+* corrections are recorded;
+* retests are preserved;
+* and the actual demonstrated behavior is known.
+
+A separate detailed `Phase_10.md` may be created when the final architecture and commissioning plan are sufficiently defined.
+
+Until then, this section governs Phase 10 at the master-workflow level.
+
+---
+
+# Phase 11: Evidence, Asset, and As-Built Record
+
+## Why This Phase Exists
+
+Mount Hope is intended to generate a reusable implementation record.
+
+Documentation is therefore part of the project deliverable.
+
+It is not an administrative afterthought.
+
+---
+
+## Asset Record
+
+For installed equipment, record as appropriate:
+
+* asset ID;
+* function;
+* manufacturer;
+* model;
+* serial number;
+* purchase date;
+* funding source;
+* installation date;
+* location;
+* warranty;
+* administrator;
+* maintainer;
+* and current status.
+
+---
+
+## As-Built Record
+
+Maintain:
+
+* final architecture;
+* final equipment;
+* final locations;
+* network relationships;
+* power relationships;
+* approved cable paths;
+* relevant diagrams;
+* configuration versions;
+* deviations;
+* and responsible administrators.
+
+---
+
+## Photographic Record
+
+Capture, where appropriate:
+
+* pre-installation condition;
+* installation process;
+* equipment placement;
+* completed public-facing areas;
+* enclosures;
+* representative infrastructure;
+* corrections;
+* and final condition.
+
+Security-sensitive images may remain internal.
+
+---
+
+## Testing Record
+
+Retain:
+
+* baseline tests;
+* commissioning tests;
+* failures;
+* corrections;
+* retests;
+* device/browser results;
+* accessibility findings;
+* network observations;
+* power observations;
+* resilience results;
+* and public-use findings.
+
+---
+
+## Public Evidence vs. Internal Technical Record
+
+Not every internal technical record belongs in the public repository.
+
+Public release should consider:
+
+* security;
+* privacy;
+* credentials;
+* exact infrastructure exposure;
+* proprietary information;
+* personal information;
+* contractual restrictions;
+* and public-release value.
+
+Evidence may be retained internally without publishing sensitive implementation details.
+
+---
+
+## Phase 11 Completion Boundary
+
+Phase 11 is complete when a reviewer or future maintainer can answer:
+
+> **What was actually installed, why was it selected, what happened during testing, and what is its current status?**
+
+---
+
+# Phase 12: Site Closeout and Release Decision
+
+## Why This Phase Exists
+
+A technically installed system should not automatically become a public service.
+
+Closeout establishes whether the site is:
+
+* physically safe;
+* administratively owned;
+* technically commissioned;
+* documented;
+* supportable;
+* and ready for the intended level of public use.
+
+---
+
+## Physical Closeout
+
+Confirm:
+
+* work area is clean;
+* temporary materials are removed;
+* hazards are absent;
+* equipment is secure;
+* unfinished work is identified;
+* and the site is left in appropriate public condition.
+
+---
+
+## Documentation Closeout
+
+Confirm:
+
+* asset record exists;
+* as-built record exists;
+* commissioning record exists;
+* unresolved items are listed;
+* administrators are identified;
+* maintenance responsibility is identified;
+* and follow-up work has an owner.
+
+---
+
+## Public-Release Decision
+
+The project should explicitly determine:
+
+```text
+READY FOR PUBLIC RELEASE
+
+or
+
+NOT READY FOR PUBLIC RELEASE
+```
+
+Possible reasons to withhold public release include:
+
+* unresolved safety issue;
+* unreliable service;
+* unresolved privacy problem;
+* unresolved security problem;
+* missing site approval;
+* failed commissioning criterion;
+* incomplete signage;
+* inaccessible public interface;
+* or unclear maintenance responsibility.
+
+---
+
+# 10. Minimum Acceptance Standard
+
+The original workflow's acceptance standard required particular hardware such as a mini PC, Raspberry Pi, solar system, and LoRa node.
+
+That no longer matches the evidence-based architecture.
+
+The revised minimum standard is functional.
+
+A Mount Hope implementation is complete only when:
+
+* the funded/approved scope is known;
+* site authority is documented;
+* required infrastructure has been installed;
+* candidate technologies not selected have been removed from the required-build list;
+* the as-built architecture is documented;
+* required safety and technical reviews are complete;
+* public/private network boundaries are implemented where applicable;
+* privacy and cybersecurity requirements are addressed;
+* required commissioning tests are complete;
+* unresolved blockers are documented;
+* responsible administrators and maintainers are identified;
+* asset and evidence records are complete;
+* and the project has made an explicit release decision.
+
+No particular brand, Raspberry Pi, LoRa node, battery size, solar panel, or network topology is universally required merely because it appeared in an early plan.
+
+---
+
+# 11. Conditions Requiring Immediate Stop or Escalation
+
+Stop the affected work and escalate when appropriate if:
+
+* site authority is unclear;
+* a proposed mounting surface appears unsafe;
+* an electrical condition is unresolved;
+* required qualified review has not occurred;
+* installed equipment differs materially from approval without review;
+* a public/private network boundary cannot be established;
+* credentials or administrative control are unknown;
+* water intrusion or environmental exposure threatens equipment;
+* public access creates a physical hazard;
+* installation would damage a historic or protected feature without appropriate review;
+* equipment is damaged;
+* required hardware is missing;
+* privacy controls cannot be implemented;
+* security controls cannot be implemented;
+* or site/weather conditions prevent safe work.
+
+The correct response to an unresolved material condition is not an improvised workaround.
+
+---
+
+# 12. Working Field-Kit Model
+
+Field kits should follow the **final approved architecture**.
+
+They should not be permanently defined by the early candidate shopping list.
+
+Possible groups include:
+
+## Indoor connectivity kit
+
+Only approved items needed for:
+
+* upstream service;
+* routing;
+* switching;
+* computing if required;
+* backup power if required;
+* mounting;
+* labeling;
+* and cable management.
+
+---
+
+## Public-access kit
+
+Only approved items needed for:
+
+* kiosk/public access;
+* signage;
+* access equipment if field testing shows it is required;
+* approved enclosure;
+* mounting;
+* and approved cable/power support.
+
+---
+
+## Outdoor-support kit
+
+Only approved items needed for:
+
+* final outdoor power architecture;
+* enclosure;
+* mounting;
+* protection;
+* approved conductors;
+* and monitoring.
+
+---
+
+## Resilience-test kit
+
+Only if Phase 8 remains in scope:
+
+* approved test nodes;
+* approved antennas;
+* approved power equipment;
+* test devices;
+* configuration record;
+* and field-measurement materials.
+
+This kit may remain a **test kit** rather than becoming permanent installation equipment.
+
+---
+
+## Shared field documentation kit
+
+May include:
+
+* asset labels;
+* inspection sheets;
+* photo log;
+* approved drawings;
+* site notes;
+* commissioning forms;
+* discrepancy log;
+* and appropriate test equipment.
+
+---
+
+# 13. Procurement Governance
+
+Procurement should be maintained separately from the technical authority of the workflow.
+
+A purchase list should identify:
+
+* required function;
+* approved technical requirements;
+* approved product;
+* quantity;
+* funding source;
+* price;
+* vendor;
+* procurement date;
+* and status.
+
+Retail listings change.
+
+Links disappear.
+
+Prices change.
+
+Products are revised.
+
+For that reason, a retailer page should not become the permanent definition of a technical system.
+
+---
+
+## Procurement Decision Rule
+
+```text
+requirement
+    ↓
+compatibility review
+    ↓
+approval
+    ↓
+purchase
+```
+
+not:
+
+```text
+interesting product
+    ↓
+purchase
+    ↓
+invent requirement
+```
+
+---
+
+# 14. Budget Boundary
+
+The current first-year funding target is governed by the project's current budget documentation:
+
+[Master First-Year Pilot Budget](../pilot_budget/Master_First_Year_Pilot_Budget.md)
+
+The current planning target is:
+
+**$53,244**
+
+comprising:
+
+* **$23,244** — Mount Hope/FCCAC public anchor and program costs;
+* **$30,000** — six-month application and community testing cohort.
+
+A preliminary **$7,592 Thurmond physical-build planning estimate** remains separate from the current Mount Hope first-year request.
+
+Procurement under this implementation workflow should not silently expand the current project beyond the approved funding scope.
+
+---
+
+# 15. Human Testing Boundary
+
+The project's six-month application and community testing cohort is distinct from the Community Champion program-development materials maintained in the grant-development archive.
+
+Testing may include:
+
+* browsers;
+* devices;
+* applications;
+* accessibility;
+* usability;
+* public-information flow;
+* reporting;
+* and real-world interaction.
+
+Community Champion development may address:
+
+* stewardship;
+* training;
+* local participation;
+* field observation;
+* facilitation;
+* and community implementation.
+
+They may complement each other.
+
+They are not automatically the same cohort, budget, or funded activity.
+
+---
+
+# 16. Implementation Evidence Register
+
+As work occurs, H4H should be able to classify evidence by stage.
+
+| Evidence                | Status demonstrated                        |
+| ----------------------- | ------------------------------------------ |
+| Approved design         | Architecture authorized for implementation |
+| Purchase record         | Equipment acquired                         |
+| Receiving record        | Equipment received                         |
+| Site photograph         | Site condition at a point in time          |
+| Installation photograph | Component physically installed             |
+| As-built diagram        | Actual integrated architecture             |
+| Commissioning result    | Behavior under documented test conditions  |
+| Failure record          | Documented unsuccessful behavior           |
+| Retest                  | Behavior after correction                  |
+| Public release record   | Service released for intended use          |
+| Operating record        | Evidence accumulated during actual use     |
+| Evaluation              | Interpreted results after evidence period  |
+
+This prevents installation photographs from being mistaken for proof of successful operation.
+
+---
+
+# 17. Maintenance Handoff
+
+Before public release, establish how the system will be maintained.
+
+For each managed system, identify:
+
+* owner;
+* administrator;
+* maintainer;
+* inspection interval where applicable;
+* update responsibility;
+* firmware/software responsibility;
+* warranty information;
+* replacement process;
+* outage-reporting method;
+* security-incident process;
+* configuration-backup location;
+* and escalation path.
+
+A pilot becomes infrastructure only if someone can maintain it.
+
+---
+
+# 18. Evaluation Period
+
+Mount Hope should be treated as an evidence-producing first implementation.
+
+After release, evaluate over time:
+
+* availability;
+* public use;
+* failure rate;
+* maintenance burden;
+* operating cost;
+* accessibility;
+* browser/device behavior;
+* network performance;
+* power behavior where applicable;
+* weather impacts;
+* signage clarity;
+* security events;
+* privacy implications;
+* user support needs;
+* resilience findings;
+* and community response.
+
+The appropriate observation period may differ by metric.
+
+---
+
+# 19. Learning Record
+
+The project should deliberately record:
+
+### What was assumed correctly?
+
+### What was assumed incorrectly?
+
+### Which equipment was unnecessary?
+
+### Which equipment was missing from the early concept?
+
+### Which field condition changed the architecture?
+
+### Which component required the most maintenance?
+
+### What failed?
+
+### What recovered correctly?
+
+### What required human intervention?
+
+### What did users understand without help?
+
+### What confused them?
+
+### What did accessibility testing reveal?
+
+### What should be standardized?
+
+### What should remain site-specific?
+
+These questions are part of the implementation product.
+
+---
+
+# 20. Replication Gate
+
+Mount Hope should not be called a replicable model merely because the installation exists.
+
+Replication should follow evidence.
+
+```text
+Mount Hope implementation
+        ↓
+commissioning
+        ↓
+operating period
+        ↓
+evaluation
+        ↓
+lessons
+        ↓
+model refinement
+        ↓
+replication decision
+```
+
+The project may discover that some elements should be:
+
+* retained;
+* simplified;
+* redesigned;
+* eliminated;
+* or replaced.
+
+That is a successful pilot outcome.
+
+---
+
+# 21. Thurmond Boundary
+
+Thurmond remains a **future federal-phase implementation opportunity, with documented support, contingent on separate federal funding, National Park Service review/compliance, site-specific approval, technical review, and final agreements.**
+
+The Mount Hope workflow may provide:
+
+* implementation lessons;
+* evidence methods;
+* testing methods;
+* governance patterns;
+* maintenance findings;
+* and cost data.
+
+It does **not** pre-authorize:
+
+* Thurmond equipment;
+* Thurmond mounting;
+* Thurmond radio configuration;
+* Thurmond public Wi-Fi;
+* Thurmond power systems;
+* or work on federal property.
+
+A future Thurmond workflow would begin again with:
+
+```text
+federal scope
+    ↓
+site-specific requirements
+    ↓
+NPS review
+    ↓
+applicable compliance
+    ↓
+technical design
+    ↓
+authorization
+    ↓
+implementation if funded and approved
+```
+
+---
+
+# 22. Relationship to Detailed Phase Documents
+
+Current detailed phase documents are:
+
+* [Phase 6 — Solar and Outdoor Support Hardware](Phase_6.md)
+* [Phase 7 — Public Hotspot and Kiosk Access Layer](Phase_7.md)
+* [Phase 8 — Resilient Low-Bandwidth Communications Layer](Phase_8.md)
+* [Phase 9 — System Integration and Pre-Commissioning Review](Phase_9.md)
+
+These documents expand the master workflow.
+
+They do not supersede:
+
+* approved scope;
+* final engineering;
+* manufacturer requirements;
+* applicable law or code;
+* site agreements;
+* or qualified technical decisions.
+
+A detailed Phase 10 commissioning document may be added once the final Mount Hope architecture is sufficiently defined to write meaningful test procedures.
+
+---
+
+# 23. Workflow Completion Standard
+
+The Mount Hope implementation workflow is complete only when the project can trace:
+
+```text
+why the system was needed
+        ↓
+what was approved
+        ↓
+what was purchased
+        ↓
+what was installed
+        ↓
+what changed
+        ↓
+what was commissioned
+        ↓
+what passed
+        ↓
+what failed
+        ↓
+what was released
+        ↓
+what happened during real use
+        ↓
+what was learned
+```
+
+The goal is not to prove that the earliest concept was correct.
+
+The goal is to establish **what works, under what conditions, with what cost and governance burden, and with what evidence**.
+
+---
+
+# Final Implementation Principle
+
+Mount Hope is not valuable because it gives Harmony for Hope a place to install every technology named in the project.
+
+It is valuable because it gives Harmony for Hope a place to convert ideas into **governed, observable, testable reality**.
+
+The governing implementation discipline is therefore:
+
+```text
+do not assume
+    ↓
+measure
+
+do not pre-decide
+    ↓
+review
+
+do not merely install
+    ↓
+commission
+
+do not merely claim
+    ↓
+evidence
+
+do not automatically replicate
+    ↓
+evaluate
+```
+
+That is the implementation model Mount Hope is intended to produce.
+
+---
+
+*Harmony for Hope, Inc.*
+*New River Gorge Safety & Heritage Mesh Pilot*
+*Mount Hope Heritage Infrastructure Workflow*
