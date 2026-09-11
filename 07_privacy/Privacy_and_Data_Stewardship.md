@@ -4,132 +4,445 @@
 
 **Program Sponsor:** Harmony for Hope, Inc. (501(c)(3) public charity)
 **Platform Developer/Operator:** Kidd's Technical Services (ALLIS)
-**Applies to:** The first-phase public-connectivity and local-information pilot at the Fayette County Community Arts Center, Mount Hope, and the committed fast-follow site at Thurmond
-**Status:** Draft — for board and counsel review. Not legal advice. This statement must be reviewed and approved by qualified legal counsel before public deployment, and — for the Thurmond site — coordinated with the National Park Service as part of the applicable compliance process.
+**Current Scope:** First-phase public-connectivity and local-information pilot at the Fayette County Community Arts Center and related Mount Hope heritage infrastructure
+**Future Federal-Phase Opportunity:** Thurmond, West Virginia, within New River Gorge National Park and Preserve
+**Status:** Draft — for board and counsel review. Not legal advice. This statement must be reviewed and approved by qualified legal counsel before public deployment of the Mount Hope pilot. Any future Thurmond deployment will require separate site-specific review and coordination with the National Park Service before implementation.
 
 ---
 
 ## 1. Why This Statement Exists
 
-Harmony for Hope's guiding principles for this project include privacy and dignity — minimizing unnecessary collection and extraction of personal information — and community stewardship of local information. This statement puts those principles into concrete, plain-language commitments for the pilot: what the pilot collects, what it does not, how information is handled, who can access it, and how the community can hold the project accountable.
+Harmony for Hope's guiding principles for this project include privacy, dignity, data minimization, and community stewardship of local information.
 
-The pilot is a phased proof of concept. No public Wi‑Fi mesh, interpretive node, or information portal is deployed in the corridor yet. The commitments below are design commitments intended to govern the pilot from its first public day forward.
+This statement translates those principles into plain-language commitments for the proposed Mount Hope pilot: what the pilot may collect, what it does not collect, how information is handled, who may access administrative systems, what choices members of the public have, and how the community can raise questions or concerns.
+
+The pilot is a phased proof of concept.
+
+No public Wi-Fi mesh, interpretive node, or corridor-wide local-information system is currently deployed through this project.
+
+The commitments below are **design commitments for the proposed Mount Hope first-phase implementation** and are intended to govern the pilot from its first public day forward, subject to final legal, technical, governance, and operational review.
+
+Thurmond is not part of the current first-phase deployment scope. It remains a future federal-phase opportunity requiring its own funding, National Park Service review, site-specific approvals, technical design, agreements, and privacy and information-governance review.
 
 ---
 
 ## 2. What This Statement Covers — and What It Does Not
 
-This statement covers the first-phase pilot only:
+### Current Mount Hope Scope
 
-- Free public Wi‑Fi access provided at the pilot site.
-- A locally stewarded information and heritage-interpretation experience (a landing page and on-site content).
-- An on-site ALLIS interpretive node that answers visitor questions about place, trail, heritage, and safety.
-- Feedback gathered from the pilot's community evaluation cohort.
+This statement covers the proposed first-phase Mount Hope pilot, including:
 
-This statement does **not** cover, and the first-phase pilot does **not** include:
+* Free public Wi-Fi access provided through the funded pilot infrastructure.
+* A locally stewarded information and heritage-interpretation experience, including a public landing page and on-site content.
+* An on-site ALLIS interpretive or local-information node that may answer visitor questions about place, trail, heritage, public resources, and safety-relevant information.
+* Feedback gathered from the pilot's application and community testing cohort.
+* Operational information reasonably required to maintain, secure, troubleshoot, and evaluate the pilot.
 
-- A public marketplace, buying, selling, or listings.
-- MountainShares payment, transaction, or account functions.
-- Collection of benefits-eligibility or benefits-status information.
-- Any equity, financial, or investment instrument.
+### This Statement Does Not Cover
 
-Those functions belong to The Commons and the MountainShares Program, which are governed by their own separate, broader Privacy Policy and Program Rules and are not activated by this pilot. If any of those functions is ever proposed at a pilot site, this statement would be revised and re-reviewed by counsel before that function goes live.
+The first-phase Mount Hope pilot does **not** include, and this statement does not govern:
+
+* A public marketplace, buying, selling, or listings.
+* MountainShares payment, transaction, or account functions.
+* Collection of benefits-eligibility or benefits-status information.
+* Any equity, financial, investment, or securities function.
+* Public banking or financial-account functions.
+* A corridor-wide public Wi-Fi network.
+* A deployed Thurmond node.
+* Other future community or agency sites.
+
+Those functions or future deployments require their own applicable governance and privacy review.
+
+The Commons and the broader MountainShares Program are governed by separate privacy, governance, and program materials and are not activated merely because a person uses the Mount Hope public-connectivity pilot.
+
+If marketplace, payment, participation-account, or other materially different functions are ever proposed for the pilot site, this statement will be revised and re-reviewed before those functions go live.
 
 ---
 
 ## 3. Core Commitments
 
-- **Collect as little as possible.** The pilot is designed to provide public access and useful local information with the minimum personal data required to operate safely and reliably.
-- **Keep it local.** Pilot information and interpretive content are hosted on equipment located on-site rather than exported to distant commercial platforms, reducing how far personal data travels and who can see it.
-- **Never sell it.** The pilot does not sell, rent, or trade personal information, and does not run third-party advertising trackers on the public landing page.
-- **No account required to use it.** A visitor can connect to public Wi‑Fi and read local and heritage information without creating an account or providing identification.
-- **Be transparent and contestable.** The pilot tells people what it collects, keeps a record of significant system decisions, and gives the community a way to ask questions and raise concerns.
-- **Respect place and dignity.** Data practices are designed to serve residents and visitors, not to surveil them.
+Harmony for Hope and Kidd's Technical Services intend the Mount Hope pilot to follow the following privacy and stewardship principles.
+
+* **Collect as little as possible.** The pilot is designed to provide public access and useful local information using the minimum personal information reasonably necessary for safe and reliable operation.
+* **No identity requirement for ordinary public access.** A visitor should be able to connect to public Wi-Fi and read general public and heritage information without creating a personal account or providing government identification.
+* **Keep stewardship close to the community.** Where technically appropriate, pilot information and interpretive resources are intended to be hosted or cached locally so that community information remains closely connected to the place it serves.
+* **Separate public access from governed organizational systems.** Public Wi-Fi and ordinary visitor interactions are not intended to provide access to internal Harmony for Hope, MountainShares, or other restricted systems.
+* **Never sell personal information.** The pilot does not sell, rent, or trade personal information.
+* **Avoid unnecessary third-party tracking.** The public information experience is not intended to use third-party advertising trackers or behavioral advertising systems.
+* **Be transparent.** People should be able to understand what categories of information the pilot may collect and why.
+* **Be contestable.** Community members should have a practical way to raise questions, identify errors, or challenge inappropriate information practices.
+* **Respect place and dignity.** Data practices should serve residents and visitors rather than create unnecessary surveillance.
+* **Separate future-site assumptions from current practice.** Privacy practices developed for Mount Hope are not automatically presumed appropriate for Thurmond or any other future site.
 
 ---
 
-## 4. Information the Pilot May Collect
+## 4. Information the Mount Hope Pilot May Collect
 
-### 4.1 Collected automatically through network operation
+### 4.1 Information Generated Through Network Operation
 
-Operating a public Wi‑Fi access point necessarily involves limited technical data, which may include device and network identifiers (such as an IP or device address), session timestamps, and volume of data used. This information is used to keep the network working, secure, and fair, and to diagnose problems.
+Operating a public Wi-Fi access point may require limited technical information such as:
 
-### 4.2 Provided by a person only if they choose to
+* network or device identifiers;
+* IP addresses or comparable network-routing information;
+* session start and end times;
+* connection status;
+* bandwidth or data-volume information;
+* error information; and
+* security or abuse-related logs.
 
-The pilot is designed to avoid requiring personal information for access. If a public-access terms screen ever requests limited information (for example, agreement to an acceptable-use notice), that request will be minimized, clearly explained, and never a hidden condition.
+This information may be used to:
 
-### 4.3 Questions asked of the on-site interpretive node
+* operate the network;
+* troubleshoot connectivity;
+* maintain reasonable service quality;
+* protect the system from misuse;
+* investigate technical failures;
+* evaluate pilot performance; and
+* satisfy lawful obligations.
 
-When a visitor asks the on-site ALLIS node a question, the content of that interaction may be processed and briefly logged to operate the service, improve local content, and detect misuse. Visitors are not required to identify themselves to use it.
+The pilot is not designed to use this information to create commercial profiles of individual visitors.
 
-### 4.4 Community evaluation cohort
+### 4.2 Information a Person Voluntarily Provides
 
-The pilot's paid community evaluators knowingly provide feedback as part of a defined evaluation. Their participation is voluntary and consent-based, their evaluation records are used only for the pilot evaluation, and their feedback may be summarized in de-identified form in public reporting unless they agree otherwise.
+The pilot is designed to avoid requiring unnecessary personal information for ordinary public access.
+
+A person may voluntarily provide information when:
+
+* submitting feedback;
+* reporting a problem;
+* contacting Harmony for Hope;
+* participating in a structured evaluation;
+* asking a question through an interactive system; or
+* agreeing to an acceptable-use or public-access notice.
+
+If information is requested, the purpose should be clearly explained and the request limited to what is reasonably necessary.
+
+### 4.3 Questions Asked of an On-Site ALLIS Node
+
+When a visitor asks an on-site ALLIS node or local-information interface a question, the content of that interaction may be processed in order to provide a response.
+
+Limited interaction records may also be retained temporarily when reasonably necessary to:
+
+* operate the service;
+* identify technical failures;
+* improve local information;
+* evaluate usefulness;
+* investigate misuse; or
+* maintain system security.
+
+Visitors should not be required to identify themselves merely to ask ordinary public-information or heritage questions.
+
+Final logging and retention practices must be documented before public deployment.
+
+### 4.4 Application and Community Testing Cohort
+
+The pilot's paid testers and community evaluators knowingly participate in a defined evaluation process.
+
+Their evaluation activities may generate:
+
+* test records;
+* bug reports;
+* device and browser information;
+* usability observations;
+* accessibility findings;
+* field notes;
+* travel or administrative documentation;
+* structured feedback; and
+* evaluation reports.
+
+Participation is governed by the applicable cohort or testing terms.
+
+Where public reporting uses evaluator feedback, Harmony for Hope intends to use aggregated or de-identified reporting unless an evaluator knowingly agrees to attribution.
 
 ---
 
-## 5. Information the Pilot Does Not Collect
+## 5. Information the Pilot Is Not Designed to Collect
 
-The first-phase pilot does not collect, and is not designed to collect:
+The Mount Hope first-phase pilot is not designed to collect from ordinary public Wi-Fi or local-information users:
 
-- Payment card, bank, or financial-account information.
-- Benefits-eligibility or benefits-status information.
-- Biometric information.
-- Government-identification numbers from members of the public using public Wi‑Fi or reading local information.
-- Precise real-time tracking of identifiable individuals' movements.
+* payment-card information;
+* bank-account information;
+* financial-account credentials;
+* benefits-eligibility information;
+* benefits-status information;
+* biometric identifiers;
+* Social Security numbers;
+* driver's-license numbers;
+* other government-identification numbers merely for public access;
+* precise real-time tracking of identifiable individuals' movements throughout the community;
+* commercial advertising profiles; or
+* information for sale to data brokers or advertisers.
 
----
-
-## 6. How Information Is Handled
-
-- **Local hosting.** Pilot content and interpretive data are hosted on-site at the pilot location rather than in a distant commercial cloud, keeping stewardship close to the community the pilot serves.
-- **Separation from co-located systems.** The pilot's public visitor network is kept logically separated from any other systems that may operate in the same building, including production Harmony for Hope or MountainShares Commons systems. Public Wi‑Fi traffic and visitor interactions are not commingled with community, governance, or economic data held by those systems.
-- **Short retention.** Operational and network logs are kept only as long as needed to operate, secure, and evaluate the pilot, and are then reduced or deleted. Specific retention periods will be set with counsel before deployment and published in the final version of this statement.
-- **Access control and audit.** Administrative control of the system is restricted to authorized, registered roles, and significant system and content decisions are recorded to a durable audit record that community stakeholders can request. Public interpretive content is readable by anyone; changing it or administering the system is not.
-- **Reasonable safeguards.** The pilot applies reasonable technical and physical safeguards appropriate to a small community deployment. No system is perfectly secure, and the pilot does not represent otherwise.
-- **De-identification for reporting.** Any public pilot reporting uses aggregated or de-identified information rather than identifying individual members of the public.
+If future project functions would require materially different information practices, those functions must undergo separate review before activation.
 
 ---
 
-## 7. Choices and Requests
+## 6. How Information Is Intended to Be Handled
 
-- A person may use public Wi‑Fi and read local and heritage information without an account.
-- A person may ask what categories of information the pilot collects and how they are handled.
-- A person may request deletion of information that identifies them, where the pilot holds such information and where deletion is technically feasible and lawful.
-- A community evaluator may decline or withdraw from the evaluation cohort.
+### Local and Place-Based Hosting
 
-Requests are directed to Harmony for Hope using the organization's official contact information (Section 11).
+The project is designed around locally stewarded information and, where technically appropriate, locally hosted or cached content.
+
+The purpose of local hosting is to:
+
+* improve access where upstream internet is weak;
+* keep community information available near the place it describes;
+* reduce unnecessary dependence on distant commercial platforms; and
+* maintain clearer stewardship over local content.
+
+Local hosting does not mean that every technical function will necessarily occur entirely offline or entirely within one physical device.
+
+Final architecture and external-service dependencies must be documented before public deployment.
+
+### Separation From Other Systems
+
+The public visitor network should be logically separated from restricted organizational systems.
+
+Public Wi-Fi traffic and ordinary visitor interactions should not provide access to:
+
+* internal Harmony for Hope administrative systems;
+* restricted MountainShares governance systems;
+* financial or economic data;
+* private organizational records; or
+* other protected technical services.
+
+### Retention
+
+Operational and network information should be retained only as long as reasonably necessary for legitimate pilot purposes such as:
+
+* system operation;
+* troubleshooting;
+* security;
+* evaluation;
+* legal compliance; and
+* documented audit needs.
+
+Specific retention periods remain to be finalized with technical and legal review before deployment.
+
+Those periods should be documented in the final public version of this statement.
+
+### Access Control
+
+Administrative access to pilot systems should be limited to authorized roles.
+
+Administrative privileges should not be granted merely because someone:
+
+* uses the public Wi-Fi;
+* participates in a community program;
+* serves as a tester;
+* contributes local knowledge; or
+* has general organizational involvement.
+
+Where supported by the final architecture, significant administrative and content-governance actions should be recorded through an auditable process.
+
+### Reasonable Safeguards
+
+The pilot will use technical, administrative, and physical safeguards appropriate to the deployment.
+
+Those may include, as applicable:
+
+* access control;
+* role separation;
+* network segmentation;
+* authentication;
+* logging;
+* configuration management;
+* software updates;
+* backup and recovery procedures;
+* physical equipment protection; and
+* incident-response procedures.
+
+No system is perfectly secure, and this project does not represent otherwise.
+
+### Public Reporting
+
+Public evaluation reports should use aggregated or de-identified information unless there is a documented reason and lawful basis for identifying an individual.
 
 ---
 
-## 8. Families, Youth, and Public Sites
+## 7. Choices, Questions, and Requests
 
-The Fayette County Community Arts Center, the Mount Hope Historic Walking Trail, and Thurmond are public places that serve families, students, and youth programs. The pilot does not target advertising or data collection at minors and does not build individual profiles of young visitors. Content is intended to be appropriate for a general, all-ages public audience.
+A member of the public should be able to:
+
+* use ordinary public Wi-Fi without creating a personal account;
+* read general local and heritage information without providing identification;
+* ask what categories of information the pilot may collect;
+* ask how those categories are used and retained;
+* report inaccurate public information;
+* raise a privacy or stewardship concern; and
+* request correction or deletion of information that identifies them where Harmony for Hope or the pilot actually holds that information and where correction or deletion is technically feasible and legally permitted.
+
+A community evaluator may decline or withdraw from voluntary evaluation activities subject to the terms of the applicable participation agreement and any lawful administrative requirements associated with completed work or compensation.
+
+Requests should be directed to Harmony for Hope using the organization's official contact information.
 
 ---
 
-## 9. Federal Site Considerations (Thurmond)
+## 8. Families, Youth, and Public Community Use
 
-Thurmond is managed by the National Park Service. For that site:
+The Fayette County Community Arts Center and Mount Hope Historic Walking Trail are public-facing community environments that may serve families, students, youth programs, residents, and visitors.
 
-- Deployment proceeds only after the applicable NPS compliance process, including special-use permitting and Section 106 review.
-- This statement does not override, and is not intended to substitute for, federal records, privacy, or information-handling law and NPS policy. Where NPS requirements apply, those requirements govern.
-- Partner participation by NPS is not a procurement, does not obligate federal funds, and does not transfer control of federal records to the pilot.
+The Mount Hope pilot is intended for a general public audience.
 
-Data practices at Thurmond will be coordinated with NPS as part of the compliance process before any node operates there.
+The project does not intend to:
+
+* target behavioral advertising at minors;
+* build commercial profiles of young visitors;
+* require children to provide identification merely to access public information; or
+* use the public-access pilot as a mechanism for unnecessary monitoring of youth.
+
+Any future function specifically directed toward children or requiring the collection of information from minors must receive separate legal, governance, and program review before deployment.
+
+---
+
+## 9. Future Federal Site Considerations — Thurmond
+
+Thurmond is a **future federal-phase opportunity**, not part of the current Mount Hope first-phase deployment.
+
+Because Thurmond is within New River Gorge National Park and Preserve, any future site deployment will require a separate review of privacy, information governance, records requirements, technology, hosting, cybersecurity, and federal compliance.
+
+A Mount Hope privacy practice will not automatically be carried into Thurmond simply because the two sites are part of the same long-term project vision.
+
+Before any Thurmond node operates, Harmony for Hope and the applicable partners will need to determine, in coordination with the National Park Service, matters such as:
+
+* what information may be collected;
+* whether any information constitutes a federal record;
+* what logging practices are permissible;
+* what retention periods apply;
+* where information may be stored or processed;
+* who may administer the system;
+* what federal privacy requirements apply;
+* what cybersecurity or information-technology requirements apply;
+* how official NPS information is distinguished from community-provided information;
+* whether an interactive AI-assisted function is appropriate at the approved site;
+* what content or records NPS must control;
+* what visitor notices are required; and
+* what technical or governance changes are necessary for federal compliance.
+
+Any Thurmond implementation also remains subject to applicable site and cultural-resource review, which may include:
+
+* National Park Service review;
+* special-use permitting or other authorization;
+* Section 106 review;
+* natural-resource or visual-impact review;
+* accessibility review;
+* technical review;
+* written agreements; and
+* requirements imposed by the applicable funding source.
+
+This Privacy and Data Stewardship Statement does **not** override federal records law, privacy law, NPS policy, cybersecurity requirements, preservation requirements, or any other federal authority.
+
+Where federal requirements apply, those requirements govern.
+
+A future Thurmond privacy and data-stewardship section or site-specific addendum should be finalized only after the federal project's approved scope and technical architecture are sufficiently defined.
 
 ---
 
 ## 10. Governance, Review, and Accountability
 
-- **Community accountability.** The pilot maintains an auditable record of significant system decisions and makes a summary available to community stakeholders on request.
-- **Periodic review.** This statement is reviewed at least annually and whenever the pilot's scope, sites, or data practices change materially.
-- **Counsel review before deployment.** This draft is completed and approved by qualified legal counsel — and, for Thurmond, coordinated with NPS — before public deployment. Placeholder items in this draft (such as specific retention periods) are finalized at that stage.
-- **Relationship to other documents.** This statement is pilot-specific and narrower than the separate Commons Privacy Policy and MountainShares Program Rules, which govern any future marketplace or participation functions. It operates alongside Harmony for Hope's Conflict-of-Interest and Recusal Policy and the project's partnership agreements.
+### Community Accountability
+
+Harmony for Hope intends the pilot to provide a clear pathway for community members to:
+
+* ask questions;
+* report technical or information problems;
+* identify inaccurate local content;
+* raise privacy concerns; and
+* request review of significant stewardship issues.
+
+### Periodic Review
+
+This statement should be reviewed:
+
+* before the first public deployment;
+* at least annually while the pilot remains active;
+* whenever the technical architecture changes materially;
+* whenever new categories of information are collected;
+* whenever a new public-facing function is introduced;
+* whenever a new site is added; and
+* whenever legal, contractual, or governmental requirements materially change.
+
+### Counsel Review Before Mount Hope Deployment
+
+This document is currently a draft.
+
+Before the Mount Hope pilot becomes publicly operational, Harmony for Hope intends to complete qualified legal review and finalize unresolved operational details, including matters such as:
+
+* specific log-retention periods;
+* public-access notices;
+* acceptable-use terms, if needed;
+* procedures for privacy requests;
+* data-security responsibilities;
+* incident-response responsibilities;
+* vendor or external-service disclosures where applicable; and
+* final role assignments.
+
+### Separate Review for Thurmond
+
+A future Thurmond deployment will require a separate site-specific review.
+
+The Mount Hope statement may provide a starting framework, but federal requirements, approved technical architecture, NPS authority, records obligations, funding conditions, and site-specific agreements will determine the final privacy and data-stewardship rules for that phase.
+
+### Relationship to Other Documents
+
+This statement is intentionally narrower than the separate policies and governance materials associated with The Commons and the broader MountainShares Program.
+
+It should be read alongside applicable:
+
+* Harmony for Hope governance policies;
+* conflict-of-interest and recusal procedures;
+* project agreements;
+* pilot budget and implementation documents;
+* technical architecture materials;
+* public-access terms;
+* evaluation protocols; and
+* future site-specific agreements.
+
+No broader MountainShares or Commons function is activated merely because the Mount Hope pilot is deployed.
 
 ---
 
-## 11. Contact
+## 11. Current Scope and Future Expansion Boundary
+
+For clarity:
+
+```text
+CURRENT PRIVACY SCOPE
+
+Mount Hope first-phase pilot
+        |
+        +--> Public Wi-Fi
+        +--> Local-information experience
+        +--> Heritage interpretation
+        +--> Approved safety-relevant information
+        +--> ALLIS/local-information interaction
+        +--> Application and community testing
+        |
+        v
+This Privacy and Data Stewardship Statement
+
+
+FUTURE FEDERAL PHASE
+
+Thurmond
+        |
+        +--> Future federal funding
+        +--> Defined site-specific scope
+        +--> NPS review and compliance
+        +--> Federal privacy / records / IT review
+        +--> Final technical architecture
+        +--> Written agreements
+        |
+        v
+Separate site-specific privacy review or addendum
+before deployment
+```
+
+Planning for a future site does not automatically extend the current Mount Hope privacy framework to that site.
+
+---
+
+## 12. Contact
 
 **Harmony for Hope, Inc.**
 Mount Hope, West Virginia
@@ -139,4 +452,4 @@ For privacy, data-stewardship, partnership, or funding inquiries, please use Har
 
 ---
 
-*Draft — for board and counsel review. Not legal, tax, or regulatory advice. Harmony for Hope reviews materials for accuracy, privacy, permissions, and public-release suitability before public reliance.*
+*Draft — for board and counsel review. Not legal, tax, cybersecurity, or regulatory advice. Harmony for Hope reviews project materials for accuracy, privacy, permissions, governance, and public-release suitability before public reliance.*
