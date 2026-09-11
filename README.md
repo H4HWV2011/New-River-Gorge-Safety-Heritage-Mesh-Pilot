@@ -16,7 +16,7 @@ The current first-year plan is a **Mount Hope proof of concept** combining publi
 
 **Thurmond, West Virginia**, within New River Gorge National Park and Preserve, remains an important **future federal-phase implementation opportunity**. Harmony for Hope has written support relevant to continued project development from both the Town of Thurmond and New River Gorge National Park and Preserve. Any future Thurmond deployment will proceed separately through an appropriate federal funding pathway and applicable National Park Service review, compliance, site-specific approval, technical review, and final agreements.
 
-> **Project status:** Planning, partnership development, grant development, and funding readiness. The New River Gorge Safety & Heritage Mesh Pilot is not currently deployed as a public Wi-Fi network, emergency communications system, heritage-node network, or corridor-wide service. Future equipment, sites, operating arrangements, data practices, and partnerships remain subject to appropriate funding, approvals, feasibility review, governance, and documented agreements.
+> **Project status:** Planning, partnership development, grant development, submitted-application activity, and funding readiness. The New River Gorge Safety & Heritage Mesh Pilot is not currently deployed as a public Wi-Fi network, emergency communications system, heritage-node network, or corridor-wide service. Future equipment, sites, operating arrangements, data practices, and partnerships remain subject to appropriate funding, approvals, feasibility review, governance, and documented agreements.
 
 The work is intended to test whether a small Appalachian community can responsibly operate useful local digital infrastructure supporting:
 
@@ -208,7 +208,8 @@ For a reviewer approaching the portfolio for the first time:
 11. [FY2025 Organizational Financial Statement](05_financials/organizational_financials/Financial_Statement_FY2025.md)
 12. [Evidence Portfolio](06_evidence/README.md)
 13. [Mount Hope Historic Walking Trail Evidence](06_evidence/community_programs/Mount_Hope_Historic_Walking_Trail/README.md)
-14. [Privacy and Data Stewardship Statement](07_privacy/Privacy_and_Data_Stewardship.md)
+14. [Peer Community Networks and Digital Sovereignty Case Studies](06_evidence/research/Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md)
+15. [Privacy and Data Stewardship Statement](07_privacy/Privacy_and_Data_Stewardship.md)
 
 Historic Walking Trail sign materials are also maintained through the repository's [GitHub Releases](https://github.com/H4HWV2011/New-River-Gorge-Safety-Heritage-Mesh-Pilot/releases).
 
@@ -282,13 +283,15 @@ This repository is organized around the materials currently maintained in the pu
 │   │   ├── README.md
 │   │   └── Mount_Hope_Historic_Walking_Trail/
 │   │       ├── README.md
-│   │       ├── attribution materials
-│   │       └── walking-trail evidence
-│   └── grants/
-│       ├── README.md
-│       ├── concepts/
-│       ├── development/
-│       └── submitted-applications/
+│   │       ├── Mt_Hope_Walking_Tour_Brochure.pdf
+│   │       └── Mt_Hope_Walking_Tour_Brochure_Attribution.md
+│   ├── grants/
+│   │   ├── README.md
+│   │   ├── concepts/
+│   │   ├── development/
+│   │   └── submitted-applications/
+│   └── research/
+│       └── Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md
 │
 └── 07_privacy/
     └── Privacy_and_Data_Stewardship.md
@@ -336,7 +339,7 @@ Contains the working project architecture:
 * strategic narrative; and
 * first-year budget.
 
-These materials distinguish between:
+These materials distinguish among:
 
 * what already exists;
 * what is proposed;
@@ -347,9 +350,11 @@ These materials distinguish between:
 
 ### `04_partnerships/`
 
-Maintains signed agreements and letters of support.
+Maintains the public documentary record of signed agreements and letters of support while also summarizing relevant referral and relationship-development pathways.
 
-Relationships are described according to the authority of the underlying documents and are not overstated.
+Relationships are described according to the authority of the underlying evidence and are not overstated.
+
+A support letter, referral, or developing relationship is not treated as funding, site authorization, institutional commitment, or implementation authority unless separate evidence establishes that status.
 
 ### `05_financials/`
 
@@ -367,27 +372,86 @@ as available project cash.
 
 ### `06_evidence/`
 
-Maintains evidence of prior community programming, grant development, submitted applications, heritage work, and other records relevant to organizational and project readiness.
+Maintains evidence of:
 
-The grant archive intentionally distinguishes among:
+* prior community programming;
+* heritage work;
+* grant concepts;
+* program and application development;
+* submitted applications;
+* comparative research;
+* organizational learning; and
+* other records relevant to project readiness.
+
+The evidence archive intentionally distinguishes among stages such as:
 
 ```text
+idea / research
+    ↓
 concept
     ↓
-grant development
+program or application development
     ↓
-application
+submitted application
     ↓
-submission
+submission confirmation
+    ↓
+funder decision
     ↓
 award / decline / revision
     ↓
+accepted award, if applicable
+    ↓
+approved scope
+    ↓
 implementation
     ↓
-closeout
+testing and evidence
+    ↓
+evaluation
+    ↓
+closeout / reporting
 ```
 
-A grant concept or submitted application does not mean a project was funded or deployed.
+Only the stage supported by the actual evidence should be claimed.
+
+In particular:
+
+```text
+concept
+    ≠
+submitted application
+
+submitted application
+    ≠
+award
+
+award
+    ≠
+accepted award
+
+accepted award
+    ≠
+approved scope
+
+approved scope
+    ≠
+implementation
+
+installation
+    ≠
+tested operation
+
+tested operation
+    ≠
+long-term demonstrated outcome
+```
+
+The current evidence section also includes comparative research examining peer community-network and digital-sovereignty models.
+
+External case studies provide context and precedent.
+
+They are not evidence that the same outcomes have already been achieved in Mount Hope.
 
 ### `07_privacy/`
 
@@ -429,7 +493,8 @@ The portfolio is designed to support review by different audiences without requi
 * **Heritage sensitivity:** Use reversible, low-impact approaches appropriate for historic and public places.
 * **Institutional respect:** Local, municipal, university, nonprofit, and federal partners retain their own authority and responsibilities.
 * **Federal readiness:** Future work at Thurmond or other federal sites must proceed through appropriate federal funding, compliance, review, and authorization.
-* **Accurate public claims:** Distinguish clearly among conceptual, proposed, funded, implemented, tested, evidenced, operational, and future capabilities.
+* **Accurate public claims:** Distinguish clearly among conceptual, proposed, submitted, awarded, accepted, approved, implemented, tested, evidenced, operational, and future capabilities.
+* **Provenance:** Preserve historical submissions, support records, research, and project-development materials according to what they actually documented at the time.
 * **Responsible growth:** Do not activate a new site faster than the organization can fund, operate, govern, maintain, and steward it responsibly.
 
 ---
@@ -498,4 +563,4 @@ For project, partnership, research, or funding inquiries, please use Harmony for
 
 ---
 
-*This repository is a working public portfolio. Materials are added and revised as they are reviewed for accuracy, provenance, permissions, privacy, governance, and public-release suitability.*
+*This repository is a working public portfolio. Materials are added and revised as they are reviewed for accuracy, provenance, permissions, privacy, governance, status, and public-release suitability.*
