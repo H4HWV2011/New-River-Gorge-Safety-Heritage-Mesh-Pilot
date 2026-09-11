@@ -2,7 +2,7 @@
 
 Harmony for Hope, Inc. is a West Virginia community nonprofit formally established in 2017. Its founders and collaborators bring community arts, heritage, volunteer-service, and local-development experience dating to 2011.
 
-This repository organizes the materials supporting Harmony for Hope's **Community Connectivity & Local Knowledge Portfolio**: a practical, place-based effort to build locally governed access, heritage interpretation, resilient public information, and community stewardship for Mount Hope and the New River Gorge region of West Virginia.
+This repository organizes the materials supporting Harmony for Hope's **Community Connectivity & Local Knowledge Portfolio**: a practical, place-based effort to build locally governed access, heritage interpretation, resilient public information, community stewardship, and locally rooted leadership capacity for Mount Hope and the New River Gorge region of West Virginia.
 
 ---
 
@@ -16,7 +16,7 @@ The current first-year plan is a **Mount Hope proof of concept** combining publi
 
 **Thurmond, West Virginia**, within New River Gorge National Park and Preserve, remains an important **future federal-phase implementation opportunity**. Harmony for Hope has written support relevant to continued project development from both the Town of Thurmond and New River Gorge National Park and Preserve. Any future Thurmond deployment will proceed separately through an appropriate federal funding pathway and applicable National Park Service review, compliance, site-specific approval, technical review, and final agreements.
 
-> **Project status:** Planning, partnership development, grant development, submitted-application activity, and funding readiness. The New River Gorge Safety & Heritage Mesh Pilot is not currently deployed as a public Wi-Fi network, emergency communications system, heritage-node network, or corridor-wide service. Future equipment, sites, operating arrangements, data practices, and partnerships remain subject to appropriate funding, approvals, feasibility review, governance, and documented agreements.
+> **Project status:** Planning, partnership development, grant development, submitted-application activity, program development, and funding readiness. The New River Gorge Safety & Heritage Mesh Pilot is not currently deployed as a public Wi-Fi network, emergency communications system, heritage-node network, or corridor-wide service. Future equipment, sites, operating arrangements, data practices, Community Champion activities, and partnerships remain subject to appropriate funding, approvals, feasibility review, governance, and documented agreements.
 
 The work is intended to test whether a small Appalachian community can responsibly operate useful local digital infrastructure supporting:
 
@@ -29,10 +29,11 @@ The work is intended to test whether a small Appalachian community can responsib
 * Useful information when commercial connectivity is limited or unreliable.
 * Community stewardship of local stories, knowledge, and participation.
 * Structured testing, evaluation, and evidence before broader expansion.
+* Development of practical community-stewardship roles capable of supporting responsible local implementation over time.
 
 This is a phased proof of concept.
 
-It is not a claim that a corridor-wide network is already deployed.
+It is not a claim that a corridor-wide network or Community Champion field program is already deployed.
 
 ---
 
@@ -48,12 +49,33 @@ Harmony for Hope is developing a public-benefit approach to community connectivi
 * heritage resources;
 * practical public use;
 * privacy and dignity;
-* accountable information stewardship; and
+* accountable information stewardship;
+* locally grounded leadership; and
 * evidence-based expansion.
 
 The connectivity layer is the visible infrastructure.
 
-What makes that infrastructure useful over time is the combination of local information, heritage interpretation, community stewardship, governance, accessibility, evaluation, and responsible technical operation.
+What makes that infrastructure useful over time is the combination of local information, heritage interpretation, community stewardship, governance, accessibility, evaluation, responsible technical operation, and people who understand the communities in which the systems operate.
+
+Technology alone does not establish community trust, local knowledge, responsible stewardship, or durable public value.
+
+The portfolio therefore develops both:
+
+```text
+technical infrastructure
+        +
+human stewardship
+        +
+local knowledge
+        +
+governance
+        +
+evaluation
+```
+
+The objective is not merely to install technology.
+
+It is to develop a locally accountable system that communities can understand, test, question, improve, and responsibly steward.
 
 ---
 
@@ -69,10 +91,193 @@ Current and related initiatives include:
 * **Mount Hope Regional Band**
 * **Oakvale Area Outreach Team**
 * **MountainShares Commons**, a developing community-participation and value-recognition framework intended to support long-term local stewardship
-* **Community Champion development**, translating community stewardship roles into practical field implementation and evaluation
+* **Community Champion development**, translating an existing community-stewardship role into practical recruitment, training, supervised field practice, evaluation, and continued local participation
 * **Community connectivity and local-information infrastructure**
 
 These initiatives are related through Harmony for Hope's broader mission but are not represented as having identical funding, deployment status, governance, or program scope.
+
+---
+
+## Community Stewardship & Leadership Development
+
+The **Community Champion model** is the human stewardship and community-implementation layer being developed alongside Harmony for Hope's technical, heritage, and local-information work.
+
+The role is intended to help connect:
+
+```text
+community
+    ↓
+local knowledge
+    ↓
+public-facing systems
+    ↓
+structured observation
+    ↓
+governed feedback
+    ↓
+evaluation
+    ↓
+responsible refinement
+```
+
+Community Champions are not intended to function merely as:
+
+* system administrators;
+* installers;
+* sales representatives;
+* unrestricted data collectors;
+* informal authorities; or
+* unstructured volunteers.
+
+The model is being developed around clearer boundaries involving:
+
+* local stewardship;
+* resident support;
+* heritage and resource knowledge;
+* accessibility observations;
+* structured field reporting;
+* system and information discrepancies;
+* privacy and consent;
+* provenance;
+* governance;
+* escalation;
+* participant competency;
+* evaluation; and
+* transferability to other communities.
+
+The Community Champion role already exists within the related MountainShares governance and participation architecture.
+
+The current program-development work addresses the next question:
+
+> **How does a documented community-stewardship role become responsible field practice?**
+
+The proposed development pathway is:
+
+```text
+documented Community Champion role
+        ↓
+recruitment and orientation
+        ↓
+training
+        ↓
+supervised exercises
+        ↓
+field observation
+        ↓
+structured reporting
+        ↓
+review and feedback
+        ↓
+competency assessment
+        ↓
+responsible field practice
+        ↓
+continued community stewardship
+        ↓
+evaluation and refinement
+```
+
+Current development materials include:
+
+1. [Community Champion Field Implementation Framework](06_evidence/grants/development/Community_Champion_Field_Implementation_Framework.md)
+2. [Mount Hope Founding Cohort Budget and Implementation Plan](06_evidence/grants/development/Mount_Hope_Founding_Cohort_Budget_and_Implementation_Plan.md)
+3. [Cohort Development and Implementation Timeline](06_evidence/grants/development/Cohort%20Development%20and%20Implementation%20Timeline.md)
+4. [WV Community Champion Leadership Cohort Series](06_evidence/grants/development/WV_Community_Champion_Leadership_Cohort_Series.md)
+5. [Grant and Program Development Index](06_evidence/grants/development/README.md)
+
+Together, these materials move the Community Champion model beyond a high-level idea and into structured **program development**.
+
+They explore:
+
+* how participants might be recruited;
+* what they should learn;
+* what competencies should be demonstrated;
+* how supervised field activity might work;
+* how local observations should be recorded;
+* how reports should enter a governed review process;
+* how participant readiness could be assessed;
+* how contribution could be evaluated;
+* how a Mount Hope founding cohort could be structured;
+* what such a cohort might cost;
+* and how the model could later become transferable.
+
+### Current Status Boundary
+
+The Community Champion materials are **development records**.
+
+They do not establish that:
+
+* a cohort has been funded;
+* recruitment has begun;
+* participants have been selected;
+* compensation has been authorized;
+* training dates have been committed;
+* certification exists;
+* a statewide program has been launched; or
+* every activity described in the development documents is part of the current Mount Hope pilot scope.
+
+The development sequence remains:
+
+```text
+documented role
+        ↓
+program development
+        ↓
+funding pathway
+        ↓
+approved scope
+        ↓
+implementation
+        ↓
+evaluation
+```
+
+### Community Champion Cohort vs. Current Testing Cohort
+
+The Community Champion program-development track is **not the same program** as the current six-month application and community testing cohort included in the first-year pilot budget.
+
+The current testing cohort is structured around:
+
+* application testing;
+* browser testing;
+* device testing;
+* accessibility;
+* usability;
+* defects;
+* public-facing workflows;
+* and real-world system interaction.
+
+Community Champion development explores a broader stewardship function involving:
+
+* local leadership;
+* resident support;
+* community observation;
+* local knowledge;
+* field learning;
+* structured documentation;
+* stewardship;
+* implementation support;
+* and transferability.
+
+The two may eventually complement one another.
+
+They should not be conflated.
+
+```text
+Community Champion development
+        ≠
+six-month QA/testing cohort
+```
+
+Likewise:
+
+```text
+Community Champion development budget
+        ≠
+current first-year pilot budget
+```
+
+unless a future governing budget, submitted application, award, or approved scope explicitly establishes that relationship.
 
 ---
 
@@ -104,10 +309,37 @@ Documented Mount Hope proof of concept
         +--> Governance refinement
         +--> Operating-cost information
         +--> Technical refinement
+        +--> Community-stewardship learning
         |
         v
 Future development decisions
 ```
+
+A related Community Champion development pathway may proceed alongside or after portions of the Mount Hope work where funding, approved scope, participant readiness, governance, and implementation capacity support it:
+
+```text
+Community Champion governance role
+        |
+        v
+Program-development framework
+        |
+        v
+Funding and implementation design
+        |
+        v
+Potential Mount Hope founding cohort
+        |
+        v
+Training + supervised field practice
+        |
+        v
+Evaluation
+        |
+        v
+Refinement and transferability decisions
+```
+
+This is a **program-development pathway**, not a claim that the Community Champion cohort is included within every current Mount Hope implementation activity.
 
 A future Thurmond pathway is distinct:
 
@@ -130,7 +362,7 @@ Technical, privacy, governance, and site review
 Future implementation, if funded and authorized
 ```
 
-Other New River Gorge communities may be considered in later phases only where local interest, funding, permissions, technical feasibility, governance, operating capacity, and demonstrated public benefit support expansion.
+Other New River Gorge communities may be considered in later phases only where local interest, funding, permissions, technical feasibility, governance, operating capacity, community-stewardship capacity, and demonstrated public benefit support expansion.
 
 ---
 
@@ -152,7 +384,11 @@ A preliminary **$7,592 Thurmond physical-build estimate** is maintained separate
 
 That amount is **not included in the current $53,244 Mount Hope first-year funding target** and is not represented as a complete future federal project budget.
 
-See the [Master First-Year Pilot Budget](03_project/pilot_budget/Master_First_Year_Pilot_Budget.md) for the full funding structure and boundaries.
+Community Champion development materials also contain separate working program and cohort assumptions.
+
+Those development assumptions are **not included in the current $53,244 first-year funding target unless expressly incorporated into a future governing budget or approved funding scope**.
+
+See the [Master First-Year Pilot Budget](03_project/pilot_budget/Master_First_Year_Pilot_Budget.md) for the current funding structure and boundaries.
 
 ---
 
@@ -204,12 +440,15 @@ For a reviewer approaching the portfolio for the first time:
 7. [Implementation Timeline and Workflow Index](03_project/implementation_timeline/README.md)
 8. [Mount Hope Heritage Infrastructure Workflow](03_project/implementation_timeline/Mount_Hope_Heritage_Infrastructure_Workflow.md)
 9. [Master First-Year Pilot Budget](03_project/pilot_budget/Master_First_Year_Pilot_Budget.md)
-10. [Partnerships and Readiness](04_partnerships/README.md)
-11. [FY2025 Organizational Financial Statement](05_financials/organizational_financials/Financial_Statement_FY2025.md)
-12. [Evidence Portfolio](06_evidence/README.md)
-13. [Mount Hope Historic Walking Trail Evidence](06_evidence/community_programs/Mount_Hope_Historic_Walking_Trail/README.md)
-14. [Peer Community Networks and Digital Sovereignty Case Studies](06_evidence/research/Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md)
-15. [Privacy and Data Stewardship Statement](07_privacy/Privacy_and_Data_Stewardship.md)
+10. [Community Champion Field Implementation Framework](06_evidence/grants/development/Community_Champion_Field_Implementation_Framework.md)
+11. [Mount Hope Founding Cohort Budget and Implementation Plan](06_evidence/grants/development/Mount_Hope_Founding_Cohort_Budget_and_Implementation_Plan.md)
+12. [Grant and Program Development Index](06_evidence/grants/development/README.md)
+13. [Partnerships and Readiness](04_partnerships/README.md)
+14. [FY2025 Organizational Financial Statement](05_financials/organizational_financials/Financial_Statement_FY2025.md)
+15. [Evidence Portfolio](06_evidence/README.md)
+16. [Mount Hope Historic Walking Trail Evidence](06_evidence/community_programs/Mount_Hope_Historic_Walking_Trail/README.md)
+17. [Peer Community Networks and Digital Sovereignty Case Studies](06_evidence/research/Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md)
+18. [Privacy and Data Stewardship Statement](07_privacy/Privacy_and_Data_Stewardship.md)
 
 Historic Walking Trail sign materials are also maintained through the repository's [GitHub Releases](https://github.com/H4HWV2011/New-River-Gorge-Safety-Heritage-Mesh-Pilot/releases).
 
@@ -289,6 +528,11 @@ This repository is organized around the materials currently maintained in the pu
 │   │   ├── README.md
 │   │   ├── concepts/
 │   │   ├── development/
+│   │   │   ├── README.md
+│   │   │   ├── Community_Champion_Field_Implementation_Framework.md
+│   │   │   ├── Mount_Hope_Founding_Cohort_Budget_and_Implementation_Plan.md
+│   │   │   ├── Cohort Development and Implementation Timeline.md
+│   │   │   └── WV_Community_Champion_Leadership_Cohort_Series.md
 │   │   └── submitted-applications/
 │   └── research/
 │       └── Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md
@@ -447,7 +691,59 @@ tested operation
 long-term demonstrated outcome
 ```
 
-The current evidence section also includes comparative research examining peer community-network and digital-sovereignty models.
+#### `06_evidence/grants/development/`
+
+This directory contains the portfolio's working **grant-development and program-development layer**.
+
+It currently includes substantial Community Champion development work covering:
+
+* field implementation;
+* cohort design;
+* training;
+* participant development;
+* competency;
+* stewardship;
+* structured reporting;
+* implementation sequencing;
+* working budgets;
+* evaluation;
+* transferability; and
+* possible future statewide cohort development.
+
+The Community Champion materials are important because they document how Harmony for Hope is beginning to translate **community stewardship from governance theory into a testable field model**.
+
+They do not demonstrate that the program has already been funded or launched.
+
+Instead, they establish that significant program architecture has been developed and is available for:
+
+* future grant applications;
+* partner review;
+* funder discussions;
+* university collaboration;
+* implementation planning;
+* and controlled field testing when appropriate.
+
+The current development sequence remains:
+
+```text
+existing governance role
+        ↓
+field implementation framework
+        ↓
+cohort design
+        ↓
+funding development
+        ↓
+approved implementation
+        ↓
+field evidence
+        ↓
+evaluation
+        ↓
+transferability decisions
+```
+
+The evidence section also includes comparative research examining peer community-network and digital-sovereignty models.
 
 External case studies provide context and precedent.
 
@@ -461,6 +757,8 @@ The current privacy scope applies to the proposed Mount Hope first-phase impleme
 
 Any future Thurmond deployment will require separate federal-site review and a site-specific privacy and information-governance process before implementation.
 
+Community Champion implementation will likewise require adherence to applicable privacy, consent, authority, data-access, and governance boundaries.
+
 ---
 
 ## Portfolio Purpose
@@ -472,13 +770,34 @@ The portfolio should allow a funder, collaborator, university, public agency, or
 3. **What already exists and what remains proposed?**
 4. **Who benefits and how would the project be used?**
 5. **What evidence shows organizational and community readiness?**
-6. **What partnerships and support are documented?**
-7. **What does the first phase cost?**
-8. **How will the project be tested and evaluated?**
-9. **How are privacy, governance, and stewardship addressed?**
-10. **What would justify expansion beyond Mount Hope?**
+6. **How is local community stewardship being developed in practice?**
+7. **What partnerships and support are documented?**
+8. **What does the first phase cost?**
+9. **How will the project be tested and evaluated?**
+10. **How are privacy, governance, authority, and stewardship addressed?**
+11. **What would justify expansion beyond Mount Hope?**
 
 The portfolio is designed to support review by different audiences without requiring every reviewer to understand the entire technical or long-term architecture before understanding the immediate project.
+
+It should also allow a reviewer to distinguish between the project's different but related layers:
+
+```text
+physical access infrastructure
+        +
+public information
+        +
+heritage interpretation
+        +
+technical systems
+        +
+community stewardship
+        +
+governance
+        +
+testing
+        +
+evaluation
+```
 
 ---
 
@@ -486,6 +805,8 @@ The portfolio is designed to support review by different audiences without requi
 
 * **Local benefit:** Infrastructure should serve residents, visitors, local organizations, and community institutions.
 * **Community stewardship:** Local stories, participation, and information should remain accountable to the communities and institutions responsible for them.
+* **Human participation:** Technology should not eliminate the need for local judgment, observation, participation, and accountable stewardship.
+* **Authority boundaries:** Community participation, technical access, administrative authority, verified fact, and governance authority should not be treated as equivalent.
 * **Privacy and dignity:** The project should minimize unnecessary collection and extraction of personal information.
 * **Accessible design:** Public-facing systems should be understandable and useful to people who are not technical specialists.
 * **Practical deployment:** Begin with a modest, visible implementation; test it, document it, learn from it, and expand only where evidence supports doing so.
@@ -493,9 +814,9 @@ The portfolio is designed to support review by different audiences without requi
 * **Heritage sensitivity:** Use reversible, low-impact approaches appropriate for historic and public places.
 * **Institutional respect:** Local, municipal, university, nonprofit, and federal partners retain their own authority and responsibilities.
 * **Federal readiness:** Future work at Thurmond or other federal sites must proceed through appropriate federal funding, compliance, review, and authorization.
-* **Accurate public claims:** Distinguish clearly among conceptual, proposed, submitted, awarded, accepted, approved, implemented, tested, evidenced, operational, and future capabilities.
+* **Accurate public claims:** Distinguish clearly among conceptual, proposed, developed, submitted, awarded, accepted, approved, implemented, tested, evidenced, operational, and future capabilities.
 * **Provenance:** Preserve historical submissions, support records, research, and project-development materials according to what they actually documented at the time.
-* **Responsible growth:** Do not activate a new site faster than the organization can fund, operate, govern, maintain, and steward it responsibly.
+* **Responsible growth:** Do not activate a new site or program faster than the organization can fund, operate, govern, maintain, evaluate, and steward it responsibly.
 
 ---
 
@@ -518,6 +839,20 @@ Immediate needs include:
 * Community evaluation.
 * Project management and grant administration.
 * Documentation and public-facing pilot reporting.
+
+Harmony for Hope is also developing the **Community Champion model** as a related program-development pathway for community stewardship, participant training, structured field practice, local knowledge, and longer-term transferability.
+
+That work may support future:
+
+* grant development;
+* funder discussions;
+* university collaboration;
+* community-leadership programming;
+* workforce and skills development;
+* field evaluation;
+* and replication planning.
+
+The existence of that development pathway does not change the current **$53,244 Mount Hope first-year pilot funding target** unless a future governing budget or approved funding scope expressly incorporates Community Champion activities.
 
 Thurmond is being maintained separately as a future federal-phase funding and implementation opportunity.
 
@@ -543,13 +878,46 @@ Mount Hope should produce enough real evidence to answer:
 
 > Can the community steward it?
 
+> What did local participants observe that technical systems alone did not reveal?
+
 > What needs to change?
 
 > Does the evidence justify another site?
 
-If the evidence supports continued development, future phases may explore adaptation at Thurmond and other New River Gorge communities according to their own authority, needs, funding, technical requirements, and public benefit.
+The longer-term development question is also not simply:
 
-The long-term objective is a repeatable and accountable model for **locally stewarded public infrastructure**, not expansion for its own sake.
+> Can the technology be replicated?
+
+It is:
+
+> Can the combination of technology, governance, local knowledge, community stewardship, and evidence be responsibly transferred?
+
+Community Champion development is relevant to that question because expansion depends not only on equipment and software, but also on whether communities have people capable of understanding, questioning, documenting, maintaining, and responsibly participating in the systems that serve them.
+
+If the evidence supports continued development, future phases may explore:
+
+* refinement of the Mount Hope implementation;
+* Community Champion field testing;
+* Community Champion training and leadership development;
+* adaptation at Thurmond through an appropriate federal pathway;
+* additional New River Gorge communities;
+* broader cohort development;
+* and transferability of the community-stewardship model.
+
+Each future community or institution should proceed according to its own:
+
+* authority;
+* needs;
+* local knowledge;
+* funding;
+* technical requirements;
+* governance;
+* participant capacity;
+* privacy requirements;
+* operating capacity; and
+* demonstrated public benefit.
+
+The long-term objective is a repeatable and accountable model for **locally stewarded public infrastructure and community knowledge**, not expansion for its own sake.
 
 ---
 
@@ -559,7 +927,7 @@ The long-term objective is a repeatable and accountable model for **locally stew
 Mount Hope, West Virginia
 Website: [harmonyforhopewv.org](https://harmonyforhopewv.org)
 
-For project, partnership, research, or funding inquiries, please use Harmony for Hope's official contact information.
+For project, partnership, research, program-development, Community Champion, or funding inquiries, please use Harmony for Hope's official contact information.
 
 ---
 
