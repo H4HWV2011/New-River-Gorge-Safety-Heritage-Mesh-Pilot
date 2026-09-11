@@ -1,15 +1,15 @@
 # Partnerships and Readiness
 
-Harmony for Hope, Inc. is building the New River Gorge Safety & Heritage Mesh Pilot through place-based collaboration. This directory documents the agreements, letters of support, referrals, and relationship pathways that support responsible development of the first public pilot at the Fayette County Community Arts Center in Mount Hope and potential future heritage-sensitive applications in the New River Gorge region.
+Harmony for Hope, Inc. is building the New River Gorge Safety & Heritage Mesh Pilot through place-based collaboration. This directory documents the agreements, letters of support, referrals, and relationship pathways supporting the first public pilot at the Fayette County Community Arts Center in Mount Hope, the development of Thurmond as a future federal-phase implementation opportunity, and other potential heritage-sensitive applications in the New River Gorge region.
 
 ## Purpose of This Directory
 
 The materials in this directory help partners, funders, and reviewers understand the project’s implementation readiness. They document different forms of support with precision:
 
-- A signed agreement is a formal documented relationship.
-- A letter of support indicates written support for the project or its goals.
-- A referral indicates a connection or recommendation to pursue a resource, opportunity, or technical-assistance pathway.
-- An ongoing relationship indicates communication or goodwill, not a formal institutional commitment unless supported by a written agreement.
+* A signed agreement is a formal documented relationship.
+* A letter of support indicates written support for the project or its goals.
+* A referral indicates a connection or recommendation to pursue a resource, opportunity, or technical-assistance pathway.
+* An ongoing relationship indicates communication or goodwill, not a formal institutional commitment unless supported by a written agreement.
 
 No document in this directory should be read as creating an obligation beyond its own terms.
 
@@ -43,15 +43,15 @@ See: [`agreements/`](./agreements/)
 
 ## Letters of Support
 
-Harmony for Hope has received letters of support connected to the community connectivity, heritage, and visitor-information work. These letters demonstrate local and regional interest in the project and its potential public benefit.
+Harmony for Hope has received letters of support connected to the community connectivity, heritage, and visitor-information work. These letters demonstrate local, regional, institutional, and public-sector interest in the project and its potential public benefit.
 
-| Organization or partner | Form of support | Relevance to pilot |
-|---|---|---|
-| New River Gorge National Park and Preserve | Letter of support | Heritage, visitor information, and potential future heritage-sensitive applications |
-| City of Mount Hope | Letter of support | First-pilot community and municipal coordination |
-| Town of Thurmond | Letter of support | Potential future historic-site application, subject to site-specific review and approval |
-| West Virginia University | Letter of support | University-connected technical or research support |
-| Starry Eyes Media | Letter of support | Public communication, storytelling, and media support |
+| Organization or partner                    | Form of support   | Relevance to pilot                                                                                                                                                                                                            |
+| ------------------------------------------ | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| New River Gorge National Park and Preserve | Letter of support | Heritage and visitor-information support relevant to future Thurmond implementation planning; any federal-site deployment remains subject to applicable National Park Service review, compliance, permissions, and agreements |
+| City of Mount Hope                         | Letter of support | First-pilot community and municipal coordination                                                                                                                                                                              |
+| Town of Thurmond                           | Letter of support | Planned future federal-phase site; documented community support is in place, with deployment contingent on federal funding, National Park Service compliance, site-specific approval, technical review, and final agreements  |
+| West Virginia University                   | Letter of support | University-connected technical or research support                                                                                                                                                                            |
+| Starry Eyes Media                          | Letter of support | Public communication, storytelling, and media support                                                                                                                                                                         |
 
 See: [`letters_of_support/`](./letters_of_support/)
 
@@ -73,22 +73,36 @@ Harmony for Hope has an ongoing relationship with attorney **Tighe Bullock**. Le
 
 Harmony for Hope has ongoing relationship development with West Virginia University and Marshall University. These relationships may support future technical validation, research, project development, or institutional collaboration. They are not represented as formal institutional commitments unless documented in a signed agreement or letter of support.
 
+## Mount Hope and Thurmond Development Path
+
+The project intentionally distinguishes between the Mount Hope implementation path and the future Thurmond federal-phase opportunity.
+
+**Mount Hope** is the initial community implementation environment. The Fayette County Community Arts Center and related Mount Hope heritage infrastructure provide a practical setting in which Harmony for Hope can test, document, evaluate, and refine the community-connectivity and local-information model.
+
+**Thurmond** represents a future federal-phase implementation opportunity within New River Gorge National Park and Preserve. Harmony for Hope has documented support relevant to the concept from both the Town of Thurmond and New River Gorge National Park and Preserve. That support provides a strong foundation for future federal funding development but does not itself constitute site authorization, federal funding, permitting, procurement, or approval to install infrastructure.
+
+Any Thurmond implementation will proceed only after the appropriate funding pathway is identified and all applicable National Park Service requirements are satisfied. Depending on final project scope, those requirements may include site-specific review, permitting, Section 106 or other cultural-resource compliance, technical review, partner agreements, and additional federal processes.
+
+Harmony for Hope therefore intends to use the Mount Hope implementation to generate practical evidence while continuing to develop Thurmond as a future federal funding and implementation opportunity.
+
 ## Partnership Principles
 
 Harmony for Hope approaches partnerships according to the following principles:
 
-- **Accuracy:** Describe every relationship according to what is actually documented.
-- **Local stewardship:** Keep community partners involved in decisions affecting local sites, stories, and public use.
-- **Respect for approvals:** Any future site deployment remains subject to written agreements, site permissions, technical review, available resources, and applicable approvals.
-- **Public benefit:** Build infrastructure that serves residents, visitors, institutions, and local community life.
-- **Responsible expansion:** Use the Mount Hope pilot to test, document, and evaluate the model before proposing broader replication.
+* **Accuracy:** Describe every relationship according to what is actually documented.
+* **Local stewardship:** Keep community partners involved in decisions affecting local sites, stories, and public use.
+* **Respect for approvals:** Any future site deployment remains subject to written agreements, site permissions, technical review, available resources, and applicable approvals.
+* **Public benefit:** Build infrastructure that serves residents, visitors, institutions, and local community life.
+* **Federal readiness:** Treat federal-site opportunities as distinct implementation pathways requiring appropriate federal funding, compliance, review, permissions, and agreements.
+* **Responsible expansion:** Use the Mount Hope pilot to test, document, and evaluate the model while preparing Thurmond as a future federal-phase implementation opportunity, subject to funding and National Park Service requirements.
+* **Evidence before claims:** Letters of support, referrals, planning documents, and relationships demonstrate readiness and interest but are not represented as funding awards, site authorizations, or completed implementation unless separately documented.
 
 ## Related Project Documents
 
-- [Project Brief](../03_project/pilot_scope_and_phasing/New_River_Gorge_Mesh_Pilot_Project_Brief.md)
-- [Strategic Project Narrative](../03_project/project_description/Strategic_Project_Narrative.md)
-- [Implementation Timeline](../03_project/implementation_timeline/)
-- [Master First-Year Pilot Budget](../03_project/pilot_budget/Master_First_Year_Pilot_Budget.md)
+* [Project Brief](../03_project/pilot_scope_and_phasing/New_River_Gorge_Mesh_Pilot_Project_Brief.md)
+* [Strategic Project Narrative](../03_project/project_description/Strategic_Project_Narrative.md)
+* [Implementation Timeline](../03_project/implementation_timeline/)
+* [Master First-Year Pilot Budget](../03_project/pilot_budget/Master_First_Year_Pilot_Budget.md)
 
 ---
 
