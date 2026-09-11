@@ -1,26 +1,31 @@
-# Submitted Applications 
+# Submitted Applications
 
-This folder records grant and funding applications submitted during September 2026 for the New River Gorge Safety & Heritage Mesh Pilot.
+This folder is the permanent record of grant, funding, and program applications submitted for the New River Gorge Safety & Heritage Mesh Pilot.
 
-Each application folder preserves the final submitted materials, budget, attachments, confirmation, and any later follow-up or decision records.
+Applications are organized by **year**, then **month**, then **funder or project**.
 
-## This Month
-
-| Funder / Program | Project | Status |
-|---|---|---|
-| Milan Puskar Foundation | New River Gorge Safety & Heritage Mesh Pilot | Submitted |
-
-## Standard Application Folder
+## Folder Structure
 
 ```text
-funder-or-program/
-├── final-application-pdf/
-├── submitted-budget/
-├── submittted-attachments/
-├── submission-confirmation/
-└── follow-up-and-decision/
+submitted-applications/
+└── YYYY/
+    └── Month/
+        └── funder-or-project/
+            ├── final-application-pdf/
+            ├── submitted-budget/
+            ├── submitted-attachments/
+            ├── submission-confirmation/
+            └── follow-up-and-decision/
 ```
 
-## Monthly Record Rule
+## Record Rule
 
-Keep submitted files as the record of what was sent. Add later correspondence, requests, decisions, or award materials inside `follow-up-and-decision/` rather than replacing the original submission files.
+Keep final submitted files as the record of what was sent. Do not replace submitted narratives, budgets, attachments, or confirmations with later revisions.
+
+Add later correspondence, requests, awards, declines, and other outcomes to the appropriate `follow-up-and-decision/` folder.
+
+## Current Records
+
+| Year | Months Recorded |
+|---|---|
+| 2026 | September |
