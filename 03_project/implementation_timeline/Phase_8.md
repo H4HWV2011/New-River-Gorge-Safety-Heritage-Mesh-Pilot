@@ -1,202 +1,1157 @@
-# Phase 8: Install Backup Communications Node
-## Field Learning Guide — Mount Hope Walking Trail Pilot Site
+# Phase 8: Resilient Low-Bandwidth Communications Layer
+
+## Field Planning and Learning Guide — Mount Hope Pilot
 
 ---
 
-## What This Document Is For
+## Document Status
 
-This document expands on Phase 8 of the installation workflow. It explains what the LoRa backup communications node is, why it is part of this installation at all, how it is installed, what can go wrong, and what a correctly completed installation looks like. As a pilot site document, it also captures the reasoning behind decisions made here so H4H and future crews can apply those lessons to other sites.
+**Status:** Working implementation-planning document
+**Current site:** Mount Hope, West Virginia
+**Project phase:** Proposed first-phase implementation
+**Purpose:** Resilience-use-case definition, technical evaluation, radio-path testing, candidate-system commissioning, and evidence capture
 
----
+This document does **not** constitute:
 
-## What Is a LoRa Node and Why Does This Installation Include One
+* a public emergency-communications plan;
+* an emergency-services communications system;
+* a guaranteed backup communications capability;
+* a final radio-frequency design;
+* authorization to operate any specific radio configuration;
+* a final Meshtastic architecture;
+* a procurement specification;
+* an approved antenna system;
+* a final power-system design;
+* a coverage guarantee;
+* or a representation that Harmony for Hope currently operates a regional communications mesh.
 
-LoRa stands for Long Range. It is a radio communication technology that transmits small amounts of data over distances of one to several miles using very low power. It is not a replacement for internet access and cannot carry the data volume needed for general web browsing. What it can do is carry short messages — notifications, status updates, basic location information, emergency signals — between nodes in a network, even when the primary internet connection is unavailable.
+Any low-bandwidth radio or mesh system considered for the Mount Hope pilot must be evaluated according to:
 
-In the context of this installation, the LoRa node serves as a resilience layer. When the Starlink internet connection is functioning normally, the LoRa node is a secondary system running quietly in the background. If the primary internet goes down — due to a power outage, a hardware failure, a service interruption, or a weather event — the LoRa network remains active as long as battery power holds. Community members with compatible devices can use the LoRa mesh network for basic communications even when conventional connectivity is unavailable.
+* the actual resilience use case;
+* applicable radio and equipment requirements;
+* final hardware;
+* approved firmware and configuration;
+* antenna characteristics;
+* power design;
+* site conditions;
+* privacy and governance requirements;
+* security;
+* technical review;
+* and observed field performance.
 
-For a community organization serving rural Appalachian residents, where cellular coverage can be limited and where power outages during severe weather are not rare, this backup layer has practical value that is distinct from what the main hotspot provides.
+A successful experiment should be described as a successful experiment.
 
-The Meshtastic protocol is the software layer used on these devices. Meshtastic is open-source, actively maintained, and designed specifically for LoRa mesh networking at the community scale. The LILYGO T-Beam or Heltec LoRa32 class devices supported by Meshtastic are the hardware used in this installation.
-
----
-
-## What Phase 8 Covers
-
-The equipment installed in this phase:
-
-- LoRa node device (LILYGO T-Beam or Heltec LoRa32 class)
-- LoRa antenna (external, matched to the node's frequency band)
-- Small solar support kit for the node (panel, small charge controller, and small battery if separate from the main solar system)
-- Weatherproof enclosure for the node (Sixfab or equivalent small outdoor enclosure)
-- Pole clamps or mount straps to attach the enclosure to the support structure
-
----
-
-## Before Phase 8 Begins: What Must Already Be True
-
-Phase 8 can begin after Phase 6 (solar infrastructure) is complete and confirmed. The LoRa node does not depend on the main internet connection — it is intentionally independent. However, it does depend on power. If the node is drawing from the main solar system, that system must be confirmed operational before the node is connected to it. If the node has its own dedicated small solar kit, that kit is installed as part of this phase.
-
-The main outdoor hardware — the frame, the weatherproof electronics enclosure, the solar panel — should already be in place. The LoRa node typically mounts on the same pole or frame, below or beside the main enclosure, and shares the mounting structure. Attempting to mount the LoRa node before the main frame is in place creates a sequencing problem where the crew is working around uninstalled primary hardware.
-
----
-
-## The Step Sequence and the Reason for Each Step
-
-### Step 1: Confirm the flash and configuration of the LoRa node before arrival
-
-**What to do:** Before the site visit, confirm that the LoRa node device has been flashed with the correct Meshtastic firmware version and configured with the correct channel settings, region code (US for this installation), and node name. This is a software step that should happen at a desk, not in the field.
-
-**Why pre-configuration matters:** A LoRa node that arrives on site without firmware is hardware, not a communications device. Flashing firmware and configuring the device in the field requires a laptop, a USB cable, and time. It also introduces risk — if something goes wrong during flashing (an interrupted connection, a wrong firmware file), the device may need to be recovered, which requires additional tools and technical knowledge. Pre-configuring the device eliminates that risk from the field installation entirely.
-
-**Minimum configuration to verify before the site visit:**
-
-- Firmware: Meshtastic, correct version for the specific hardware.
-- Region: US (required by FCC regulations for the correct frequency band).
-- Node name: Something identifiable to H4H's network — for example, MHHWT-01 for Mount Hope Historic Walking Trail node 1.
-- Channel: Match the channel configuration used by any other nodes H4H has deployed or plans to deploy, so this node can communicate with them.
-
-**Lesson for future sites:** At this pilot site, document the firmware version, the channel configuration, and the node name in H4H's records. Every additional node deployed at future sites should use the same channel configuration so that the network operates as a mesh rather than a collection of isolated devices.
+It should not be represented as emergency infrastructure unless later evidence and appropriate institutional arrangements support that claim.
 
 ---
 
-### Step 2: Attach the antenna to the node
+# What This Document Is For
 
-**What to do:** Connect the external LoRa antenna to the node's SMA antenna connector before the node is placed inside the enclosure. Hand-tighten the SMA connector — do not use tools, which can overtighten and damage the connector threads. Verify the antenna is the correct type for the node's frequency band. In the United States, Meshtastic operates on 915 MHz. The antenna must be rated for 915 MHz. An antenna rated for a different frequency (such as 433 MHz or 2.4 GHz) will significantly reduce the node's range.
+Phase 8 evaluates whether the Mount Hope pilot should include an **independent, low-power, low-bandwidth communications layer** in addition to ordinary internet access.
 
-**Why the antenna connects before the node is enclosed:** Once the node is inside the enclosure with the antenna exiting through a cable gland or connector port, adjusting the antenna connector requires reopening the enclosure. Connecting the antenna outside the enclosure, confirming it is seated correctly, and then placing the node inside avoids that extra step.
+The original project concept identified LoRa and Meshtastic as a possible approach because they can support small-message communications using comparatively little power.
 
-**Why antenna selection matters:** A LoRa node running without an antenna, or with an incorrectly matched antenna, transmits and receives at a fraction of its rated capability. In a mesh network, a node with poor antenna performance may not be able to reach other nodes in the network, rendering it ineffective as a relay. At this site, the goal is to create a node that can reach other H4H nodes in the surrounding area and potentially link to the regional Meshtastic mesh. Antenna selection is not a detail — it is a primary factor in whether the node serves its purpose.
+That concept remains worth testing.
 
-**Note on antenna placement inside versus outside the enclosure:** Some LoRa node builds use a small antenna inside the enclosure. This works at short ranges but significantly reduces performance for a node intended to serve as a community mesh relay. At this installation, the antenna should exit the enclosure through a weatherproof SMA bulkhead connector or a sealed antenna port so that the antenna is outside the enclosure and in clear air.
+The planning question, however, is not:
 
----
+> How do we install the LoRa node already selected?
 
-### Step 3: Prepare the weatherproof enclosure for the node
+The planning question is:
 
-**What to do:** Install a bulkhead SMA connector in the enclosure wall at the point where the antenna cable will exit. Seal around the bulkhead fitting with outdoor sealant. Install cable glands for any power cables entering the enclosure. Confirm the inside of the enclosure has mounting provisions for the node — standoffs, a DIN rail, or a mounting plate.
+> Does a low-bandwidth radio layer provide enough demonstrable resilience value at Mount Hope to justify its technical, governance, maintenance, and user-adoption requirements?
 
-**Why a bulkhead SMA connector rather than running the antenna cable through a gland:** An SMA antenna cable routed through a cable gland compresses the cable jacket but may not seal cleanly around the connector body. A bulkhead SMA connector mounted in the enclosure wall creates a sealed pass-through that the antenna screws onto directly on the outside, with the corresponding internal connector secured to the node. This is the standard practice for weatherproof enclosures housing antenna-connected devices.
-
-**Why not use the same enclosure as the main solar electronics:** The LoRa node and the main solar electronics (charge controller, fuse block, wiring terminals) serve different functions and have different maintenance access patterns. Placing them in the same enclosure means opening the solar electronics enclosure to service the communications node, which introduces unnecessary exposure risk to the wiring. Separate enclosures are the correct approach for this installation size.
-
-**What to check before moving on:** The bulkhead SMA connector is installed and sealed. Cable glands for power are in place. The inside of the enclosure has a solid mounting surface for the node.
+That question must be answered with evidence.
 
 ---
 
-### Step 4: Mount the node inside the enclosure
+# The Resilience Hypothesis
 
-**What to do:** Place the LoRa node inside the enclosure and secure it to the mounting surface using standoffs or the appropriate fasteners for the enclosure design. Connect the internal SMA cable from the node's antenna connector to the inside of the bulkhead SMA connector. Connect the power cable from the enclosure entry gland to the node's power input.
+The working hypothesis for Phase 8 is:
 
-**Powering the node:** The LoRa node requires 5V DC power. This can be provided by a USB power adapter connected to the solar system's AC output (if an inverter is used), by a dedicated 5V DC step-down converter connected to the 12V battery system, or by the node's onboard battery if it has one (the LILYGO T-Beam has an onboard 18650 battery slot). For a permanent outdoor installation, powering from the solar system is preferable to relying on the onboard battery, which has limited capacity.
+> A low-power communications system that does not depend on the public internet may provide a useful secondary communications path during some local connectivity disruptions.
 
-**Why the onboard battery is not sufficient alone:** The LILYGO T-Beam's onboard 18650 cell provides enough power for portable or temporary use — hours to a day of operation. For a permanent installation intended to provide backup communications during multi-day power outages, the node must be connected to the main solar battery system or its own dedicated solar kit with sufficient capacity to sustain operation through cloudy periods.
+That hypothesis contains several unresolved questions:
 
-**What to check before moving on:** The node is secured inside the enclosure, the antenna connection is made, and the power connection is made. The enclosure is not yet closed.
+* What specific problem would it solve?
+* Who would actually use it?
+* What devices would users need?
+* What range is achievable at the Mount Hope site?
+* Are other compatible nodes already reachable?
+* Does one node provide meaningful utility?
+* Is a second or third node necessary to test the idea?
+* What information should travel over the system?
+* What information should **not** travel over it?
+* How would privacy be handled?
+* Who would administer it?
+* How would firmware and configuration be maintained?
+* What happens when nodes become unavailable?
+* Does independent power materially improve resilience?
+* Does the benefit justify additional infrastructure?
 
----
-
-### Step 5: Install the small solar support kit if separate from the main system
-
-**What to do:** If the LoRa node is powered by its own dedicated small solar kit rather than the main solar system, install that kit now. A typical small solar kit for a LoRa node consists of a 10W to 30W panel, a small PWM or MPPT charge controller, and a small LiFePO4 battery (10Ah to 20Ah is typically sufficient for a LoRa node's power draw).
-
-Mount the panel on the same support frame as the main panel, oriented in the same direction (south-facing at the correct tilt angle). Wire the kit using the same principles applied in Phase 6: fuse between battery and controller, battery connected before panel, weatherproof enclosure for the charge controller and battery.
-
-**Why a separate small kit might be used instead of drawing from the main system:** Drawing the LoRa node's power from the main solar system simplifies the installation but creates a dependency. If the main solar system requires service or experiences a fault, the LoRa node loses power at the same time as the main equipment. A dedicated small kit for the node means the backup communications layer remains independent of the main system — which is the point of having a backup communications layer.
-
-**The tradeoff:** A separate kit adds cost, adds hardware to install and maintain, and adds complexity to the power architecture. At this pilot site, H4H should document which approach was used and whether the independent power architecture justified the additional complexity. That evaluation informs the decision at future sites.
-
----
-
-### Step 6: Mount the enclosure on the pole or structure
-
-**What to do:** Attach the node enclosure to the support pole or frame using pole clamps or mount straps. Position the enclosure so that:
-
-- The antenna, once connected on the outside, points upward or at a slight angle — vertical orientation is standard for omnidirectional LoRa antennas.
-- The enclosure door faces a direction that allows it to be opened without obstruction.
-- The enclosure is high enough off the ground that it is not subject to direct water splash from rainfall at the base.
-- The power cable entry is not facing upward.
-
-Tighten the pole clamps or straps firmly. Use stainless steel straps or clamps rather than galvanized, as the Appalachian humidity and rainfall will corrode galvanized hardware within a few seasons.
-
-**Why antenna vertical orientation:** LoRa antennas in omnidirectional configurations transmit and receive best when the antenna element is vertical. Tilting the antenna significantly reduces performance in one or more directions. At this site, the goal is to reach nodes in multiple directions — toward Mount Hope, toward other potential H4H sites in the region, and toward any community members who may have compatible handheld devices. Vertical orientation serves all of those directions equally.
-
-**What to check before moving on:** The enclosure is solidly mounted, the antenna is pointing upward or is in the correct orientation for the antenna type, and the enclosure door opens without obstruction.
+Phase 8 exists to answer those questions.
 
 ---
 
-### Step 7: Connect the external antenna, seal the enclosure, and close up
+# What LoRa and Meshtastic May Provide
 
-**What to do:** 
+LoRa is a low-power radio technology designed for relatively small data payloads over distances that can exceed conventional short-range wireless technologies under suitable conditions.
 
-1. Screw the external LoRa antenna onto the outside of the bulkhead SMA connector. Hand-tighten only.
-2. Verify all cable glands are tightened against their respective cable jackets.
-3. Apply outdoor sealant to any entry point that is not fully sealed by the gland.
-4. Close the enclosure door and confirm it latches.
-5. Apply a small amount of outdoor sealant around the bulkhead SMA fitting where it meets the enclosure wall, to reinforce the weather seal at that point.
+Meshtastic is one software ecosystem that can use compatible LoRa hardware to exchange low-bandwidth messages among participating devices.
 
-**Why the antenna is the last thing connected before closing:** The antenna connector is the most mechanically exposed part of this assembly. Connecting it last, after everything inside is secured, means there is no risk of bumping or stressing the connector during the installation of other components. Once the antenna is on and the enclosure is closed, the assembly is complete.
+For this project, such a system might potentially support:
 
-**What to check before moving on:** The enclosure is closed and latched. The antenna is secured and upright. All cable entry points are sealed. The power cable and any network cables exit the enclosure cleanly with no sharp bends at the gland.
+* short text messages;
+* node-status information;
+* limited location or position information where appropriate;
+* project test messages;
+* infrastructure-status signals;
+* volunteer coordination during controlled exercises;
+* or other narrowly defined low-bandwidth uses.
 
----
+It is **not** a substitute for ordinary broadband internet.
 
-### Step 8: Confirm physical security of the full assembly
+It should not be described as capable of providing:
 
-**What to do:** With all hardware installed and sealed, perform a final physical check:
+* general web browsing;
+* ordinary public Wi-Fi;
+* voice replacement;
+* 911 replacement;
+* guaranteed emergency communications;
+* public-safety radio interoperability;
+* or universal communications coverage.
 
-- Push and pull the enclosure. It should not move on the pole.
-- Push and pull the pole. It should not move in its mount or anchoring.
-- Pull lightly on the antenna. It should not rotate or pull away from the connector.
-- Pull lightly on the power cable at the enclosure entry. It should not move inside the gland.
-
-**Why this check:** A loose connection that is identified before Phase 10 testing can be tightened in seconds. A loose connection discovered after a failure — or not discovered at all until a field maintenance visit months later — requires a return trip and potential downtime of the backup communications system.
-
----
-
-## What a Correctly Completed Phase 8 Looks Like
-
-The LoRa node enclosure is mounted solidly on the support structure. The antenna is pointing upward, external to the enclosure, with no kinks in any coaxial cable between the node and the antenna. The enclosure is latched and sealed at all cable entry points. Power is connected to the node. The assembly does not shift when pushed. No wires hang freely from any connection point.
-
-At this point the node has not been powered on yet — that happens in Phase 10 as part of the full system test sequence.
+Those are materially different capabilities.
 
 ---
 
-## What Happens If This Phase Is Rushed or Skipped in Part
+# Experimental Resilience Layer vs. Emergency Communications
 
-**Antenna not pre-matched to frequency:** A LoRa node installed with a 2.4 GHz antenna (a common mismatch when antenna types are mixed up in a parts bin) operates at severely reduced range — sometimes less than 100 meters versus the 1–5 kilometer range the hardware is capable of. The node appears to be working because it powers on and transmits, but it cannot reach other nodes in the network. Diagnosing this requires RF testing equipment or a second node within short range for comparison.
+This distinction is central to Phase 8.
 
-**Firmware not pre-loaded:** A node installed without firmware will power on but transmit nothing useful. Discovering this during Phase 10 requires either flashing the device in the field (possible but slow and technically demanding) or removing the node, returning it to a desk environment for flashing, and reinstalling. This is a full return trip that could have been avoided by pre-configuring the device before the site visit.
+```text id="9jvpxx"
+experimental low-bandwidth node
+            ≠
+public emergency communications system
+```
 
-**Enclosure not sealed at the SMA bulkhead:** Moisture infiltration through the SMA bulkhead pass-through corrodes the connector over months. The corrosion increases resistance at the antenna connection, reducing transmitted power and received sensitivity. The failure is gradual and shows up as declining network range rather than a complete failure, making it harder to diagnose without physically inspecting the connection.
+A technically functioning node may establish that:
 
-**Node powered from onboard battery only:** A node relying only on the onboard 18650 battery will operate for hours to a day without sun. During extended overcast or winter conditions in West Virginia — where multiple consecutive cloudy days are common — the battery depletes and the backup communications layer goes offline exactly when it is most likely to be needed: during weather events.
+* two devices can exchange messages;
+* radio coverage exists between certain locations;
+* a node can operate without the internet;
+* solar or battery power can sustain it;
+* or a mesh path can be formed under certain conditions.
+
+That does **not** establish that:
+
+* residents possess compatible devices;
+* the public knows how to use the system;
+* messages will reach emergency responders;
+* the network will remain available during a disaster;
+* emergency agencies monitor the system;
+* the system satisfies public-safety requirements;
+* the network has sufficient geographic coverage;
+* or the project should be marketed as emergency infrastructure.
+
+Any future emergency-management role would require a separate institutional, operational, legal, technical, and partnership pathway.
 
 ---
 
-## What to Record When Phase 8 Is Complete
+# Phase 8 Decision Sequence
 
-Before moving to Phase 9, record and photograph the following:
+The correct sequence begins with the use case.
 
-- LoRa node model and serial number.
-- Meshtastic firmware version loaded on the node.
-- Node name and channel configuration.
-- Antenna model and frequency rating.
-- Photograph of the node inside the open enclosure before closing.
-- Photograph of the sealed and closed enclosure with antenna in place.
-- Photograph of the full assembly on the pole.
-- Power architecture used: main solar system tap or dedicated small solar kit.
-- Note of any deviation from the planned installation and the reason for it.
+```text id="gx7dao"
+define resilience problem
+        ↓
+identify intended users
+        ↓
+define permitted message types
+        ↓
+evaluate candidate technologies
+        ↓
+radio / regulatory / technical review
+        ↓
+bench test
+        ↓
+field propagation test
+        ↓
+does the approach provide useful value?
+        ↓
+     yes / no
+      ↓     ↓
+pilot       document
+design      finding
+      ↓
+approved hardware and configuration
+        ↓
+installation
+        ↓
+commissioning
+        ↓
+operating exercise
+        ↓
+evidence and evaluation
+```
+
+Hardware should follow this sequence.
+
+The sequence should not be reversed simply because inexpensive radio boards are available.
 
 ---
 
-## Carrying These Lessons Forward
+# Step 1: Define the Resilience Use Case
 
-At future sites, the core lessons from this phase are:
+Before selecting hardware, document the exact problem Phase 8 is intended to address.
 
-1. The LoRa node must be flashed and configured before the site visit. There is no field shortcut that is as reliable as desk preparation.
-2. Antenna type must match the node's operating frequency. Confirm this before the site visit, not during.
-3. The antenna belongs outside the enclosure for a mesh relay node. Internal antenna installations are for short-range applications.
-4. The node needs reliable power from the solar system, not just from an onboard battery, for a permanent installation.
-5. The backup communications layer is most valuable precisely when other systems are failing. Power architecture that makes the node independent of the main system preserves that value.
-6. Documenting firmware version and channel configuration at each site is the foundation for building a regional mesh over time. Without consistent records, the network cannot be managed as a network.
+Candidate use cases may include:
+
+* maintaining limited project-to-project communication during an upstream internet outage;
+* exchanging short messages among authorized pilot participants;
+* testing whether low-power nodes can maintain a communications path between defined locations;
+* sending infrastructure status information;
+* evaluating a community-controlled communications technology;
+* or demonstrating a technically independent communications layer.
+
+The pilot should identify **one or more explicit testable use cases**.
+
+For each use case, document:
+
+* intended sender;
+* intended recipient;
+* message type;
+* expected distance;
+* required availability;
+* expected frequency of use;
+* device required by each participant;
+* privacy considerations;
+* and what constitutes success.
+
+---
+
+# Step 2: Define Who Would Actually Use the System
+
+A communications network has little practical value if nobody expected to use it has access to compatible equipment or understands its purpose.
+
+Phase 8 should identify potential user categories such as:
+
+* Harmony for Hope project staff;
+* Community Champions;
+* technical testers;
+* facility personnel;
+* volunteers;
+* partner organizations;
+* or other specifically authorized pilot participants.
+
+A public-facing use case should not be assumed merely because the underlying technology can support multiple users.
+
+Document:
+
+* who is part of the pilot;
+* what device they would use;
+* whether they require training;
+* whether equipment is organization-owned or personally owned;
+* how access is granted;
+* and who supports users when the system does not work.
+
+---
+
+# Step 3: Define the Governance Boundary
+
+Before deploying a shared radio or mesh environment, establish what the network is for and what it is not for.
+
+The pilot should determine:
+
+* who administers the configuration;
+* who can add or authorize nodes;
+* who may participate;
+* what channel or logical network is used;
+* whether the network is private, shared, or public;
+* whether messages are encrypted by the selected system;
+* how keys or credentials are managed where applicable;
+* whether location information is enabled;
+* whether messages are logged;
+* how long any logs are retained;
+* and how an individual or device is removed from the pilot.
+
+The project should avoid collecting or transmitting sensitive information simply because the technology allows it.
+
+---
+
+# Step 4: Establish the Privacy Boundary
+
+Low-bandwidth radio systems can still create privacy implications.
+
+Depending on the selected system and configuration, information may include:
+
+* node identifiers;
+* message content;
+* location;
+* telemetry;
+* timestamps;
+* network relationships;
+* device information;
+* or other operational metadata.
+
+Before field use, determine:
+
+* which information is necessary;
+* what should remain disabled;
+* who can access message content;
+* whether location sharing is appropriate;
+* whether historical records are retained;
+* and what participants should be told before using the system.
+
+The controlling portfolio guidance is:
+
+[Privacy and Data Stewardship Statement](../../07_privacy/Privacy_and_Data_Stewardship.md)
+
+---
+
+# Step 5: Evaluate Candidate Technologies
+
+LoRa/Meshtastic remains a candidate architecture, but Phase 8 should not assume it is the only possible approach.
+
+Evaluation criteria should include:
+
+* independence from primary internet service;
+* power consumption;
+* achievable range;
+* terrain;
+* obstruction sensitivity;
+* equipment availability;
+* device cost;
+* maintainability;
+* firmware support;
+* security;
+* participant usability;
+* interoperability;
+* antenna requirements;
+* power requirements;
+* administrative complexity;
+* and long-term support.
+
+If Meshtastic is selected, the project should document **why it was selected**.
+
+If another architecture performs better for the defined use case, the project should be free to use that instead.
+
+---
+
+# Step 6: Complete Radio and Technical Review
+
+Before field deployment, the selected radio architecture should be reviewed against:
+
+* the operating region;
+* approved hardware;
+* radio configuration;
+* antenna compatibility;
+* output and equipment limits;
+* firmware settings;
+* manufacturer documentation;
+* site conditions;
+* and applicable regulatory requirements.
+
+This document intentionally does **not** establish a universal:
+
+* frequency configuration;
+* transmit-power setting;
+* channel setting;
+* antenna gain;
+* antenna type;
+* duty cycle;
+* modem preset;
+* or firmware configuration.
+
+Those values depend on the actual approved system.
+
+The final configuration should be documented in the technical record.
+
+---
+
+# Step 7: Bench-Test the Candidate Node
+
+Before permanent installation, assemble and test the candidate system in a controlled environment.
+
+The bench test should confirm, as applicable:
+
+* device boots normally;
+* firmware loads;
+* configuration is retained;
+* antenna system is appropriate;
+* power consumption is understood;
+* messages can be transmitted;
+* messages can be received;
+* intended security or encryption settings function;
+* administration works;
+* configuration can be backed up;
+* device can recover after power loss;
+* and firmware or configuration versions can be identified later.
+
+### Evidence record
+
+Capture:
+
+* manufacturer;
+* model;
+* serial number where appropriate;
+* firmware version;
+* configuration version;
+* antenna model;
+* test date;
+* power source;
+* and test result.
+
+Preconfiguration is useful.
+
+But the goal is **reproducibility**, not merely convenience.
+
+---
+
+# Step 8: Conduct a Controlled Field Propagation Test
+
+Before calling the Mount Hope installation a resilience node, test the actual radio path.
+
+Use at least two compatible test endpoints where necessary to establish communication behavior.
+
+Record:
+
+* test locations;
+* approximate distance;
+* terrain;
+* buildings or obstructions;
+* antenna arrangement;
+* weather if relevant;
+* hardware;
+* firmware;
+* configuration;
+* successful and failed messages;
+* observed link information made available by the system;
+* repeatability;
+* and areas where communication fails.
+
+Testing should answer:
+
+> What can this system actually reach from this site?
+
+It should not attempt to prove a desired range.
+
+---
+
+# Step 9: Evaluate Whether One Node Provides Meaningful Value
+
+A single installed device is not automatically a mesh.
+
+The project should determine whether:
+
+* another compatible node is already reachable;
+* a controlled second pilot node is required;
+* multiple nodes are necessary to evaluate routing;
+* existing community nodes are relevant;
+* or the installation is functioning only as an isolated radio endpoint.
+
+The repository should distinguish among:
+
+```text id="6afg2j"
+one configured node
+        ↓
+one reachable radio link
+        ↓
+multiple participating nodes
+        ↓
+demonstrated mesh routing
+        ↓
+operationally useful network
+```
+
+Those are different evidence stages.
+
+---
+
+# Step 10: Decide Whether Permanent Installation Is Justified
+
+After bench and field testing, determine whether permanent installation adds enough value to proceed.
+
+Possible decisions include:
+
+### Proceed
+
+Testing demonstrates enough utility to justify a permanent pilot node.
+
+### Modify
+
+The concept appears useful but requires:
+
+* a different location;
+* different antenna;
+* different power architecture;
+* another node;
+* different hardware;
+* or different configuration.
+
+### Continue as temporary research
+
+The technology is worth studying but permanent installation is premature.
+
+### Do not deploy
+
+Testing does not demonstrate sufficient value for the current Mount Hope scope.
+
+A decision not to install is still a valid pilot result.
+
+---
+
+# Step 11: Finalize the Approved Hardware
+
+If permanent installation proceeds, select the final hardware after testing.
+
+Candidate devices may include hardware from the general classes previously considered, such as:
+
+* LoRa-capable embedded devices;
+* Meshtastic-compatible hardware;
+* integrated outdoor nodes;
+* or another approved low-power radio platform.
+
+The final selection should account for:
+
+* radio compatibility;
+* environmental rating;
+* antenna interface;
+* power consumption;
+* battery support;
+* maintenance;
+* firmware support;
+* security;
+* supply availability;
+* price;
+* and long-term replacement.
+
+Previously named devices such as LILYGO or Heltec hardware may remain **planning references**, not mandatory procurement selections.
+
+---
+
+# Step 12: Finalize the Antenna System
+
+The antenna should be selected as part of the final radio design.
+
+The review should consider:
+
+* operating band;
+* equipment compatibility;
+* antenna gain;
+* polarization;
+* placement;
+* cable loss;
+* connector type;
+* weather protection;
+* mounting;
+* nearby structures;
+* height;
+* terrain;
+* and applicable technical requirements.
+
+The project should not assume that:
+
+* an external antenna is always required;
+* one antenna orientation is correct for every site;
+* maximum possible range is the correct objective;
+* or a particular connector arrangement is automatically appropriate.
+
+The proper configuration is the one that safely and lawfully meets the pilot use case.
+
+---
+
+# Step 13: Finalize the Power Architecture
+
+A resilience node requires a power strategy consistent with the resilience objective.
+
+Candidate approaches may include:
+
+* approved connection to the primary solar system;
+* independent solar and battery power;
+* building-supplied power with battery backup;
+* integrated device battery;
+* or another approved source.
+
+The design should evaluate:
+
+* actual measured load;
+* required runtime;
+* environmental conditions;
+* battery characteristics;
+* charging requirements;
+* winter performance;
+* maintenance;
+* overcurrent protection;
+* isolation;
+* and whether independence from the primary system provides meaningful additional resilience.
+
+This document intentionally does **not** prescribe:
+
+* a 10–30 W solar panel;
+* a 10–20 Ah battery;
+* a particular controller;
+* battery chemistry;
+* wiring sequence;
+* fuse rating;
+* or fixed power topology.
+
+Those decisions belong in the final power design and should remain consistent with the principles established in Phase 6.
+
+---
+
+# Step 14: Finalize the Outdoor Enclosure and Mount
+
+If the node is installed outdoors, the enclosure and mounting approach should account for:
+
+* precipitation;
+* condensation;
+* temperature;
+* UV exposure;
+* insects;
+* corrosion;
+* drainage;
+* antenna connection;
+* cable entry;
+* vandalism;
+* maintenance access;
+* mounting loads;
+* and equipment manufacturer requirements.
+
+Communications equipment should be physically separated from other systems where separation improves:
+
+* safety;
+* maintenance;
+* security;
+* or serviceability.
+
+However, this document does not prescribe one universal enclosure architecture.
+
+---
+
+# Step 15: Install the Approved Configuration
+
+Permanent installation should proceed only after:
+
+* use case approval;
+* technical review;
+* field testing;
+* hardware selection;
+* power design;
+* mounting design;
+* site permission;
+* and governance configuration are complete.
+
+Installation should follow:
+
+* approved plans;
+* manufacturer instructions;
+* final hardware configuration;
+* approved power architecture;
+* antenna design;
+* mounting requirements;
+* and site-specific constraints.
+
+Unapproved field substitutions should be documented and reviewed rather than improvised.
+
+---
+
+# Step 16: Commission the Node
+
+Commissioning should establish what the installed system actually does.
+
+Test, as applicable:
+
+* startup;
+* shutdown;
+* recovery after power loss;
+* message transmission;
+* message reception;
+* known-node communication;
+* routing behavior where multiple nodes are available;
+* power stability;
+* battery operation;
+* radio performance;
+* configuration retention;
+* administration;
+* and security settings.
+
+Commissioning should produce a repeatable test record.
+
+---
+
+# Step 17: Conduct a Controlled Resilience Exercise
+
+If the objective of Phase 8 is to test independence from ordinary internet service, that independence should be demonstrated.
+
+A controlled exercise may include:
+
+1. establish normal operation;
+2. confirm designated pilot devices can communicate;
+3. intentionally remove or isolate the primary internet dependency where technically appropriate;
+4. repeat the defined communications test;
+5. observe what still functions;
+6. restore normal service; and
+7. document results.
+
+The exercise should not interfere with unrelated public services.
+
+The result should answer:
+
+> What functionality remained available without the primary internet connection?
+
+That is much more useful than simply saying the node is “backup communications.”
+
+---
+
+# What a Completed Phase 8 Should Mean
+
+A correctly completed Phase 8 should mean that:
+
+* a resilience use case was defined;
+* intended users were identified;
+* governance and privacy boundaries were documented;
+* a candidate technology was evaluated;
+* appropriate technical and radio review occurred;
+* the system was bench-tested;
+* actual field propagation was measured;
+* permanent installation was justified by evidence;
+* final hardware and power architecture were documented;
+* the node was installed and commissioned;
+* independence from the primary internet path was tested where relevant;
+* limitations were documented;
+* and evidence exists showing exactly what the system can and cannot do.
+
+It should **not** mean merely that a LoRa board powers on.
+
+---
+
+# Evidence Classification
+
+Phase 8 should preserve the distinction among:
+
+| Evidence                                | What It Demonstrates                                                               |
+| --------------------------------------- | ---------------------------------------------------------------------------------- |
+| Device purchased                        | Hardware exists                                                                    |
+| Firmware installed                      | Device software was prepared                                                       |
+| Bench test passed                       | Device worked in controlled testing                                                |
+| Two devices exchanged a message         | A radio link was demonstrated                                                      |
+| Multiple nodes exchanged routed traffic | Mesh behavior was demonstrated under those conditions                              |
+| Internet-independent test passed        | Defined functions operated without the primary internet path                       |
+| Controlled exercise completed           | The pilot behavior was tested under a defined scenario                             |
+| Long-term field record                  | Reliability evidence exists over time                                              |
+| Partner agreement                       | Institutional role exists within the actual agreement                              |
+| Public-safety integration               | Requires separate evidence and should never be inferred from ordinary mesh testing |
+
+---
+
+# Do Not Overstate Coverage
+
+Radio range varies substantially with:
+
+* terrain;
+* antenna;
+* height;
+* obstructions;
+* configuration;
+* interference;
+* hardware;
+* weather;
+* and receiving-node conditions.
+
+The repository should therefore avoid statements such as:
+
+> This node covers several miles.
+
+unless actual testing demonstrates the supported area under documented conditions.
+
+A better evidence statement is:
+
+> During the Mount Hope test on [date], configuration [X] successfully exchanged messages between [documented locations].
+
+That is reproducible evidence.
+
+---
+
+# Do Not Overstate Community Availability
+
+A node may technically be reachable while still offering little practical public benefit.
+
+Practical use depends on:
+
+* compatible devices;
+* participant awareness;
+* training;
+* configuration;
+* governance;
+* power;
+* network availability;
+* and operational support.
+
+The project should therefore distinguish between:
+
+```text id="nmbwce"
+radio signal exists
+        ≠
+community communications capability
+```
+
+---
+
+# Do Not Overstate Emergency Capability
+
+The pilot should use terms such as:
+
+* resilience experiment;
+* low-bandwidth communications layer;
+* backup communications research;
+* independent communications path;
+* mesh-network test;
+* or radio resilience pilot
+
+unless stronger claims are later supported.
+
+Avoid representing the Mount Hope node as:
+
+* emergency communications infrastructure;
+* disaster-response communications;
+* public-safety communications;
+* 911 backup;
+* first-responder communications;
+* or guaranteed communications during emergencies
+
+without the additional evidence and partnerships required for those claims.
+
+---
+
+# Risk and Learning Categories
+
+## Radio-range risk
+
+The actual range may be substantially different from theoretical expectations.
+
+**Learning objective:** Map what the installed configuration actually reaches.
+
+---
+
+## Network-density risk
+
+A mesh requires useful participating nodes.
+
+**Learning objective:** Determine whether the Mount Hope environment has enough nodes or test endpoints to demonstrate meaningful mesh behavior.
+
+---
+
+## Power-dependency risk
+
+A supposed backup layer may depend on the same power system as the primary infrastructure.
+
+**Learning objective:** Determine whether power independence materially improves resilience.
+
+---
+
+## User-adoption risk
+
+Compatible devices may not be widely available among intended participants.
+
+**Learning objective:** Determine who can realistically use the system.
+
+---
+
+## Governance risk
+
+A loosely governed shared communications environment can create confusion about:
+
+* ownership;
+* administration;
+* privacy;
+* responsibility;
+* and appropriate use.
+
+**Learning objective:** Establish a clear operating boundary before broadening participation.
+
+---
+
+## Security risk
+
+Firmware, configuration, administrative access, credentials, and message protection require ongoing management.
+
+**Learning objective:** Determine whether H4H can sustainably maintain the selected architecture.
+
+---
+
+## Environmental risk
+
+Outdoor equipment may be affected by:
+
+* water;
+* temperature;
+* battery limitations;
+* corrosion;
+* UV exposure;
+* antenna damage;
+* wildlife;
+* and physical movement.
+
+**Learning objective:** Track actual field performance rather than assuming outdoor reliability.
+
+---
+
+# What to Record When Phase 8 Is Complete
+
+## Use-case record
+
+Document:
+
+* resilience problem being tested;
+* intended participants;
+* allowed use;
+* prohibited or unsupported use;
+* and defined success criteria.
+
+---
+
+## Hardware record
+
+Record:
+
+* manufacturer;
+* model;
+* serial number where appropriate;
+* radio hardware;
+* antenna;
+* enclosure;
+* power system;
+* installation date;
+* and responsible maintainer.
+
+---
+
+## Software and configuration record
+
+Maintain:
+
+* firmware version;
+* configuration version;
+* logical node identifier;
+* relevant radio configuration;
+* security configuration;
+* update method;
+* backup configuration;
+* and administrator.
+
+Sensitive keys or credentials should not be committed to the public repository.
+
+---
+
+## Bench-test record
+
+Document:
+
+* date;
+* devices tested;
+* test messages;
+* startup behavior;
+* recovery behavior;
+* configuration persistence;
+* and test result.
+
+---
+
+## Propagation-test record
+
+Document:
+
+* locations;
+* approximate distances;
+* terrain;
+* obstructions;
+* hardware;
+* antenna arrangement;
+* successful exchanges;
+* failed exchanges;
+* and repeatability.
+
+---
+
+## Installation record
+
+Capture:
+
+* approved installation location;
+* node placement;
+* enclosure;
+* antenna placement;
+* power architecture;
+* photographs appropriate for release;
+* and deviations.
+
+Security-sensitive infrastructure details may remain internal.
+
+---
+
+## Commissioning record
+
+Document:
+
+* commissioning date;
+* defined tests;
+* result;
+* participating nodes;
+* internet-dependent functions;
+* internet-independent functions;
+* faults;
+* corrections;
+* and final pilot status.
+
+---
+
+# Mount Hope Pilot Learning Questions
+
+After sufficient testing, Phase 8 should be able to answer:
+
+* What resilience problem were we actually trying to solve?
+* Did LoRa/Meshtastic prove suitable?
+* What alternatives were considered?
+* What range was actually demonstrated?
+* Which locations were reachable?
+* Which were not?
+* Did terrain matter?
+* Did buildings matter?
+* Did antenna placement materially change performance?
+* Was one node useful?
+* How many nodes were needed to demonstrate actual mesh behavior?
+* Did the system work when the primary internet connection was unavailable?
+* How long could the node operate from its selected power source?
+* Did independent power materially improve resilience?
+* Who actually used the system?
+* Did participants understand it?
+* Was configuration maintenance manageable?
+* Were updates manageable?
+* Did privacy settings prove adequate?
+* Did any security concerns appear?
+* What did the system cost to install and maintain?
+* What should be standardized?
+* What should remain site-specific?
+* Does the resilience value justify replication?
+
+Those answers should determine whether the architecture moves forward.
+
+---
+
+# Relationship to the Mount Hope First Phase
+
+Phase 8 is part of the **Mount Hope evidence-building process**.
+
+Its purpose is not to prove that Harmony for Hope already operates a regional communications mesh.
+
+Its purpose is to test whether a governed, independent, low-bandwidth layer has enough real utility to become part of the broader model.
+
+The evidence sequence is:
+
+```text id="7q0f8k"
+hypothesis
+    ↓
+bench test
+    ↓
+field test
+    ↓
+installation decision
+    ↓
+commissioning
+    ↓
+resilience exercise
+    ↓
+operating evidence
+    ↓
+replication decision
+```
+
+That sequence is consistent with the portfolio's larger principle:
+
+> proposed capability does not become demonstrated capability merely because hardware exists.
+
+---
+
+# Relationship to Future Sites
+
+If Mount Hope produces useful evidence, the results may inform later deployments.
+
+A future site should still evaluate:
+
+* use case;
+* terrain;
+* distance;
+* local participants;
+* available nodes;
+* institutional partners;
+* power;
+* governance;
+* privacy;
+* security;
+* and actual field performance.
+
+Mount Hope's configuration should not simply be copied.
+
+---
+
+# Thurmond Boundary
+
+Thurmond remains a **future federal-phase implementation opportunity**.
+
+Any future radio or mesh deployment at Thurmond would require its own:
+
+* defined federal project purpose;
+* funding;
+* National Park Service review;
+* site-specific authorization;
+* preservation and cultural-resource review where applicable;
+* technical and radio review;
+* equipment approval;
+* privacy and information-governance review;
+* cybersecurity review;
+* power design;
+* antenna and mounting review;
+* operating responsibility;
+* and final agreements.
+
+A successful Mount Hope experiment may provide useful evidence for those discussions.
+
+It does not authorize a Thurmond deployment.
+
+---
+
+## Phase 8 Completion Boundary
+
+Phase 8 should be considered complete only when the proposed Mount Hope resilience layer has been:
+
+```text id="ke6dcs"
+defined
+    ↓
+evaluated
+    ↓
+tested
+    ↓
+reviewed
+    ↓
+installed if justified
+    ↓
+commissioned
+    ↓
+exercised
+    ↓
+documented
+```
+
+A configured node is not a mesh.
+
+A mesh is not automatically a community communications system.
+
+A community communications system is not automatically emergency infrastructure.
+
+The purpose of Phase 8 is to determine, with evidence, **what resilience value this technology actually provides**.
+
+---
+
+*Harmony for Hope, Inc. — New River Gorge Safety & Heritage Mesh Pilot*
+*Phase 8 | Mount Hope Resilient Low-Bandwidth Communications Planning Guide*
