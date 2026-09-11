@@ -106,14 +106,17 @@ That standing disclosure includes, without limitation:
 
 * the executed Master Services Agreement;
 * executed SOW-000;
-* proposed or future SOWs, including SOW-001 if it is presented for approval;
+* executed SOW-001;
+* proposed, amended, successor, or future SOWs involving Ms. Kidd or KTS;
 * FA-001 or successor fee or compensation instruments, if applicable;
 * licensing arrangements involving H4H and Kidd's Technical Services;
 * Board action involving founder-side or KTS-side capitalization instruments where H4H interests are implicated;
 * related-party payments, reimbursements, or expense approvals; and
 * any future Treasury Reserve or Annual Regulatory Compliance Budget line item that directly benefits or relates to KTS, if such structures become operative.
 
-**SOW-001 is presently maintained as a draft for Board and counsel review and is not represented as executed or effective.** Its inclusion in this standing disclosure identifies it as a potential future related-party matter requiring review; it does not constitute Board approval or execution.
+**SOW-001 is an executed Statement of Work under the executed Master Services Agreement.** Its execution does not eliminate the continuing application of this Policy to amendments, compensation decisions, reimbursements, payments, licenses, successor work authorizations, or other related-party actions arising under or related to SOW-001.
+
+Execution of an agreement or SOW establishes the status of that governing instrument. It does not by itself establish that every later payment, reimbursement, amendment, expenditure, or related-party transaction has separately satisfied the disclosure, recusal, and disinterested-review requirements applicable to that later action.
 
 This standing disclosure does not relieve Ms. Kidd of the obligation to make transaction-level disclosure when a specific related-party matter is presented for consideration.
 
@@ -366,9 +369,11 @@ Specifically:
 
 * **The Master Services Agreement** is separately maintained as an executed agreement.
 * **SOW-000** is separately maintained as an executed Statement of Work.
-* **SOW-001** is presently a draft for Board and counsel review and is not represented as executed or effective.
+* **SOW-001** is separately maintained as an executed Statement of Work.
 * **FA-001, FTIS-001, Founder Capital Instrument Agreement, and other related instruments** retain the independent status shown in their own controlling records.
 * **Future MountainShares DAO/DUNA or Treasury Reserve governance documents** become authoritative only upon their own lawful adoption, formation, authorization, or execution as applicable.
+
+The executed status of the Master Services Agreement, SOW-000, and SOW-001 does not cause any separate future agreement, amendment, expenditure, reimbursement, licensing action, or governance instrument to become approved merely by association.
 
 References from another document to this Policy do not alter that other document's independent legal or governance status.
 
@@ -409,10 +414,10 @@ The standing disclosure in §3.3 applies subject to the transaction-level disclo
 
 ## Changelog
 
-| Version                         | Date               | Summary                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.0                             | June 19, 2026      | **Initial adopted version.** Established H4H conflict-of-interest, disclosure, recusal, disinterested-review, related-party documentation, standing disclosure, transaction-log, annual-review, and prospective DAO/DUNA mirror provisions.                                                                                                                    |
-| Public-reference reconciliation | September 11, 2026 | Clarified the policy's adopted status; removed stale pre-adoption language; distinguished executed MSA and SOW-000 from draft SOW-001; clarified that DAO/DUNA, Treasury Reserve, ARCB, and related later-phase provisions are prospective unless separately established; and replaced blank public adoption signatures with a public-reference adoption note. |
+| Version                         | Date               | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0                             | June 19, 2026      | **Initial adopted version.** Established H4H conflict-of-interest, disclosure, recusal, disinterested-review, related-party documentation, standing disclosure, transaction-log, annual-review, and prospective DAO/DUNA mirror provisions.                                                                                                                                                                                                                                                                                                                                                     |
+| Public-reference reconciliation | September 11, 2026 | Clarified the policy's adopted status; removed stale pre-adoption language; aligned the public record with the executed Master Services Agreement, executed SOW-000, and executed SOW-001; clarified that execution of those instruments does not itself authorize later related-party payments, amendments, reimbursements, expenditures, or other actions; clarified that DAO/DUNA, Treasury Reserve, ARCB, and related later-phase provisions remain prospective unless separately established; and retained the public-reference adoption record in place of reproduced private signatures. |
 
 ---
 
