@@ -1,12 +1,15 @@
-> **Public reference copy:** This Markdown document is provided for transparency and readability. The executed, signed agreement is retained in the parties’ records. If a discrepancy exists, the executed agreement controls.
+> **Public reference copy of executed agreement:** This Markdown document is provided for transparency, readability, and public portfolio review. The executed, signed Master Services Agreement is retained in the parties' official records. If any discrepancy exists between this public reference copy and the executed agreement, the executed agreement controls. Signature blocks in this Markdown copy are intentionally left blank; signatures appear on the privately retained executed original.
 
 # Master Services Agreement
 
-## Harmony for Hope, Inc.  
+## Harmony for Hope, Inc.
+
 ### Carrie Ann Kidd d/b/a Kidd’s Technical Services
 
-**Version:** 1.0  
-**Date:** July 6, 2025  
+**Version:** 1.0
+**Date:** July 6, 2025
+**Status:** Public reference copy of executed agreement
+**Controlling Record:** Executed and signed original retained in the parties' official records
 **Related Documents:** Statement of Work — SOW-000, Statement of Work — SOW-001, Founder Capital Instrument Agreement, FTIS-001 Founder's Technical Investment Statement, Architecture and Licensing, MountainShares DAO Governance Charter, MountainShares Terms and Conditions
 
 ---
@@ -35,15 +38,15 @@ This Agreement governs the overall relationship between the parties. Specific wo
 
 Each SOW may define, as applicable:
 
-- services to be performed,
-- timelines and milestones,
-- deliverables,
-- acceptance criteria,
-- compensation terms,
-- expense treatment,
-- data responsibilities,
-- support obligations,
-- and project-specific legal or operational requirements.
+* services to be performed,
+* timelines and milestones,
+* deliverables,
+* acceptance criteria,
+* compensation terms,
+* expense treatment,
+* data responsibilities,
+* support obligations,
+* and project-specific legal or operational requirements.
 
 If an SOW conflicts with this Agreement, the SOW controls only for the specific subject matter expressly addressed in that SOW. In all other respects, this Agreement controls.
 
@@ -53,16 +56,16 @@ If an SOW conflicts with this Agreement, the SOW controls only for the specific 
 
 Contractor may provide services including, without limitation:
 
-- software architecture and engineering,
-- systems administration,
-- database and geospatial infrastructure design,
-- data integration and ETL work,
-- AI and reasoning-system development,
-- documentation and technical writing,
-- deployment and maintenance of community systems,
-- product and interface design,
-- grant-related technical implementation support,
-- and strategic technical advisory services.
+* software architecture and engineering,
+* systems administration,
+* database and geospatial infrastructure design,
+* data integration and ETL work,
+* AI and reasoning-system development,
+* documentation and technical writing,
+* deployment and maintenance of community systems,
+* product and interface design,
+* grant-related technical implementation support,
+* and strategic technical advisory services.
 
 Services may support H4H charitable operations, MountainShares program infrastructure, the MountainShares Commons, partner integrations, and other H4H-approved projects described in applicable SOWs.
 
@@ -78,11 +81,11 @@ Compensation shall be defined in the applicable SOW or written amendment.
 
 Compensation may include one or more of the following, as expressly approved in writing:
 
-- cash fees,
-- deferred payment obligations,
-- charitable in-kind contribution recognition,
-- reimbursable expenses,
-- or other lawful compensation structures consistent with H4H’s nonprofit status.
+* cash fees,
+* deferred payment obligations,
+* charitable in-kind contribution recognition,
+* reimbursable expenses,
+* or other lawful compensation structures consistent with H4H’s nonprofit status.
 
 ### 5.2 No Equity Through H4H
 
@@ -106,25 +109,25 @@ Each SOW shall specify the deliverables, if any, required for that project.
 
 Deliverables may include:
 
-- software,
-- configurations,
-- infrastructure setups,
-- APIs,
-- documentation,
-- schemas,
-- geospatial data products,
-- dashboards,
-- deployment scripts,
-- operational procedures,
-- or strategic plans.
+* software,
+* configurations,
+* infrastructure setups,
+* APIs,
+* documentation,
+* schemas,
+* geospatial data products,
+* dashboards,
+* deployment scripts,
+* operational procedures,
+* or strategic plans.
 
 Acceptance procedures, testing standards, revision windows, and operational support periods may be set forth in the applicable SOW.
 
 Unless otherwise specified in an SOW, H4H shall review submitted deliverables within a commercially reasonable period and either:
 
-- accept the deliverable,
-- identify reasonable requested revisions,
-- or provide written notice that the deliverable materially fails to satisfy the applicable SOW.
+* accept the deliverable,
+* identify reasonable requested revisions,
+* or provide written notice that the deliverable materially fails to satisfy the applicable SOW.
 
 ---
 
@@ -160,10 +163,10 @@ Contractor may receive access to systems, records, accounts, data, facilities, a
 
 Contractor shall:
 
-- use such access only for authorized project purposes,
-- protect confidential and sensitive information,
-- follow reasonable security procedures provided by H4H,
-- and return or securely destroy H4H-controlled materials upon request or termination, subject to retention obligations and backup practices.
+* use such access only for authorized project purposes,
+* protect confidential and sensitive information,
+* follow reasonable security procedures provided by H4H,
+* and return or securely destroy H4H-controlled materials upon request or termination, subject to retention obligations and backup practices.
 
 Where services involve participant data, community information, or systems touching benefits-sensitive use cases, the parties shall follow any applicable privacy, security, and governance policies adopted by H4H or the MountainShares Commons.
 
@@ -175,10 +178,10 @@ Contractor is an independent contractor and not an employee, partner, joint vent
 
 Contractor is solely responsible for:
 
-- taxes arising from payments made under this Agreement,
-- business registrations and filings applicable to Contractor,
-- insurance maintained by Contractor unless otherwise agreed,
-- and employment obligations with respect to any assistants, subcontractors, or workers engaged by Contractor.
+* taxes arising from payments made under this Agreement,
+* business registrations and filings applicable to Contractor,
+* insurance maintained by Contractor unless otherwise agreed,
+* and employment obligations with respect to any assistants, subcontractors, or workers engaged by Contractor.
 
 Nothing in this Agreement shall be construed to create a partnership, joint venture, or equity relationship between the parties.
 
@@ -190,9 +193,9 @@ The parties acknowledge that Carrie Ann Kidd may serve in roles related to H4H, 
 
 Accordingly:
 
-- any related-party transaction under this Agreement shall be subject to documented conflict-of-interest and recusal procedures,
-- H4H board or committee approvals shall be obtained where required,
-- and Carrie Ann Kidd shall abstain from approval decisions where fiduciary duty, nonprofit rules, or policy require recusal.
+* any related-party transaction under this Agreement shall be subject to documented conflict-of-interest and recusal procedures,
+* H4H board or committee approvals shall be obtained where required,
+* and Carrie Ann Kidd shall abstain from approval decisions where fiduciary duty, nonprofit rules, or policy require recusal.
 
 The parties further acknowledge that related-party compliance is a material term of this Agreement.
 
@@ -202,14 +205,14 @@ The parties further acknowledge that related-party compliance is a material term
 
 Contractor represents and warrants that:
 
-- Contractor has the authority to enter into this Agreement in an individual capacity,
-- Contractor will perform the services in a professional and lawful manner,
-- and Contractor will not knowingly infringe third-party intellectual property in materials specifically created and delivered under an SOW, except to the extent H4H directs use of third-party materials or systems.
+* Contractor has the authority to enter into this Agreement in an individual capacity,
+* Contractor will perform the services in a professional and lawful manner,
+* and Contractor will not knowingly infringe third-party intellectual property in materials specifically created and delivered under an SOW, except to the extent H4H directs use of third-party materials or systems.
 
 H4H represents and warrants that:
 
-- H4H has authority to enter into this Agreement,
-- and H4H will use the services and deliverables in accordance with applicable law and the governing terms of its programs.
+* H4H has authority to enter into this Agreement,
+* and H4H will use the services and deliverables in accordance with applicable law and the governing terms of its programs.
 
 Except as expressly stated in this Agreement, no additional warranties are made, and services may involve experimental, developmental, or evolving technical systems.
 
@@ -221,17 +224,17 @@ Each party may receive confidential or proprietary information from the other in
 
 Each party agrees to:
 
-- use confidential information only for purposes of performing or administering this Agreement,
-- protect such information using reasonable care,
-- not disclose such information except to those with a need to know and appropriate confidentiality obligations,
-- and comply with lawful disclosure requirements where applicable.
+* use confidential information only for purposes of performing or administering this Agreement,
+* protect such information using reasonable care,
+* not disclose such information except to those with a need to know and appropriate confidentiality obligations,
+* and comply with lawful disclosure requirements where applicable.
 
 Confidential information does not include information that:
 
-- is or becomes public without breach,
-- was already lawfully known,
-- is independently developed without misuse,
-- or is lawfully received from a third party without confidentiality restriction.
+* is or becomes public without breach,
+* was already lawfully known,
+* is independently developed without misuse,
+* or is lawfully received from a third party without confidentiality restriction.
 
 ---
 
@@ -241,17 +244,17 @@ This Agreement begins on the Effective Date and remains in force until terminate
 
 Either party may terminate this Agreement:
 
-- for convenience upon written notice,
-- for material breach if the breach is not cured within the specified notice period,
-- or immediately where continued performance would create legal, fiduciary, safety, or regulatory risk.
+* for convenience upon written notice,
+* for material breach if the breach is not cured within the specified notice period,
+* or immediately where continued performance would create legal, fiduciary, safety, or regulatory risk.
 
 Termination of this Agreement does not automatically terminate any rights or obligations that by their nature survive termination, including:
 
-- payment obligations accrued before termination,
-- confidentiality,
-- intellectual property provisions,
-- dispute provisions,
-- and any SOW-specific survival terms.
+* payment obligations accrued before termination,
+* confidentiality,
+* intellectual property provisions,
+* dispute provisions,
+* and any SOW-specific survival terms.
 
 Any active SOW may be completed, wound down, or separately terminated as provided in the SOW or by written agreement.
 
@@ -263,10 +266,10 @@ Contractor may not assign this Agreement without H4H’s prior written consent, 
 
 Any such assignment or novation shall:
 
-- expressly identify the successor entity,
-- confirm assumption of obligations,
-- preserve H4H’s rights against pre-assignment performance unless otherwise agreed,
-- and maintain all conflict-of-interest and nonprofit compliance safeguards.
+* expressly identify the successor entity,
+* confirm assumption of obligations,
+* preserve H4H’s rights against pre-assignment performance unless otherwise agreed,
+* and maintain all conflict-of-interest and nonprofit compliance safeguards.
 
 Until such formal assignment occurs, all Contractor obligations remain personal to Carrie Ann Kidd.
 
@@ -294,29 +297,33 @@ If a dispute is not resolved informally, the parties may pursue mediation, equit
 
 ## 17. General Provisions
 
-- This Agreement constitutes the master understanding between the parties regarding the subject matter addressed herein and supersedes prior inconsistent oral understandings on that subject.
-- Amendments must be in writing and signed by both parties.
-- Failure to enforce any provision is not a waiver of future enforcement.
-- If any provision is held unenforceable, the remaining provisions remain in effect to the maximum extent permitted by law.
-- Headings are for convenience only and do not control interpretation.
+* This Agreement constitutes the master understanding between the parties regarding the subject matter addressed herein and supersedes prior inconsistent oral understandings on that subject.
+* Amendments must be in writing and signed by both parties.
+* Failure to enforce any provision is not a waiver of future enforcement.
+* If any provision is held unenforceable, the remaining provisions remain in effect to the maximum extent permitted by law.
+* Headings are for convenience only and do not control interpretation.
 
 ---
 
-**Signature Blocks**
+## Public Reference Signature Note
 
-**HARMONY FOR HOPE, INC.**  
-By: __________________________  
-Name: ________________________  
-Title: _________________________  
+The executed agreement contains the signatures of the parties and is retained in their official records.
+
+The signature fields below are intentionally left blank in this public Markdown reference copy so that the repository does not reproduce the parties' signatures.
+
+**HARMONY FOR HOPE, INC.**
+By: __________________________
+Name: ________________________
+Title: _________________________
 Date: __________________
 
-**CONTRACTOR**  
-Carrie Ann Kidd  
-d/b/a Kidd’s Technical Services  
+**CONTRACTOR**
+Carrie Ann Kidd
+d/b/a Kidd’s Technical Services
 Date: __________________
 
 ---
 
-*Master Services Agreement*  
-*Harmony for Hope, Inc. and Carrie Ann Kidd d/b/a Kidd’s Technical Services*  
-*Draft — Not legal, tax, securities, or benefits advice*
+*Master Services Agreement*
+*Harmony for Hope, Inc. and Carrie Ann Kidd d/b/a Kidd’s Technical Services*
+*Public reference copy — executed and signed agreement retained in the parties' official records*
