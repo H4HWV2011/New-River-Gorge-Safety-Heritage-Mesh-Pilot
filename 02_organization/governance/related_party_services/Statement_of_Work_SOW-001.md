@@ -1,4 +1,4 @@
-> **Draft public review copy:** This Statement of Work has not been represented as executed or effective. It is maintained in the public portfolio for transparency, governance review, and development of the H4H–Kidd's Technical Services service framework. The executed Master Services Agreement between the parties governs the master relationship; this SOW becomes operative only if approved and signed in accordance with its terms. If an executed SOW-001 is later adopted, the executed version will control over this draft public copy.
+> **Public reference copy of executed Statement of Work:** This Markdown document is provided for transparency, readability, and public portfolio review. The executed, signed SOW-001 is retained in the parties' official records. If any discrepancy exists between this public reference copy and the executed Statement of Work, the executed Statement of Work controls. Signature blocks in this Markdown copy are intentionally left blank; signatures appear on the privately retained executed original.
 
 # Statement of Work — SOW-001
 
@@ -8,9 +8,10 @@
 
 **SOW Number:** SOW-001
 **Version:** 1.1
-**Original Draft Date:** July 6, 2025
+**Original Date:** July 6, 2025
 **Amended:** June 19, 2026
-**Status:** Draft — For Board and Counsel Review; not yet represented as executed
+**Status:** Public reference copy of executed Statement of Work
+**Controlling Record:** Executed and signed original retained in the parties' official records
 **Master Agreement:** Executed Master Services Agreement between Harmony for Hope, Inc. and Carrie Ann Kidd d/b/a Kidd's Technical Services
 **Project Phase:** Phase 0 / Early Operational Deployment and Support
 
@@ -18,19 +19,19 @@
 
 ## 1. Parties
 
-This proposed Statement of Work (**SOW-001**) is between **Harmony for Hope, Inc.** (**H4H**) and **Carrie Ann Kidd**, an individual doing business as **Kidd's Technical Services** (**Contractor**), under the Master Services Agreement between the parties.
+This Statement of Work (**SOW-001**) is entered into by and between **Harmony for Hope, Inc.** (**H4H**) and **Carrie Ann Kidd**, an individual doing business as **Kidd's Technical Services** (**Contractor**), under the Master Services Agreement between the parties.
 
-SOW-001 does not become an operative work authorization merely because it appears in this public repository. It becomes effective only if approved and signed as provided in Section 12.
+SOW-001 is an executed work authorization under the Master Services Agreement.
 
-The parties acknowledge that, as of the date reflected in this draft, Kidd's Technical Services is not yet a separately formed legal entity. Unless and until a written assignment or novation is executed after lawful entity formation, services authorized under this SOW would be performed by Carrie Ann Kidd personally.
+The parties acknowledge that, as of the date reflected in this SOW, Kidd's Technical Services is not yet a separately formed legal entity. Unless and until a written assignment or novation is executed after lawful entity formation, services under this SOW are performed by Carrie Ann Kidd personally.
 
 ---
 
 ## 2. Purpose
 
-The purpose of this SOW is to define the operational, technical, maintenance, deployment, and support services contemplated for the transition from initial system buildout into active early-stage program operations for H4H and MountainShares-related systems.
+The purpose of this SOW is to define the operational, technical, maintenance, deployment, and support services required to move from initial system buildout into active early-stage program operations for H4H and MountainShares-related systems.
 
-This SOW is intended to cover the next layer of work after foundational setup, including:
+This SOW covers the next layer of work after foundational setup, including:
 
 * stabilization of deployed infrastructure;
 * ongoing software and data operations;
@@ -40,13 +41,13 @@ This SOW is intended to cover the next layer of work after foundational setup, i
 
 This SOW does not create founder equity, participant equity, DAO equity, or any ownership right in H4H, the MountainShares Commons, or resident account systems.
 
-Nothing in this draft should be interpreted as establishing that every contemplated service, system, operating function, or later organizational structure has been approved, activated, funded, or deployed.
+Execution of this SOW authorizes the relationship and scope described herein subject to its terms. It does not establish that every possible service, system function, future organizational structure, expenditure, deployment, or public-facing capability described within the broader program has independently been activated, funded, approved, or completed.
 
 ---
 
 ## 3. Scope of Services
 
-If approved and executed, Contractor may provide ongoing professional services that include, as authorized:
+Contractor may provide ongoing professional services under this SOW that include, as authorized:
 
 * production and near-production systems support;
 * software maintenance and iterative improvement;
@@ -56,12 +57,12 @@ If approved and executed, Contractor may provide ongoing professional services t
 * issue remediation and troubleshooting;
 * documentation maintenance;
 * partner and stakeholder technical support;
-* implementation assistance for approved H4H programs and demonstrations; and
+* implementation assistance for H4H programs and demonstrations; and
 * planning support for lawful transition into later operating phases.
 
 Services under this SOW may include scheduled and as-needed work reasonably necessary to keep authorized early systems functional, secure, documented, and aligned with H4H's nonprofit mission and program needs.
 
-The existence of a possible service within this scope does not itself authorize expenditure, deployment, public activation, or work outside the approvals and controls applicable to that service.
+The inclusion of a service within the authorized scope does not eliminate any separate funding, procurement, site, safety, privacy, technical, regulatory, or governance requirement applicable to the particular work.
 
 ---
 
@@ -114,13 +115,25 @@ This may include updates to inventories, service descriptions, operating procedu
 
 Where separately approved, Contractor may support systems operating from or associated with H4H's physical operations at **704 Main Street, Mount Hope, West Virginia**, including server and network-related functions authorized by H4H.
 
-This provision does not itself authorize installation of the New River Gorge Safety & Heritage Mesh Pilot or any other physical public-access infrastructure. Site-specific project implementation remains subject to the applicable project scope, funding, technical review, permissions, governance, procurement, and implementation controls.
+This provision does not itself authorize installation of the New River Gorge Safety & Heritage Mesh Pilot or any other physical public-access infrastructure.
+
+Site-specific project implementation remains subject to applicable:
+
+* funding;
+* project scope;
+* procurement;
+* site permissions;
+* technical review;
+* safety requirements;
+* privacy and governance controls;
+* installation requirements; and
+* commissioning and evidence procedures.
 
 ---
 
 ## 5. Deliverables
 
-Deliverables under an executed SOW-001 may include, as applicable:
+Deliverables under SOW-001 may include, as applicable:
 
 * functioning and maintained service environments;
 * updated software and configuration deployments;
@@ -129,11 +142,11 @@ Deliverables under an executed SOW-001 may include, as applicable:
 * geospatial and data-service updates;
 * operational support logs;
 * partner-ready demonstration environments; and
-* implementation materials reasonably related to authorized services.
+* implementation materials reasonably related to the services.
 
-Because this SOW addresses operational support and iterative deployment, deliverables may be recurring, rolling, or milestone-based rather than one-time final deliverables.
+Because this SOW covers operational support and iterative deployment, deliverables may be recurring, rolling, or milestone-based rather than one-time final deliverables.
 
-Where needed, the parties may document additional milestone deliverables through written work updates, schedules, or amendments incorporated into an executed SOW.
+Where needed, the parties may document additional milestone deliverables through written work updates, schedules, amendments, or other records incorporated into or authorized under this SOW.
 
 ---
 
@@ -141,13 +154,15 @@ Where needed, the parties may document additional milestone deliverables through
 
 ### 6.1 Compensation Framework
 
-Compensation under SOW-001, if executed, shall be governed by the Master Services Agreement and any approved fee schedules, amendments, Board actions, or other controlling documents applicable to the work.
+Compensation under SOW-001 shall be governed by the Master Services Agreement and any approved fee schedules, amendments, Board actions, reimbursement authorizations, or other controlling documents applicable to the work.
 
-No payment, reimbursement, deferred obligation, in-kind treatment, or other compensation should be inferred merely from inclusion of this draft in the public repository.
+Execution of this SOW does not by itself establish that every service performed under it generates a cash payment, reimbursement, deferred obligation, or other financial liability.
+
+Actual financial treatment depends on the applicable approved compensation, contribution, reimbursement, or accounting record.
 
 ### 6.2 Separation of Charitable and Private Value
 
-The parties contemplate that work associated with the broader technical program may require clear separation between:
+Work associated with the broader technical program may require clear separation between:
 
 * charitable in-kind technical contribution to H4H; and
 * separate private founder-capital or deferred commercial value documented outside H4H.
@@ -162,13 +177,13 @@ Any founder-capital, deferred equity, appreciation-based right, or private KTS-s
 
 ### 6.4 Reimbursements and Cash Fees
 
-Any cash fees, reimbursements, expense treatment, or later fee changes must be documented and approved through the applicable written agreement, amendment, schedule, Board process, or other controlling authorization.
+Cash fees, reimbursements, expense treatment, or later fee changes shall be documented and approved through the applicable written agreement, amendment, schedule, Board process, invoice, reimbursement record, or other controlling authorization.
 
 ---
 
 ## 7. Operational Standards
 
-Contractor shall perform any services authorized under an executed SOW in a professional and workmanlike manner consistent with the standard of care ordinarily exercised by similarly situated technical professionals.
+Contractor shall perform services authorized under this SOW in a professional and workmanlike manner consistent with the standard of care ordinarily exercised by similarly situated technical professionals.
 
 In carrying out authorized services, Contractor shall use reasonable efforts to ensure that systems are:
 
@@ -188,7 +203,7 @@ Developmental or experimental status does not eliminate requirements for testing
 
 Contractor retains all background intellectual property, including ALLIS, GBIM, related proprietary models, technical frameworks, commercial system elements, and pre-existing materials, except where expressly transferred in a separate signed writing.
 
-Use by H4H of Contractor-controlled proprietary systems under an executed SOW may occur under interim project-use rights and/or separate license arrangements where applicable.
+Use by H4H of Contractor-controlled proprietary systems under this SOW may occur under interim project-use rights and/or separate license arrangements where applicable.
 
 This SOW does not transfer ownership of ALLIS, GBIM, or related proprietary assets to H4H, the Commons, or any participant class.
 
@@ -198,7 +213,7 @@ Any broader licensing relationship involving H4H, the MountainShares Commons, th
 
 ## 9. Data, Security, and Access
 
-Contractor may access systems, records, credentials, and data reasonably necessary to perform services actually authorized under this SOW.
+Contractor may access systems, records, credentials, and data reasonably necessary to perform services authorized under this SOW.
 
 Contractor shall:
 
@@ -214,9 +229,9 @@ Where systems touch participant-facing features, personal information, benefits-
 
 ## 10. Related-Party Review and Recusal
 
-Because Carrie Ann Kidd may hold roles on both sides of the H4H–Contractor relationship, approvals, amendments, expense actions, reimbursements, compensation decisions, and other related-party decisions under SOW-001 are subject to the applicable H4H conflict-of-interest and recusal process.
+Because Carrie Ann Kidd holds roles on both sides of the H4H–Contractor relationship, approvals, amendments, expense actions, reimbursements, compensation decisions, and other related-party decisions arising under SOW-001 are subject to H4H's adopted Conflict-of-Interest and Recusal Policy and other applicable nonprofit-governance requirements.
 
-Where required by law, policy, fiduciary duty, grant requirements, or nonprofit governance practice:
+Where required:
 
 * Carrie Ann Kidd shall disclose the conflict;
 * Carrie Ann Kidd shall abstain from the applicable approval decision;
@@ -224,52 +239,66 @@ Where required by law, policy, fiduciary duty, grant requirements, or nonprofit 
 * the basis for approval, rejection, or modification shall be documented; and
 * records sufficient for later governance, audit, funder, or legal review shall be maintained.
 
-These procedures are a material condition of any executed SOW-001.
-
-The presence of SOW-001 in this repository does not itself establish that Board review, counsel review, recusal, or execution has been completed.
+Execution of SOW-001 does not eliminate the need for transaction-level disclosure, recusal, disinterested review, or separate approval when those procedures apply to a later payment, amendment, reimbursement, compensation decision, licensing arrangement, or other related-party action.
 
 ---
 
 ## 11. Alignment with MountainShares Structure
 
-The parties acknowledge the following structural principles relevant to the services contemplated by this SOW:
+The parties acknowledge the following structural principles relevant to the services described in this SOW:
 
 * H4H is the charitable anchor and sponsor.
 * The MountainShares Commons is a developing community-governance and participation framework.
-* Community EMS and M$ are contemplated closed-loop community instruments that confer no equity, ownership, membership interest, or profit-sharing interest in H4H, the DUNA, KTS, or any entity; the securities-law treatment of community EMS remains subject to appropriate legal review, and this document makes no representation as to whether it is or is not a security.
+* Community EMS and M$ are contemplated closed-loop community instruments that confer no equity, ownership, membership interest, or profit-sharing interest in H4H, the DUNA, KTS, or any entity; securities-law treatment of community EMS remains subject to appropriate legal review, and this document makes no representation as to whether it is or is not a security.
 * Any appreciating founder instrument belongs, if at all, on the KTS or founder-private side under separate documentation.
 * The founder's role with respect to the Commons is steward, not owner.
 * Any future DUNA, KTS entity formation, Treasury Reserve, transition-cost mechanism, or related later-phase structure requires its own applicable governance, legal, financial, and implementation authorization.
 
-Nothing in this SOW shall be interpreted to activate, fund, authorize, or establish any future governance or financial structure merely because that structure is referenced here.
+Nothing in this SOW shall be interpreted to activate, fund, authorize, or establish a future governance or financial structure merely because that structure is referenced here.
 
 ---
 
 ## 12. Term and Effectiveness
 
-This SOW becomes effective only when approved and signed by both parties in accordance with applicable H4H governance and related-party requirements.
+SOW-001 became effective upon approval and execution by the parties in accordance with the Master Services Agreement and applicable H4H governance and related-party requirements.
 
-Until that occurs:
+Execution establishes SOW-001 as an operative Statement of Work.
 
-```text id="01rncp"
-draft
-    ≠
+It does **not** mean that every possible activity contemplated by its scope has automatically been:
+
+* funded;
+* purchased;
+* deployed;
+* activated;
+* approved for public use;
+* commissioned;
+* or demonstrated as operational.
+
+For status purposes:
+
+```text
 executed SOW
+    =
+authorized contractual scope
 
-Board review
+executed SOW
     ≠
-Board approval
+automatic expenditure
 
-counsel review
+executed SOW
     ≠
-execution
+automatic deployment
 
-execution
+executed SOW
     ≠
-automatic authorization of every possible service
+automatic public activation
+
+executed SOW
+    ≠
+proof of completed implementation
 ```
 
-If executed, SOW-001 remains in effect until:
+SOW-001 remains in effect until:
 
 * the described work is completed;
 * it is superseded by a later SOW or amendment;
@@ -282,7 +311,7 @@ Material scope changes should be documented through written updates, addenda, am
 
 ## 13. Transition to Future Entity Structure
 
-If Kidd's Technical Services is later formed as a separate legal entity, the parties may assign, novate, or replace an executed SOW-001 by written agreement.
+If Kidd's Technical Services is later formed as a separate legal entity, the parties may assign, novate, or replace SOW-001 by written agreement.
 
 Any such transition must:
 
@@ -291,15 +320,15 @@ Any such transition must:
 * maintain conflict-of-interest and nonprofit compliance safeguards; and
 * avoid implying that a separate legal entity existed prior to formal formation.
 
-Until such written transition occurs, obligations under any executed SOW-001 remain personal to Carrie Ann Kidd.
+Until such written transition occurs, obligations under SOW-001 remain personal to Carrie Ann Kidd.
 
 ---
 
-## Draft Signature Blocks
+## Public Reference Signature Note
 
-The fields below are retained to show the contemplated form of execution.
+The executed SOW-001 contains the signatures of the parties and is retained in their official records.
 
-They are blank because this public version is presently maintained as a **draft for Board and counsel review** and is not represented as an executed SOW.
+The signature fields below are intentionally left blank in this public Markdown reference copy so that the repository does not reproduce the parties' signatures.
 
 **HARMONY FOR HOPE, INC.**
 By: __________________________
@@ -314,19 +343,19 @@ Date: __________________
 
 ---
 
-### Changelog
+## Changelog
 
-| Version                         | Date               | Summary                                                                                                                                                                                                                                                                   |
-| ------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.0                             | July 6, 2025       | Initial draft                                                                                                                                                                                                                                                             |
-| 1.1                             | June 19, 2026      | **Amendment A:** Removed the prior “non-appreciating community instruments and not equity” characterization from §11 and replaced it with a no-equity disclaimer plus a statement that securities-law treatment remained under legal review.                              |
-| Public-reference reconciliation | September 11, 2026 | Clarified that SOW-001 remains a draft for Board and counsel review; distinguished the executed Master Services Agreement from this unexecuted SOW; clarified approval, related-party, execution, and public-record boundaries without representing SOW-001 as effective. |
+| Version                         | Date               | Summary                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0                             | July 6, 2025       | Initial version.                                                                                                                                                                                                                                                                                                                                            |
+| 1.1                             | June 19, 2026      | **Amendment A:** Removed the prior “non-appreciating community instruments and not equity” characterization from §11 and replaced it with a no-equity disclaimer plus a statement that securities-law treatment remained under legal review.                                                                                                                |
+| Public-reference reconciliation | September 11, 2026 | Corrected the public Markdown status to reflect that SOW-001 is executed; removed stale draft/not-executed language; clarified that the privately retained signed original controls; preserved the distinction between execution of contractual scope and separate authorization, funding, deployment, commissioning, or evidence of individual activities. |
 
 ---
 
 *Statement of Work — SOW-001*
 *Under Executed Master Services Agreement*
-*Draft — For Board and Counsel Review; not represented as executed*
+*Public reference copy — executed and signed Statement of Work retained in the parties' official records*
 
 ---
 
