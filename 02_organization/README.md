@@ -18,7 +18,7 @@ The materials in this section are intended to help reviewers understand:
 
 ## Organization Section
 
-```text id="znax41"
+```text
 02_organization/
 ├── README.md
 ├── governance/
@@ -82,13 +82,29 @@ The policy establishes a governance framework for:
 
 ### Current Policy Status
 
-The Conflict-of-Interest and Recusal Policy is currently identified as:
+The Conflict-of-Interest and Recusal Policy is an **adopted governance policy of Harmony for Hope, Inc.**
 
-> **Draft — For Board Adoption and Counsel Review**
+The public Markdown document is maintained as a reference copy for transparency, due diligence, grant review, and portfolio use.
 
-It is included in this repository to document Harmony for Hope's governance-readiness work and intended safeguards.
+The controlling Board adoption record, including applicable minutes, certifications, signatures, and related governance records, is retained separately in Harmony for Hope's official organizational files.
 
-It will not be represented as a formally adopted Board policy until adoption is completed and documented in the organization's official governance records.
+The public policy therefore should not be interpreted as a draft merely because private Board signatures or minutes are not reproduced in the repository.
+
+For status purposes:
+
+```text
+adopted policy
+    =
+operative H4H governance framework
+
+public Markdown copy
+    =
+reference copy
+
+public Markdown copy
+    ≠
+replacement for Board minutes or signed governance records
+```
 
 ---
 
@@ -106,6 +122,43 @@ Current documents include:
 * [Statement of Work SOW-000](governance/related_party_services/Statement_of_Work_SOW-000.md)
 * [Statement of Work SOW-001](governance/related_party_services/Statement_of_Work_SOW-001.md)
 
+### Current Related-Party Agreement Status
+
+The current public governance record reflects:
+
+```text
+Master Services Agreement
+    =
+executed
+
+SOW-000
+    =
+executed
+
+SOW-001
+    =
+executed
+
+Conflict-of-Interest and Recusal Policy
+    =
+adopted
+```
+
+The public Markdown copies of the Master Services Agreement, SOW-000, and SOW-001 are maintained for transparency, readability, and portfolio review.
+
+The executed and signed originals are retained separately in the parties' official records and control if any discrepancy exists between an executed record and a public reference copy.
+
+Execution of a Master Services Agreement or Statement of Work establishes the governing contractual relationship and authorized service scope described by that instrument.
+
+It does **not**, by itself, establish that:
+
+* every contemplated service has been performed;
+* every expenditure has been approved;
+* every reimbursement or payment has been authorized;
+* every system or program component has been deployed;
+* every future amendment has been approved;
+* or every later related-party transaction has separately completed the applicable disclosure, recusal, and disinterested-review process.
+
 These materials are included because transparency around related-party relationships is important to:
 
 * charitable governance;
@@ -116,10 +169,6 @@ These materials are included because transparency around related-party relations
 * accurate public representation of organizational and technical roles.
 
 Harmony for Hope does not treat the existence of a related-party relationship as removing the need for disclosure, recusal, disinterested review, documentation, reasonable terms, or compliance with applicable grant and nonprofit requirements.
-
-The public Markdown copies are maintained for transparency and portfolio review.
-
-Where an executed agreement, signed statement of work, Board action, or other controlling organizational record exists, that underlying executed record controls over a public explanatory copy.
 
 ---
 
@@ -145,7 +194,7 @@ It documents the evolution of work that includes:
 
 The program-history section is intended to help reviewers distinguish between:
 
-```text id="lrsgax"
+```text
 organizational history
         ≠
 current grant funding
@@ -171,7 +220,8 @@ Harmony for Hope's governance approach is guided by the following principles:
 * **Documentation:** Material governance, contracting, conflict, and related-party actions should be recorded.
 * **Reasonable terms:** Related-party arrangements should serve the organization's charitable interests and be reasonable for the services provided.
 * **Public benefit:** Governance decisions should protect Harmony for Hope's charitable purpose and 501(c)(3) obligations.
-* **Accurate status:** Draft policies, proposed agreements, executed documents, Board actions, and working portfolio copies should not be represented as equivalent.
+* **Accurate status:** Draft policies, proposed agreements, executed documents, adopted policies, Board actions, and working portfolio copies should not be represented as equivalent.
+* **Record control:** Executed agreements and officially adopted governance records control over explanatory or public reference copies where a discrepancy exists.
 * **Periodic review:** Governance procedures should develop as the organization's programs, funding, partnerships, and operational responsibilities grow.
 
 ---
@@ -199,15 +249,20 @@ Its responsibilities may include:
 
 Kidd's Technical Services is the developer/operator associated with ALLIS and related technical services.
 
-Any paid technical work performed for Harmony for Hope is subject to the applicable:
+Technical services performed for Harmony for Hope are governed by the applicable executed agreements, Statements of Work, governance procedures, and other controlling records.
+
+Any paid technical work performed for Harmony for Hope remains subject to the applicable:
 
 * services agreement;
 * statement of work;
 * conflict-of-interest process;
-* Board review;
+* Board review or other required disinterested approval;
 * funding restrictions;
-* procurement expectations; and
+* procurement expectations;
+* compensation or reimbursement authorization; and
 * documentation requirements.
+
+Execution of a service agreement does not substitute for later transaction-specific approval where such approval is required.
 
 ### Board of Directors
 
@@ -257,6 +312,7 @@ They do not replace:
 * official Board minutes;
 * executed resolutions;
 * original signed agreements;
+* adopted-policy records;
 * official IRS records;
 * corporate filings;
 * accounting records;
@@ -265,7 +321,43 @@ They do not replace:
 
 Where a public portfolio copy differs from an executed or officially adopted record, the controlling organizational record governs.
 
-Draft materials are identified as drafts and should not be represented as formally adopted or executed until the appropriate action has occurred.
+Public repository status should follow the underlying controlling record.
+
+Accordingly:
+
+```text
+draft
+    ≠
+adopted
+
+proposed
+    ≠
+approved
+
+unsigned public reference copy
+    ≠
+unexecuted controlling record
+
+executed agreement
+    ≠
+completed performance
+
+authorized scope
+    ≠
+authorized payment
+
+adopted policy
+    ≠
+automatic approval of a related-party transaction
+```
+
+Draft materials should be identified as drafts.
+
+Executed agreements should be represented as executed when supported by the controlling record.
+
+Adopted policies should be represented as adopted when supported by the controlling governance record.
+
+Public reference copies should not be mistaken for replacements for private signed originals, Board minutes, resolutions, certifications, or other official organizational records.
 
 ---
 
