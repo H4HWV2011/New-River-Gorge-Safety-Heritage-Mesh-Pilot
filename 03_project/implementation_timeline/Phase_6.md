@@ -1,226 +1,985 @@
-# Phase 6: Install Solar and Outdoor Support Hardware
-## Field Learning Guide — Mount Hope Walking Trail Pilot Site
+# Phase 6: Solar and Outdoor Support Hardware
+
+## Field Planning and Learning Guide — Mount Hope Pilot
+
+---
+
+## Document Status
+
+**Status:** Working implementation-planning document
+**Current site:** Mount Hope, West Virginia
+**Project phase:** Proposed first-phase implementation
+**Purpose:** Pre-installation planning, qualified technical review, commissioning framework, and evidence capture
+
+This document does **not** constitute:
+
+* an engineered electrical design;
+* construction drawings;
+* an electrical permit;
+* a code determination;
+* manufacturer-approved installation instructions;
+* authority to install equipment;
+* approval of a final equipment package; or
+* authorization for unqualified personnel to perform electrical work.
+
+Final equipment selection, structural attachment, conductor sizing, overcurrent protection, grounding and bonding, disconnects, battery protection, solar configuration, enclosure design, and commissioning procedures must be determined from the **actual site conditions, final equipment, manufacturer instructions, applicable codes and permitting requirements, and qualified technical or electrical review**.
+
+Where this document conflicts with an approved design, applicable code, permit condition, manufacturer instruction, or qualified professional determination, the controlling requirement governs.
 
 ---
 
 ## What This Document Is For
 
-This document expands on Phase 6 of the installation workflow. It explains not just what to do, but why each step is done in the order it is done, what can go wrong if the order is skipped, and what a correctly completed phase looks like when the crew is finished. Because this is a pilot site, this document is also intended to serve as a learning record so that H4H and future crews can apply these lessons to future installations without repeating avoidable mistakes.
+Phase 6 addresses the proposed **solar-power and outdoor support layer** associated with the Mount Hope heritage and connectivity implementation.
+
+The original purpose of this phase remains important: the first deployment should produce not only infrastructure, but a **learning record**.
+
+The project should be able to document:
+
+* what power architecture was ultimately selected;
+* why it was selected;
+* what site conditions affected the design;
+* what technical review occurred;
+* what equipment was approved;
+* what changed during implementation;
+* what commissioning showed;
+* what failed or required adjustment; and
+* what should be carried forward — or avoided — at later sites.
+
+Because Mount Hope is intended to be the first implementation environment, the documentation created here may become more valuable than any specific brand or component selected during planning.
+
+The objective is therefore not:
+
+> install this exact equipment exactly this way.
+
+The objective is:
+
+> establish, review, install, test, and document a safe and supportable outdoor power system appropriate to the final Mount Hope configuration.
 
 ---
 
-## What Phase 6 Covers
+# What Phase 6 Covers
 
-Phase 6 installs the power infrastructure that the entire outdoor network depends on. Every device mounted outside the building — the kiosk hotspot, the LoRa backup node, and any outdoor Starlink receive point — needs power to function. That power comes from the solar system installed in this phase. If the solar system is incomplete, incorrectly wired, or inadequately protected, every device downstream of it will either fail or be at risk.
+Phase 6 concerns the proposed power and support infrastructure needed for approved outdoor project components.
 
-The equipment installed in this phase:
+Depending on final scope, those components may include:
 
-- 200W solar panel (Rich Solar MEGA 200 or equivalent)
-- Adjustable aluminum mounting brackets for the panel
-- Pole or support frame for the panel and associated hardware
-- 20A MPPT solar charge controller
-- 12V 100Ah LiFePO4 battery in a Group 24–31 battery box
-- Fuse block or DC bus bar for electrical protection
-- DC wiring connecting all components
-- Weatherproof electronics enclosure for the controller and wiring
-- Grounding hardware if required by site conditions
+* a public-information or connectivity point;
+* approved outdoor network equipment;
+* a low-power communications component;
+* approved heritage or visitor-information hardware;
+* monitoring equipment;
+* an enclosure containing supporting electronics; or
+* another device included in the final funded design.
 
----
+The final system may use solar power, building-supplied power, another approved power source, or a combination of approaches.
 
-## The Step Sequence and the Reason for Each Step
-
-### Step 1: Mount the support frame or pole
-
-**What to do:** Set the pole or support frame in its confirmed location. Secure it fully before attaching any hardware to it. If the frame uses ground stakes or anchors, drive them to the depth required for the soil conditions at this site. If it attaches to an existing structure, confirm the attachment point is rated for the combined weight and wind load of the panel plus any additional hardware.
-
-**Why first:** Everything else mounts to this frame. If the frame is not solid, every bracket, enclosure, and panel mounted to it is at risk of movement, tipping, or failure. Discovering that the frame is insufficient after the panel and enclosure are already attached means unloading and reloading everything to fix the base. Getting the base right first costs five minutes. Fixing it after everything is loaded costs an hour.
-
-**What to check before moving on:** Push and pull the frame in all directions. It should not move. If it moves, it is not ready.
-
-**Lesson for future sites:** Soil conditions at this site are specific to this location. At other sites in the region, soil composition may be different — clay, rock, loose fill. The depth and anchor type required may change. Document the anchor method used here and note whether it held without adjustment. That record helps future crews make faster decisions at new sites.
+The current planning concept includes a possible solar-and-battery configuration, but the repository should not treat that preliminary package as final engineering.
 
 ---
 
-### Step 2: Install the panel mounting brackets
+## Preliminary Planning Basis
 
-**What to do:** Attach the adjustable aluminum tilt brackets to the support frame. Set the tilt angle to approximately 37–40 degrees, which is close to the latitude of Fayette County, West Virginia. This angle maximizes average annual solar production. Tighten all fasteners.
+The working project materials have considered components in the general range of:
 
-**Why before the panel:** Brackets must be in their final adjusted position before the panel is attached. Trying to adjust bracket angle with the panel already on the bracket adds weight, torque stress, and the risk of dropping the panel. Adjust first, then load.
+* approximately 200 W of solar capacity;
+* an adjustable solar mounting system;
+* a support pole, frame, or other approved mounting structure;
+* an MPPT solar charge controller;
+* approximately 12 V / 100 Ah of battery storage;
+* weather-resistant electrical protection;
+* overcurrent and disconnect protection;
+* outdoor-rated conductors and cable management;
+* a weather-resistant electronics enclosure; and
+* grounding, bonding, or surge-protection components where required by the final design.
 
-**Why this tilt angle:** Solar panels produce the most power over the course of a year when they face due south and are tilted at an angle roughly equal to the local latitude. At approximately 38 degrees latitude, a 37–40 degree tilt is a practical target. The difference between optimal and a few degrees off is small in daily output terms. The difference between a fixed tilt and a panel laid flat or near-vertical is significant. Get it close to the target. Exact precision is not required.
+These are **planning assumptions**, not procurement specifications.
 
-**What to check before moving on:** Verify the brackets are at the same angle on both sides. Uneven brackets cause the panel to rack and stress the frame. Confirm all bracket fasteners are tight enough that the bracket does not shift when pushed.
+Specific products or capacities may change because of:
 
-**Lesson for future sites:** If a future site is shaded during part of the day — by a building, trees, or terrain — the optimal tilt angle may differ from latitude, and panel placement becomes more important than angle. Note the shading conditions at this site for comparison. At this location, note the direction the panel faces and whether any seasonal shadows affect it.
-
----
-
-### Step 3: Mount the solar panel to the brackets
-
-**What to do:** Lift the panel into position on the brackets. Attach it using the hardware specified for the bracket type. Do not overtighten fasteners against the panel frame — the panel frame is aluminum and will deform under excessive force. Snug and firm is correct. Crank and strip is damage.
-
-**Why at this stage:** The panel is the heaviest single component in this phase. Mounting it after the brackets are set and confirmed means the crew is handling the panel once, in a controlled environment, rather than repositioning it multiple times.
-
-**What to check before moving on:** The panel should be solidly on the brackets with no rocking or shifting. Verify that the panel cable (the pigtail that comes from the back of the panel) is accessible and not pinched against the bracket or the frame.
-
-**Why the cable matters now:** The panel cable needs a clear path to the charge controller inside the enclosure. If the cable is pinched or routed in a direction that creates a sharp bend, it can fail from abrasion or fatigue over time. Route the cable loosely along the frame with enough slack that wind movement does not stress the connection point.
-
-**Safety note during this step:** A solar panel in daylight is generating voltage as soon as it is uncovered. Do not touch the bare cable connectors with bare hands while the cable is exposed. Keep the panel covered with an opaque material — a piece of cardboard, a moving blanket, or the panel's original packaging — until the cable is safely connected to the charge controller. This is not optional. This is how panels are handled in field conditions.
-
-**Lesson for future sites:** Panel handling in the field is a two-person job. One person holds the panel in position; the other drives the fasteners. A panel dropped on uneven ground or against a mounting pole is damaged and must be replaced. Do not rush this step.
-
----
-
-### Step 4: Install the weatherproof electronics enclosure
-
-**What to do:** Mount the weatherproof enclosure to the support frame or to the structure designated for it. The enclosure will house the charge controller, the fuse block, and the DC wiring terminals. Mount it with the cable entry ports facing down or to the side, never up. Confirm the enclosure door opens fully without obstruction so the charge controller can be accessed after installation.
-
-**Why at this stage:** The enclosure must be mounted and its position confirmed before any wiring is run, because the wire lengths are determined by the distance between the panel, the battery, and the enclosure. Running wires before the enclosure is in its final location may result in wires that are too short or excessively long.
-
-**Why the entry port direction matters:** Enclosures with cable entry ports facing up collect water at the entry point. Water follows the wire into the enclosure over time, even with cable glands installed. Ports facing down or sideways allow any water that reaches the entry point to drain away rather than pool. At this site specifically, Appalachian precipitation patterns include heavy rain, ice, and driven precipitation. Plan accordingly.
-
-**What to check before moving on:** The enclosure is mounted solidly, the door opens fully, and the proposed cable entry points are accessible from the direction the wires will come from.
-
-**Lesson for future sites:** Enclosure placement is often treated as a secondary decision. At this site, establish the habit of treating it as a primary decision. Where the enclosure goes determines where every wire goes. Getting that right first makes the wiring phase faster and cleaner.
+* final electrical load calculations;
+* required runtime;
+* seasonal solar availability;
+* shading;
+* battery operating-temperature limits;
+* site exposure;
+* wind loading;
+* equipment availability;
+* interoperability;
+* communications architecture;
+* code requirements;
+* accessibility;
+* security;
+* maintenance needs;
+* warranty requirements;
+* cost;
+* grant restrictions; or
+* qualified technical recommendations.
 
 ---
 
-### Step 5: Install the charge controller inside the enclosure
+# Phase 6 Decision Sequence
 
-**What to do:** Mount the MPPT charge controller inside the enclosure on the mounting surface provided. Most MPPT controllers are designed for DIN rail or direct screw mounting. Follow the controller's mounting instructions. Confirm there is clearance above and below the controller for any required ventilation — MPPT controllers generate heat during charging and need airflow even inside an enclosure.
+The correct sequence for this phase begins with **review**, not installation.
 
-**Why before wiring:** The controller must be in its final position before any wires are run to it, for the same reason as the enclosure — wire length is determined by the distance between the endpoints. Mounting the controller first establishes that endpoint.
+```text
+confirmed project scope
+        ↓
+site assessment
+        ↓
+load and power requirements
+        ↓
+preliminary system design
+        ↓
+structural / electrical / technical review
+        ↓
+required permissions or permits
+        ↓
+final equipment selection
+        ↓
+approved installation plan
+        ↓
+qualified installation
+        ↓
+commissioning and testing
+        ↓
+evidence capture
+        ↓
+lessons learned
+```
 
-**What to check before moving on:** The controller is secure, the display or indicator lights are visible with the door open, and the terminal blocks are accessible for wiring.
-
-**Why the display matters:** The charge controller's display is the primary diagnostic tool for the solar system. If a problem occurs after installation — the battery not charging, the system showing low voltage, an overload fault — the crew or a technician will need to read the display to understand what is happening. If the display is inaccessible with the enclosure closed, or obscured by other hardware, diagnosing problems becomes significantly harder. Mount the controller so its display is readable with the enclosure door open and at eye level if possible.
-
-**Lesson for future sites:** At this pilot site, note the specific MPPT controller model used and document what each indicator light and display reading means. That documentation does not exist in a form H4H can use unless the crew captures it here.
-
----
-
-### Step 6: Install the battery in its battery box
-
-**What to do:** Place the 12V 100Ah LiFePO4 battery into the NOCO BG31 or equivalent battery box. Secure the box lid or strap according to the battery box instructions. Position the battery box in its designated location — typically at the base of the support frame or in a secure outdoor location adjacent to it. Confirm the battery terminals are accessible for wiring.
-
-**Why the battery goes in the box before wiring:** A battery outside its box is an exposed electrical hazard. The terminals of a 12V 100Ah battery can deliver enough current to cause severe burns, start fires, and damage tools if a wrench or other metal object bridges the positive and negative terminals. The battery box is not decoration — it is protection. The battery does not come out of its box once it is in, except for service.
-
-**Why LiFePO4 specifically:** LiFePO4 chemistry is more stable, longer-lived, and safer than lead-acid or standard lithium alternatives in outdoor applications. It handles partial states of charge without damage, which is important in a solar application where the battery may not reach full charge every day. It also handles cold temperatures better than lead-acid. For a location in Fayette County that will see winter temperatures below freezing, LiFePO4 is the correct chemistry.
-
-**What to check before moving on:** The battery is in the box, the box is secure, and the terminals are accessible. Do not connect any wires yet.
-
-**Why not connect yet:** Fuses are not installed yet. Connecting wires to an unfused battery creates a direct short-circuit path through any wiring error. The next step installs the fuse protection that makes it safe to complete the circuit.
-
-**Lesson for future sites:** Document the battery model, serial number, and installation date here at this pilot site. LiFePO4 batteries have a cycle life that should be tracked. Knowing when the battery was installed and what conditions it has operated in helps H4H plan for eventual replacement before the battery fails unexpectedly.
-
----
-
-### Step 7: Install the fuse block or DC bus bar
-
-**What to do:** Mount the fuse block or bus bar inside the weatherproof enclosure. Connect the positive wire from the battery to the input of the fuse block first. Do not connect the panel or any loads until the fuse block is in place and the fuse or breaker is rated correctly for the system.
-
-**Fuse sizing for this system:** The charge controller in this build is rated at 20A. The fuse between the battery and the controller should be sized at or slightly above the controller's maximum current rating — in this case, a 25A or 30A fuse is appropriate. Do not use a fuse significantly larger than the rated current, as an oversized fuse defeats the purpose of fuse protection.
-
-**Why the fuse goes in before any connections are completed:** A fuse between the battery and the rest of the system is the only thing that stops a wiring fault from becoming a fire. If a wire is incorrectly connected, abraded through to a metal surface, or accidentally shorted during a future maintenance visit, the fuse opens the circuit before current can build up to the level that causes heat, melting, or ignition. Without a fuse, the battery will deliver as much current as the fault demands until something burns.
-
-**What to check before moving on:** The fuse block is mounted, the fuse is correctly rated, and the connection from the battery positive terminal to the fuse block input is made. Nothing else is connected yet.
-
-**Lesson for future sites:** Fuse sizing is a calculation, not a guess. For any future site, document the panel wattage, the controller rating, and the load current draw. The fuse should protect the wiring, not the equipment. Size the fuse to the lowest-rated wire in the circuit, not to the equipment.
+No planning document should be used to bypass those steps.
 
 ---
 
-### Step 8: Run and connect the DC wiring
+# Step 1: Confirm the Actual Outdoor Load
 
-**What to do:** Run all DC wiring between the panel, the charge controller, the fuse block, and the battery. Follow this connection sequence:
+Before designing the solar system, confirm what the system is expected to power.
 
-1. Connect the solar panel cable to the PV input terminals on the charge controller. Keep the panel covered during this step.
-2. Connect the output terminals of the charge controller to the battery side of the fuse block.
-3. Connect the fuse block output to the battery positive terminal.
-4. Connect the battery negative terminal to the common negative bus.
-5. Remove the panel cover and confirm the controller powers on and recognizes the panel.
+Document:
 
-**Why this specific sequence:** The charge controller must see the battery before it sees the panel. Most MPPT controllers initialize by reading battery voltage first. If the panel is connected before the battery, the controller may fault, misread the system voltage, or fail to initialize correctly. Follow the sequence in the controller's installation manual if it differs from what is described here, as different controllers have different initialization requirements.
+* each approved device;
+* manufacturer;
+* model;
+* nominal voltage;
+* typical power consumption;
+* peak power consumption;
+* expected operating hours;
+* startup or transient loads where applicable;
+* environmental operating limits; and
+* whether continuous operation is actually required.
 
-**Wire routing:** All DC wires should run inside conduit or along protected surfaces where possible. Any wire that runs outdoors between the panel and the enclosure must be rated for UV exposure and outdoor use. Secure wires every 18–24 inches with UV-rated cable ties or clips. Do not allow wires to rest against sharp edges, corners of the frame, or the panel mounting hardware.
+### Why this comes first
 
-**Why wire routing matters:** A wire that abrades through its insulation against a sharp edge does not fail immediately. It fails weeks or months later when corrosion and movement have worn through the insulation. By that point, the fault is hard to trace and may have already caused intermittent power problems that look like equipment failures. Route wires cleanly the first time.
+The required solar array, battery capacity, controller, wiring, protection, and enclosure configuration all depend on the actual load.
 
-**Heat shrink and terminal protection:** All crimp connections must be covered with heat shrink tubing after the connection is made. All terminals exposed to the outdoor environment must be covered or sealed. The outdoor sealant (Dicor 501LSW-1 or equivalent) is appropriate for sealing any point where a wire passes through the enclosure wall.
+A system should not be sized backward from equipment already purchased unless that equipment has first been shown to meet the project need.
 
-**What to check before moving on:** All connections are made, all terminals are covered, all wires are secured, and the charge controller display shows battery voltage and panel input. If the controller shows a fault code, consult the controller manual before proceeding.
+### Learning record
 
-**Lesson for future sites:** At this pilot site, photograph every wire run before the enclosure is closed. The photographs should show where each wire enters and exits the enclosure, how it is routed along the frame, and where it terminates. Those photographs are the wiring diagram for this site. A written wiring diagram produced after the fact from memory is less reliable than a photograph taken at the time of installation.
+Record both:
 
----
+1. the load assumed during planning; and
+2. the load observed during commissioning and actual use.
 
-### Step 9: Install grounding hardware if required
-
-**What to do:** If site conditions require grounding — which they do at any site where the system is mounted on a conductive pole, near trees, or in an exposed location — drive the copper grounding rod into the ground adjacent to the support frame. Connect the grounding wire from the frame to the rod using the included clamp. Connect the system's negative bus to the ground rod.
-
-**Why grounding matters at this site specifically:** The Mount Hope walking trail installation is an outdoor site in an elevated area of West Virginia. Lightning strikes to trees and structures are not uncommon. A grounded system provides a low-resistance path for lightning-induced surge current to follow into the earth rather than through the electronics. It also reduces the risk of dangerous voltage buildup on the metal frame in the event of a wiring fault.
-
-**Why this is listed as conditional:** Grounding requirements depend on local electrical code, the mounting surface (grounded structure versus isolated frame), and the specific equipment used. At this pilot site, confirm with H4H whether the installation location requires formal grounding under local ordinance. Document that decision here so future sites can reference it.
-
-**What to check before moving on:** If grounding is installed, the rod is driven to at least 18 inches of depth, the clamp is tight against a clean metal surface (not painted or corroded), and the grounding wire is secure at both ends.
+That difference will help refine future site estimates.
 
 ---
 
-### Step 10: Verify weather protection and close the enclosure
+# Step 2: Complete the Site Assessment
 
-**What to do:** Before closing the enclosure permanently, verify the following:
+The proposed mounting and power location should be assessed before final hardware selection.
 
-- All cable glands are tightened against the cables passing through them.
-- No wire is pinched by the enclosure door or its gasket.
-- The enclosure gasket is clean and seated properly around its full perimeter.
-- The enclosure latches close firmly.
-- No wire exits the enclosure through a hole that is not sealed with a gland or sealant.
+The field record should address, as applicable:
 
-Apply Dicor 501LSW-1 or equivalent outdoor sealant to any entry point that is not fully sealed by a cable gland. Allow sealant to skin over before the installation is considered sealed.
+* available solar exposure;
+* seasonal shading;
+* orientation;
+* nearby buildings;
+* trees;
+* terrain;
+* drainage;
+* flooding or standing water;
+* snow and ice;
+* wind exposure;
+* pedestrian interaction;
+* vehicle exposure;
+* maintenance access;
+* vandalism risk;
+* existing utilities;
+* attachment opportunities;
+* historic-resource sensitivity;
+* property boundaries;
+* accessibility considerations; and
+* any underground or overhead hazards.
 
-**Why this step cannot be skipped:** An enclosure that is mounted but not properly sealed is not weatherproof. Moisture ingress into the enclosure will corrode connections, damage the charge controller, and eventually cause failures that are difficult to diagnose because the damage accumulates over months. The gasket and cable glands are not cosmetic features — they are the primary protection for everything inside.
+### Solar orientation
 
-**What a correctly completed Phase 6 looks like:** The charge controller display is showing battery voltage and solar input. The battery box is closed and secured. All wires are routed cleanly along the frame with no sharp bends or exposed terminations. The enclosure is latched and sealed. The panel is clean and oriented toward the south at the correct tilt angle. No wires hang loosely from any connection point. The support frame does not move when pushed.
+Solar orientation and tilt should be determined from the actual site and design objectives.
 
----
+Latitude may be useful as an initial planning reference, but the final orientation should account for:
 
-## What Happens If This Phase Is Rushed or Skipped in Part
+* shading;
+* seasonal performance;
+* winter energy needs;
+* structural constraints;
+* wind;
+* snow shedding;
+* nearby obstructions; and
+* the selected equipment.
 
-The following are documented failure modes from similar installations, included here as learning references:
-
-**Fuse omitted:** A wiring fault during a maintenance visit at a similar site caused a direct short that melted DC wiring inside the enclosure and required replacement of the charge controller and wiring harness. The fuse would have opened the circuit before any damage occurred. Cost of adding a fuse correctly during installation: under ten dollars and fifteen minutes. Cost of the repair: several hundred dollars and a multi-day service outage.
-
-**Enclosure cable glands not tightened:** Water infiltration over a single winter season caused corrosion on the charge controller terminals at a comparable outdoor installation. The failure appeared as intermittent charging rather than complete system failure, making it difficult to diagnose remotely. The enclosure had to be opened, cleaned, and resealed. All of that work was avoidable.
-
-**Panel tilt not set correctly:** A panel mounted near-flat (less than 10 degrees tilt) at a northern latitude produced 30–40 percent less energy over a year than the same panel would have produced at the correct tilt. In a solar-powered remote system, that difference determines whether the battery stays charged through cloudy periods or depletes and leaves the connected devices without power.
-
-**Wire routing against frame edges:** A wire run without protection against the metal edge of a mounting bracket abraded through its insulation over six months of wind movement. The resulting ground fault caused the charge controller to fault and shut down the system. The fault was not visible from the outside and required opening the enclosure and inspecting each wire to locate.
-
----
-
-## What to Record When Phase 6 Is Complete
-
-Before moving to Phase 7, the crew should record and photograph the following:
-
-- Charge controller model, serial number, and firmware version if displayed.
-- Battery model, serial number, voltage reading at time of installation, and state of charge if indicated by the controller.
-- Panel model and serial number.
-- Photograph of the complete assembled frame with panel in place.
-- Photograph of the open enclosure showing controller, fuse block, and wiring.
-- Photograph of the sealed enclosure with all cables exiting cleanly.
-- Photograph of the grounding rod installation if applicable.
-- Note of any deviation from the planned installation and the reason for it.
-
-These records are the permanent reference for this site. They should be kept in H4H's installation records, not only on a crew member's phone.
+The repository should document the **final selected orientation and the reason for it**, rather than treating a preliminary angle as universally correct.
 
 ---
 
-## Carrying These Lessons Forward
+# Step 3: Determine the Support and Mounting Method
 
-At future sites, the core lessons from this phase are:
+Before equipment is attached, the project should establish how the solar array, enclosure, and other approved hardware will be structurally supported.
 
-1. The support frame must be solid before anything is attached to it.
-2. Brackets before panel. Enclosure before wiring. Fuse before connection.
-3. Weather protection is not a finishing step — it is a requirement at every point where wiring enters or exits an enclosure.
-4. The charge controller display is the primary diagnostic tool. Mount it where it can be read.
-5. Photograph the wiring before the enclosure is closed. That photograph is the wiring diagram.
-6. Document the specific equipment used at each site. Battery chemistry, controller model, and fuse rating all matter for future maintenance decisions.
+Possible approaches may include:
+
+* a dedicated ground-mounted support;
+* an approved pole;
+* an existing structure;
+* a purpose-built frame; or
+* another site-appropriate mounting system.
+
+The final mounting method must account for:
+
+* equipment weight;
+* wind loading;
+* weather exposure;
+* attachment strength;
+* corrosion;
+* site conditions;
+* public safety;
+* maintenance access;
+* manufacturer requirements; and
+* applicable structural or permitting requirements.
+
+### What to document
+
+Record:
+
+* mounting method;
+* attachment points;
+* foundation or anchoring approach;
+* hardware used;
+* any engineering or technical review;
+* photographs before and after installation; and
+* deviations from the approved plan.
+
+### Lesson for future sites
+
+The important transferable lesson is not a particular anchor depth or pole type.
+
+It is:
+
+> support design must follow the actual site and loads.
+
+Mount Hope should produce the evidence needed to make that review faster and better at future locations.
+
+---
+
+# Step 4: Finalize the Solar Array Configuration
+
+Once the load and site are known, the solar array can be finalized.
+
+The design review should determine:
+
+* required energy production;
+* panel capacity;
+* number of modules;
+* module electrical characteristics;
+* orientation;
+* tilt;
+* mounting method;
+* conductor path;
+* controller compatibility;
+* disconnect requirements;
+* environmental rating; and
+* maintenance access.
+
+### Field-learning objective
+
+Record:
+
+* expected production;
+* actual panel specification;
+* final orientation;
+* final tilt;
+* shading observations;
+* commissioning measurements; and
+* subsequent performance where available.
+
+That creates a real local performance record instead of relying only on theoretical estimates.
+
+---
+
+# Step 5: Finalize the Battery and Energy-Storage Configuration
+
+Battery selection should follow the actual load profile, charging system, environmental conditions, required runtime, and manufacturer requirements.
+
+The design should consider:
+
+* chemistry;
+* nominal voltage;
+* usable capacity;
+* required reserve;
+* cycle life;
+* operating temperature;
+* charging-temperature limits;
+* battery-management protections;
+* physical enclosure;
+* ventilation where applicable;
+* moisture exposure;
+* security;
+* service access;
+* disconnect and overcurrent protection; and
+* replacement planning.
+
+A preliminary LiFePO4 battery concept may remain under consideration, but the repository should not characterize one chemistry as universally correct without reference to the actual product and site conditions.
+
+In particular, low-temperature behavior and charging restrictions must be evaluated using the specifications of the battery ultimately selected.
+
+### What to record
+
+If installed:
+
+* manufacturer;
+* model;
+* serial number;
+* chemistry;
+* rated capacity;
+* installation date;
+* initial state of charge;
+* commissioning voltage;
+* relevant protection features; and
+* manufacturer-defined environmental limits.
+
+---
+
+# Step 6: Finalize the Charge Controller and Power Electronics
+
+The charge controller must be selected as part of the complete power architecture rather than as an isolated component.
+
+Compatibility review should include:
+
+* array voltage;
+* array current;
+* battery voltage;
+* charging profile;
+* battery-management requirements;
+* controller capacity;
+* operating temperature;
+* enclosure requirements;
+* communication or monitoring features;
+* disconnect requirements; and
+* manufacturer instructions.
+
+### Maintenance consideration
+
+Where practical, the controller or monitoring interface should remain accessible for:
+
+* diagnostics;
+* fault review;
+* maintenance;
+* commissioning; and
+* performance tracking.
+
+The field record should document the exact model installed and retain the applicable manufacturer documentation.
+
+---
+
+# Step 7: Design Overcurrent, Disconnect, and Conductor Protection
+
+Fuse, breaker, disconnect, and conductor requirements must be determined from the **final circuit design**.
+
+This document intentionally does not prescribe a specific fuse size.
+
+Protection depends on factors including:
+
+* conductor size;
+* conductor ampacity;
+* equipment ratings;
+* maximum available current;
+* circuit configuration;
+* manufacturer requirements;
+* disconnect architecture; and
+* applicable electrical requirements.
+
+The design should identify:
+
+* each protected circuit;
+* conductor specification;
+* overcurrent device;
+* rating;
+* disconnect location;
+* purpose; and
+* controlling design or manufacturer basis.
+
+### Learning principle
+
+The transferable lesson remains:
+
+> protection should be deliberately designed and documented before energization.
+
+It should never be treated as an afterthought or selected by assumption from a generic pilot document.
+
+---
+
+# Step 8: Establish the Approved Wiring and Connection Plan
+
+The final connection sequence should come from:
+
+* the approved design;
+* the specific equipment manufacturers;
+* applicable electrical requirements; and
+* qualified technical review.
+
+Different equipment may require different startup, shutdown, battery-first, photovoltaic-first, isolation, or commissioning procedures.
+
+For that reason, this planning document does **not** prescribe a universal field connection sequence.
+
+### Before energization
+
+The approved installer or reviewer should verify, as applicable:
+
+* conductor type;
+* conductor size;
+* polarity;
+* termination;
+* strain relief;
+* cable routing;
+* abrasion protection;
+* outdoor and UV suitability;
+* conduit or raceway requirements;
+* separation from incompatible circuits;
+* fuse or breaker placement;
+* disconnects;
+* enclosure penetrations;
+* labeling; and
+* manufacturer-required startup procedure.
+
+### Evidence capture
+
+Before the enclosure is closed, capture:
+
+* photographs of the completed internal arrangement;
+* circuit identification;
+* equipment labels;
+* conductor routing;
+* protection devices;
+* disconnects; and
+* any field changes.
+
+Photographs support the maintenance record, but they should supplement — not replace — an accurate as-built diagram.
+
+---
+
+# Step 9: Determine Grounding, Bonding, and Surge Protection Requirements
+
+Grounding, bonding, lightning protection, and surge protection are **site- and system-specific technical matters**.
+
+The project should not infer the required method merely from:
+
+* the presence of a metal pole;
+* proximity to trees;
+* general lightning exposure; or
+* a generic outdoor-installation rule.
+
+The final design should determine, as applicable:
+
+* whether a grounding electrode system is required;
+* electrode type;
+* installation requirements;
+* equipment bonding;
+* conductor sizing;
+* system grounding configuration;
+* surge-protection devices;
+* interconnection with an existing grounding system; and
+* inspection or testing requirements.
+
+### Important boundary
+
+This document intentionally does **not** prescribe:
+
+* grounding-rod depth;
+* grounding-electrode length;
+* grounding-conductor size;
+* neutral or negative bonding;
+* electrode spacing; or
+* surge-protection configuration.
+
+Those requirements must come from the actual system design, applicable requirements, manufacturer instructions, and qualified review.
+
+### What to record
+
+Where grounding or bonding is part of the approved installation, retain:
+
+* design basis;
+* equipment used;
+* installation photographs;
+* inspection information where applicable; and
+* as-built documentation.
+
+---
+
+# Step 10: Finalize the Outdoor Enclosure
+
+The outdoor enclosure should protect the electrical and communications equipment from the actual environmental conditions expected at the site.
+
+Selection and installation should consider:
+
+* enclosure rating;
+* precipitation;
+* humidity;
+* condensation;
+* insects;
+* dust;
+* snow and ice;
+* temperature;
+* solar heat gain;
+* ventilation;
+* drainage;
+* cable-entry method;
+* vandalism;
+* maintenance access; and
+* equipment clearances.
+
+### Cable entries
+
+Cable glands, conduit fittings, seals, drip arrangements, or other entry methods should be appropriate to the selected enclosure and cable system.
+
+A generic sealant should not substitute for a properly designed cable-entry system where an approved fitting is required.
+
+### What to document
+
+Capture:
+
+* enclosure manufacturer and model;
+* environmental rating;
+* mounting location;
+* entry locations;
+* internal equipment arrangement;
+* photographs before closing;
+* photographs after closing; and
+* any field modifications.
+
+---
+
+# Step 11: Pre-Energization Review
+
+Before the system is energized, the project should complete a documented pre-energization review appropriate to the final design.
+
+The review may include confirmation of:
+
+* approved equipment;
+* correct equipment ratings;
+* secure structural mounting;
+* polarity;
+* conductor routing;
+* terminations;
+* overcurrent protection;
+* disconnects;
+* grounding and bonding where applicable;
+* enclosure integrity;
+* labels;
+* battery condition;
+* controller configuration;
+* communications hardware;
+* manufacturer startup requirements; and
+* required inspections or approvals.
+
+Any unresolved discrepancy should be corrected before commissioning.
+
+---
+
+# Step 12: Commission the System
+
+Commissioning is the point at which the project determines whether the installed system actually performs as intended.
+
+The commissioning record should capture appropriate measurements and observations for the final design.
+
+These may include:
+
+* battery voltage;
+* battery state of charge;
+* solar input;
+* controller status;
+* load behavior;
+* charging behavior;
+* fault codes;
+* communications status;
+* environmental conditions;
+* startup behavior;
+* shutdown behavior;
+* monitoring visibility; and
+* initial operating observations.
+
+Commissioning procedures should follow the requirements of the actual equipment and approved design.
+
+A system is not considered ready merely because an indicator light turns on.
+
+---
+
+# What a Completed Phase 6 Should Mean
+
+A correctly completed Phase 6 should mean that:
+
+* the final power architecture has been documented;
+* required technical review has occurred;
+* applicable permissions and inspections have been addressed;
+* approved equipment has been installed;
+* structural supports are secure;
+* electrical protection is appropriate to the final design;
+* conductors and terminations are protected;
+* grounding and bonding requirements have been addressed;
+* outdoor equipment is appropriately protected from the environment;
+* the system has been commissioned;
+* deviations have been documented;
+* maintenance information has been retained; and
+* sufficient evidence exists to understand what was actually built.
+
+It should **not** mean merely that every item in an earlier planning list was purchased and attached.
+
+---
+
+# Failure and Risk Learning
+
+The earlier version of this guide included several highly specific statements described as “documented failure modes from similar installations.”
+
+Unless Harmony for Hope possesses a source record for a particular incident, those examples should not be represented as documented historical events.
+
+Instead, Phase 6 should track **risk categories to observe and document during the Mount Hope pilot**.
+
+Important risks include:
+
+### Inadequate circuit protection
+
+Possible consequences include:
+
+* conductor overheating;
+* equipment damage;
+* fault escalation;
+* service interruption; and
+* fire risk.
+
+**Learning objective:** Document the protection architecture selected for Mount Hope and any protection-related faults observed.
+
+---
+
+### Moisture intrusion
+
+Possible consequences include:
+
+* corrosion;
+* intermittent electrical faults;
+* premature equipment failure;
+* communications instability; and
+* increased maintenance.
+
+**Learning objective:** Document enclosure performance through actual Appalachian weather conditions.
+
+---
+
+### Insufficient solar production
+
+Possible causes include:
+
+* shading;
+* poor orientation;
+* seasonal conditions;
+* underestimated load;
+* snow;
+* equipment losses; or
+* array undersizing.
+
+**Learning objective:** Compare expected energy production with observed operation.
+
+---
+
+### Battery-performance problems
+
+Possible causes include:
+
+* temperature;
+* charging limitations;
+* excessive discharge;
+* incorrect configuration;
+* inadequate capacity; or
+* unexpected load.
+
+**Learning objective:** Track whether the selected storage capacity supports the actual operating profile.
+
+---
+
+### Cable and termination degradation
+
+Possible causes include:
+
+* movement;
+* abrasion;
+* poor strain relief;
+* moisture;
+* UV exposure;
+* corrosion; or
+* improper fittings.
+
+**Learning objective:** Include cable and termination condition in maintenance inspections.
+
+---
+
+### Structural movement or mounting failure
+
+Possible causes include:
+
+* inadequate anchoring;
+* wind;
+* freeze-thaw conditions;
+* soil movement;
+* corrosion; or
+* improper mounting hardware.
+
+**Learning objective:** Document the behavior of the selected mounting approach over time.
+
+---
+
+# What to Record When Phase 6 Is Complete
+
+Before advancing to the next implementation phase, create a permanent Phase 6 evidence record.
+
+## Administrative and approval record
+
+Record:
+
+* site authorization;
+* final approved location;
+* relevant technical review;
+* contractor or installer information where appropriate;
+* permits or inspections where applicable;
+* date of installation; and
+* date of commissioning.
+
+---
+
+## Equipment record
+
+Record the final:
+
+* solar-panel manufacturer and model;
+* panel serial number where appropriate;
+* charge-controller manufacturer and model;
+* controller serial number;
+* battery manufacturer and model;
+* battery serial number;
+* battery chemistry and capacity;
+* enclosure manufacturer and model;
+* protection devices;
+* disconnects;
+* communications equipment;
+* mounting hardware; and
+* other material components.
+
+---
+
+## As-built record
+
+Retain:
+
+* approved design where applicable;
+* as-built diagram;
+* equipment layout;
+* conductor identification;
+* protection-device identification;
+* grounding and bonding documentation where applicable;
+* equipment configuration;
+* photographs; and
+* documented deviations from the original plan.
+
+---
+
+## Photographic record
+
+Photograph, where appropriate for public and security considerations:
+
+* the site before work;
+* support structure;
+* solar array;
+* enclosure exterior;
+* enclosure interior before closure;
+* cable routing;
+* grounding or bonding components where appropriate;
+* completed site;
+* equipment labels; and
+* any field condition that materially altered the design.
+
+Sensitive security or infrastructure details do not have to be published publicly merely because they are captured for the internal record.
+
+---
+
+## Commissioning record
+
+Record:
+
+* commissioning date;
+* initial operating conditions;
+* appropriate electrical measurements;
+* controller status;
+* battery condition;
+* solar input;
+* load operation;
+* communications status;
+* faults;
+* corrective actions;
+* unresolved issues; and
+* person or party responsible for final acceptance.
+
+---
+
+# Maintenance Baseline
+
+Phase 6 should establish the starting point for later maintenance.
+
+The project should define:
+
+* what needs inspection;
+* how often it should be inspected;
+* who is responsible;
+* what data should be retained;
+* what conditions require service;
+* how faults are reported;
+* where manufacturer documentation is stored; and
+* how equipment replacement is recorded.
+
+Likely inspection categories include:
+
+* structural condition;
+* solar-array condition;
+* enclosure integrity;
+* cable condition;
+* corrosion;
+* battery health;
+* charge-controller status;
+* communications status;
+* vegetation or shading changes;
+* vandalism or physical damage; and
+* weather-related impacts.
+
+The actual maintenance schedule should follow the installed equipment, applicable requirements, warranty conditions, and operating experience.
+
+---
+
+# Carrying These Lessons Forward
+
+The most important lessons from Phase 6 should be principles, not copied hardware instructions.
+
+For future sites:
+
+1. **Define the load before sizing the power system.**
+2. **Assess the actual site before selecting the hardware.**
+3. **Treat structural, electrical, environmental, and maintenance requirements as one system.**
+4. **Do not turn planning assumptions into field specifications without review.**
+5. **Use manufacturer requirements and qualified technical review for the actual equipment installed.**
+6. **Document protection, grounding, bonding, disconnects, and conductor design rather than assuming them.**
+7. **Commission the system before calling the phase complete.**
+8. **Preserve an as-built record rather than relying on memory.**
+9. **Photograph and document deviations while they happen.**
+10. **Use Mount Hope operating evidence to improve future designs.**
+
+---
+
+# Mount Hope Pilot Learning Questions
+
+After the system has operated long enough to produce useful evidence, the project should be able to answer:
+
+* Was the final power system sized correctly?
+* Did observed loads match planning assumptions?
+* Was solar production sufficient through changing weather?
+* Did the battery provide the required reserve?
+* Did environmental conditions create unexpected problems?
+* Was the enclosure adequate?
+* Were maintenance tasks practical?
+* Were diagnostics easy to access?
+* Did any component require premature replacement?
+* Were outages caused by power, communications, software, or another layer?
+* What did the power system actually cost to operate?
+* Which planning assumptions proved wrong?
+* What should be standardized?
+* What should remain site-specific?
+* What would be changed before another deployment?
+
+Those answers are the transferable product of the pilot.
+
+---
+
+# Relationship to Future Sites
+
+Phase 6 is written for the **Mount Hope first-phase implementation**.
+
+Its lessons may inform future projects, but its specific equipment and configuration should not automatically be copied to another site.
+
+A future site may differ in:
+
+* electrical load;
+* geography;
+* shading;
+* elevation;
+* exposure;
+* historic-resource constraints;
+* property ownership;
+* available utility power;
+* connectivity;
+* maintenance access;
+* permitting;
+* structural conditions; and
+* institutional requirements.
+
+This is particularly important for **Thurmond**, which remains a future federal-phase implementation opportunity.
+
+Any future Thurmond power or outdoor-hardware design would require its own:
+
+* federal project scope;
+* National Park Service review;
+* preservation and cultural-resource compliance as applicable;
+* site-specific authorization;
+* technical review;
+* accessibility review;
+* electrical and structural design;
+* privacy and information-governance review where applicable; and
+* final agreements.
+
+Mount Hope should provide evidence for that future conversation.
+
+It should not pre-decide the federal-site design.
+
+---
+
+## Phase 6 Completion Boundary
+
+Phase 6 should be considered complete only when the **approved Mount Hope power and outdoor-support scope** has been:
+
+```text id="7tsvkb"
+reviewed
+    ↓
+authorized
+    ↓
+installed
+    ↓
+commissioned
+    ↓
+documented
+```
+
+A planning document is not installation evidence.
+
+A purchased component is not a commissioned system.
+
+A powered device is not proof of long-term reliability.
+
+The purpose of Phase 6 is to move carefully from **design intent to documented physical evidence**.
+
+---
+
+*Harmony for Hope, Inc. — New River Gorge Safety & Heritage Mesh Pilot*
+*Phase 6 | Mount Hope Field Planning and Learning Guide*
