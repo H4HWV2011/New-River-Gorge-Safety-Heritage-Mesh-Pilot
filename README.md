@@ -94,7 +94,11 @@ Current and related initiatives include:
 * **Community Champion development**, translating an existing community-stewardship role into practical recruitment, training, supervised field practice, evaluation, and continued local participation
 * **Community connectivity and local-information infrastructure**
 
-These initiatives are related through Harmony for Hope's broader mission but are not represented as having identical funding, deployment status, governance, or program scope.
+These initiatives are related through Harmony for Hope's broader mission but are not represented as having identical funding, deployment status, governance, authorship, or program scope.
+
+The evidence portfolio may also preserve **independently prepared analysis relevant to portfolio communities or development questions**.
+
+The presence of independent analysis in this repository does not make that work an H4H-funded project deliverable, an H4H-authored report, or an adopted component of the current pilot.
 
 ---
 
@@ -362,6 +366,10 @@ Technical, privacy, governance, and site review
 Future implementation, if funded and authorized
 ```
 
+Independent analysis concerning Thurmond may inform research, discussion, funding development, preservation questions, or future decision making.
+
+Such analysis does not alter federal ownership, National Park Service authority, the current Mount Hope project scope, or the requirement for appropriate funding, review, compliance, and authorization.
+
 Other New River Gorge communities may be considered in later phases only where local interest, funding, permissions, technical feasibility, governance, operating capacity, community-stewardship capacity, and demonstrated public benefit support expansion.
 
 ---
@@ -374,11 +382,11 @@ The current first-year funding target for the Mount Hope implementation is:
 
 That consists of:
 
-| Investment area                                    |      Amount |
-| -------------------------------------------------- | ----------: |
-| Mount Hope/FCCAC public anchor and program costs   |     $23,244 |
-| Six-month application and community testing cohort |     $30,000 |
-| **Current first-year funding target**              | **$53,244** |
+| Investment area | Amount |
+| --- | ---: |
+| Mount Hope/FCCAC public anchor and program costs | $23,244 |
+| Six-month application and community testing cohort | $30,000 |
+| **Current first-year funding target** | **$53,244** |
 
 A preliminary **$7,592 Thurmond physical-build estimate** is maintained separately for future federal-phase planning.
 
@@ -387,6 +395,8 @@ That amount is **not included in the current $53,244 Mount Hope first-year fundi
 Community Champion development materials also contain separate working program and cohort assumptions.
 
 Those development assumptions are **not included in the current $53,244 first-year funding target unless expressly incorporated into a future governing budget or approved funding scope**.
+
+Independent analyses maintained within the evidence portfolio likewise do not modify the current project budget merely because their subject matter is relevant to the portfolio.
 
 See the [Master First-Year Pilot Budget](03_project/pilot_budget/Master_First_Year_Pilot_Budget.md) for the current funding structure and boundaries.
 
@@ -423,6 +433,8 @@ A letter of support is not represented as:
 
 Informal or developing relationships are not represented as institutional commitments unless supported by appropriate documentation.
 
+Likewise, the presence of an independent analysis concerning a partner, public entity, or community should not be interpreted as institutional endorsement of that analysis.
+
 See [Partnerships and Readiness](04_partnerships/README.md).
 
 ---
@@ -446,9 +458,11 @@ For a reviewer approaching the portfolio for the first time:
 13. [Partnerships and Readiness](04_partnerships/README.md)
 14. [FY2025 Organizational Financial Statement](05_financials/organizational_financials/Financial_Statement_FY2025.md)
 15. [Evidence Portfolio](06_evidence/README.md)
-16. [Mount Hope Historic Walking Trail Evidence](06_evidence/community_programs/Mount_Hope_Historic_Walking_Trail/README.md)
-17. [Peer Community Networks and Digital Sovereignty Case Studies](06_evidence/research/Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md)
-18. [Privacy and Data Stewardship Statement](07_privacy/Privacy_and_Data_Stewardship.md)
+16. [Independent Analysis Archive](06_evidence/independent_analysis/README.md)
+17. [Thurmond Historic District Economic Outlook and Preservation Investment Case](06_evidence/independent_analysis/Thurmond_Historic_District_Economic_Outlook_September_2026.pdf)
+18. [Mount Hope Historic Walking Trail Evidence](06_evidence/community_programs/Mount_Hope_Historic_Walking_Trail/README.md)
+19. [Peer Community Networks and Digital Sovereignty Case Studies](06_evidence/research/Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md)
+20. [Privacy and Data Stewardship Statement](07_privacy/Privacy_and_Data_Stewardship.md)
 
 Historic Walking Trail sign materials are also maintained through the repository's [GitHub Releases](https://github.com/H4HWV2011/New-River-Gorge-Safety-Heritage-Mesh-Pilot/releases).
 
@@ -534,8 +548,11 @@ This repository is organized around the materials currently maintained in the pu
 │   │   │   ├── Cohort Development and Implementation Timeline.md
 │   │   │   └── WV_Community_Champion_Leadership_Cohort_Series.md
 │   │   └── submitted-applications/
-│   └── research/
-│       └── Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md
+│   ├── research/
+│   │   └── Peer_Community_Networks_and_Digital_Sovereignty_Case_Studies.md
+│   └── independent_analysis/
+│       ├── README.md
+│       └── Thurmond_Historic_District_Economic_Outlook_September_2026.pdf
 │
 └── 07_privacy/
     └── Privacy_and_Data_Stewardship.md
@@ -543,7 +560,7 @@ This repository is organized around the materials currently maintained in the pu
 
 The repository will continue to evolve as materials are reviewed, reconciled, documented, and prepared for public release.
 
-Historical submission records may retain their original filenames where preserving the submitted artifact is important to provenance.
+Historical submission records and independently distributed analyses may retain their original filenames where preserving the historical artifact is important to provenance.
 
 ---
 
@@ -624,10 +641,13 @@ Maintains evidence of:
 * program and application development;
 * submitted applications;
 * comparative research;
+* independently prepared analysis relevant to portfolio communities or development questions;
 * organizational learning; and
 * other records relevant to project readiness.
 
-The evidence archive intentionally distinguishes among stages such as:
+The evidence archive intentionally distinguishes among stages and evidence types.
+
+For project-development records:
 
 ```text
 idea / research
@@ -691,6 +711,26 @@ tested operation
 long-term demonstrated outcome
 ```
 
+Evidence categories also retain their own authorship and authority boundaries.
+
+```text
+research
+    ≠
+local implementation evidence
+
+independent analysis
+    ≠
+H4H-funded project deliverable
+
+repository inclusion
+    ≠
+institutional adoption
+
+recommendation
+    ≠
+implementation authority
+```
+
 #### `06_evidence/grants/development/`
 
 This directory contains the portfolio's working **grant-development and program-development layer**.
@@ -743,11 +783,112 @@ evaluation
 transferability decisions
 ```
 
-The evidence section also includes comparative research examining peer community-network and digital-sovereignty models.
+#### `06_evidence/research/`
 
-External case studies provide context and precedent.
+The research section contains comparative and contextual work examining external examples, models, precedents, and concepts relevant to the portfolio.
 
-They are not evidence that the same outcomes have already been achieved in Mount Hope.
+The current research record includes the **Peer Community Networks and Digital Sovereignty Case Studies**.
+
+External case studies can help establish that approaches exist elsewhere and can inform local design decisions.
+
+They are not evidence that the same outcomes have already been achieved in Mount Hope or the New River Gorge.
+
+#### `06_evidence/independent_analysis/`
+
+This directory preserves **independently prepared analytical reports and decision-support materials** that are relevant to portfolio communities or development questions but are not automatically part of Harmony for Hope's funded project scope.
+
+The directory exists so the portfolio can preserve useful original analysis while maintaining clear boundaries around:
+
+* authorship;
+* funding;
+* project ownership;
+* institutional authority;
+* adoption;
+* and implementation status.
+
+`independent_analysis/` can eventually contain more than one report without falsely making those reports part of the funded H4H project.
+
+Independent analysis may include:
+
+* economic studies;
+* preservation-investment analysis;
+* feasibility studies;
+* GIS or spatial analysis;
+* tourism and market analysis;
+* infrastructure assessments;
+* governance or leadership analysis;
+* decision-support reports;
+* place-based assessments; and
+* other independently produced analytical work relevant to portfolio communities or future development questions.
+
+The current archive includes the:
+
+**Thurmond Historic District Economic Outlook and Preservation Investment Case**, prepared independently by **Kidd's Technical Services** in September 2026.
+
+The report examines:
+
+* existing visitor demand;
+* adaptive reuse;
+* preservation finance;
+* National Park Service historic leasing;
+* federal asset economics;
+* tourism-development incentives;
+* property-level transaction readiness;
+* and possible district-scale economic development.
+
+It is maintained here because Thurmond is already documented within the portfolio as a future federal-phase opportunity and because the report addresses broader questions involving preservation, community development, public decision making, economic opportunity, and evidence-based leadership.
+
+Its inclusion does **not** mean that the report:
+
+* was funded by Harmony for Hope;
+* is part of the current $53,244 Mount Hope first-year pilot;
+* is an H4H grant deliverable;
+* has been adopted by the Town of Thurmond;
+* represents a National Park Service decision;
+* authorizes a lease or project;
+* or establishes that its recommendations will be implemented.
+
+The governing distinction is:
+
+```text
+relevant to the portfolio
+        ≠
+funded by the portfolio
+
+independent analysis
+        ≠
+H4H project deliverable
+
+analysis
+        ≠
+institutional adoption
+
+recommendation
+        ≠
+implementation authority
+```
+
+Independent analyses should preserve their original authorship, date, purpose, intended audience, and status.
+
+Where an analysis later becomes relevant to grant development, university research, leadership study, project planning, or public decision making, that later use should be documented separately rather than retroactively changing the historical status of the original artifact.
+
+A useful provenance sequence is:
+
+```text
+independent analysis
+        ↓
+submission or distribution
+        ↓
+institutional response / nonresponse / decision
+        ↓
+additional evidence
+        ↓
+supplement or revised analysis
+        ↓
+later evaluation or case study
+```
+
+An independent analysis does not have to become an H4H project in order to remain relevant evidence.
 
 ### `07_privacy/`
 
@@ -771,11 +912,12 @@ The portfolio should allow a funder, collaborator, university, public agency, or
 4. **Who benefits and how would the project be used?**
 5. **What evidence shows organizational and community readiness?**
 6. **How is local community stewardship being developed in practice?**
-7. **What partnerships and support are documented?**
-8. **What does the first phase cost?**
-9. **How will the project be tested and evaluated?**
-10. **How are privacy, governance, authority, and stewardship addressed?**
-11. **What would justify expansion beyond Mount Hope?**
+7. **What independent analysis informs related community or development questions, and who produced it?**
+8. **What partnerships and support are documented?**
+9. **What does the first phase cost?**
+10. **How will the project be tested and evaluated?**
+11. **How are privacy, governance, authority, provenance, and stewardship addressed?**
+12. **What would justify expansion beyond Mount Hope?**
 
 The portfolio is designed to support review by different audiences without requiring every reviewer to understand the entire technical or long-term architecture before understanding the immediate project.
 
@@ -799,6 +941,8 @@ testing
 evaluation
 ```
 
+The evidence portfolio additionally distinguishes between material that is **part of the project** and material that is **relevant to understanding the project's communities, context, or future questions**.
+
 ---
 
 ## Guiding Principles
@@ -806,7 +950,7 @@ evaluation
 * **Local benefit:** Infrastructure should serve residents, visitors, local organizations, and community institutions.
 * **Community stewardship:** Local stories, participation, and information should remain accountable to the communities and institutions responsible for them.
 * **Human participation:** Technology should not eliminate the need for local judgment, observation, participation, and accountable stewardship.
-* **Authority boundaries:** Community participation, technical access, administrative authority, verified fact, and governance authority should not be treated as equivalent.
+* **Authority boundaries:** Community participation, technical access, administrative authority, verified fact, governance authority, authorship, and institutional adoption should not be treated as equivalent.
 * **Privacy and dignity:** The project should minimize unnecessary collection and extraction of personal information.
 * **Accessible design:** Public-facing systems should be understandable and useful to people who are not technical specialists.
 * **Practical deployment:** Begin with a modest, visible implementation; test it, document it, learn from it, and expand only where evidence supports doing so.
@@ -815,7 +959,8 @@ evaluation
 * **Institutional respect:** Local, municipal, university, nonprofit, and federal partners retain their own authority and responsibilities.
 * **Federal readiness:** Future work at Thurmond or other federal sites must proceed through appropriate federal funding, compliance, review, and authorization.
 * **Accurate public claims:** Distinguish clearly among conceptual, proposed, developed, submitted, awarded, accepted, approved, implemented, tested, evidenced, operational, and future capabilities.
-* **Provenance:** Preserve historical submissions, support records, research, and project-development materials according to what they actually documented at the time.
+* **Provenance:** Preserve historical submissions, support records, research, independently prepared analyses, and project-development materials according to what they actually documented at the time.
+* **Independent authorship:** Repository inclusion should not erase who created an analysis, why it was created, or what authority it did and did not possess.
 * **Responsible growth:** Do not activate a new site or program faster than the organization can fund, operate, govern, maintain, evaluate, and steward it responsibly.
 
 ---
@@ -853,6 +998,10 @@ That work may support future:
 * and replication planning.
 
 The existence of that development pathway does not change the current **$53,244 Mount Hope first-year pilot funding target** unless a future governing budget or approved funding scope expressly incorporates Community Champion activities.
+
+Independent analyses maintained within `06_evidence/independent_analysis/` are evidence and learning resources.
+
+Their inclusion does not place their recommended activities, budgets, conclusions, or future work within the current Mount Hope funding request unless a later governing project record expressly does so.
 
 Thurmond is being maintained separately as a future federal-phase funding and implementation opportunity.
 
@@ -894,6 +1043,23 @@ It is:
 
 Community Champion development is relevant to that question because expansion depends not only on equipment and software, but also on whether communities have people capable of understanding, questioning, documenting, maintaining, and responsibly participating in the systems that serve them.
 
+Independent analysis can also contribute to the longer-term evidence record by examining questions that sit beside or ahead of current project implementation.
+
+Such analysis may:
+
+* identify a problem;
+* test an assumption;
+* document an opportunity;
+* challenge an existing development path;
+* support public or institutional discussion;
+* inform later project design;
+* become relevant to leadership or university research;
+* or ultimately result in no H4H implementation at all.
+
+That does not reduce its evidentiary value.
+
+It means the portfolio preserves the distinction between **learning from an analysis** and **adopting the analysis as a project**.
+
 If the evidence supports continued development, future phases may explore:
 
 * refinement of the Mount Hope implementation;
@@ -923,12 +1089,12 @@ The long-term objective is a repeatable and accountable model for **locally stew
 
 ## Contact
 
-**Harmony for Hope, Inc.**
-Mount Hope, West Virginia
+**Harmony for Hope, Inc.**  
+Mount Hope, West Virginia  
 Website: [harmonyforhopewv.org](https://harmonyforhopewv.org)
 
 For project, partnership, research, program-development, Community Champion, or funding inquiries, please use Harmony for Hope's official contact information.
 
 ---
 
-*This repository is a working public portfolio. Materials are added and revised as they are reviewed for accuracy, provenance, permissions, privacy, governance, status, and public-release suitability.*
+*This repository is a working public portfolio. Materials are added and revised as they are reviewed for accuracy, authorship, provenance, permissions, privacy, governance, status, and public-release suitability.*
