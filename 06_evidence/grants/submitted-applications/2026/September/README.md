@@ -1,4 +1,4 @@
-# Submitted Applications — September 2026
+# Submitted Applications 
 
 This folder records grant and funding applications submitted during September 2026 for the New River Gorge Safety & Heritage Mesh Pilot.
 
