@@ -1,0 +1,269 @@
+Delivered-To: h4hwv2011@gmail.com
+Received: by 2002:a05:7010:cd49:b0:538:394e:5a9f with SMTP id iv9csp55298mdb;
+        Thu, 10 Sep 2026 22:53:51 -0700 (PDT)
+X-Received: by 2002:a05:6870:b4a1:b0:47b:cd37:f931 with SMTP id 586e51a60fabf-47dea3fca5emr2852167fac.13.1789106031010;
+        Thu, 10 Sep 2026 22:53:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1789106031; cv=none;
+        d=google.com; s=arc-20260327;
+        b=nx+aDifso84zmi1+jfna864qixv0GZ/hSGUa/RNauyWEJB/MDmkDAEk8p9HNEfgsKf
+         Dj3gyGQkYmVjAPRg/+s1RoZpscxqZUmR7HmycH+Iq8BTHUpiyc67MnwjRUmuwfYBOPrA
+         LXBd1zoOiHvIZyEAOXVleX3RMye8ALJoDx6grksXVNM4yOyaKutRJWtFWuISEafXdHsJ
+         lpotEdOLWYwGJPAIq1tWRuwFqGqbzPik1k8EMScb/kB0EjzvEqb8iUn87mmvrJS/cSxj
+         haVMWzCslcs4Lyoh0qoMyU2rNDBvGmJLMH8siYIoktjVvEEBTD6WhMwLqqZd3yFihXSx
+         AGGQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=mime-version:feedback-id:to:reply-to:message-id:subject:date:from
+         :dkim-signature:dkim-signature;
+        bh=ttw88yyxrG0Ri/TjWy2NtqvhiicR/Iw/Lw4I9n8jtoo=;
+        fh=36b//trSmNQaYpkKTxNiZyd/WWQ19BxrLqcXhvAd45E=;
+        b=V4eA5U0pc7gSXazyzS7J2WOZiR98CSexVaS4BtDQirSzXoALAMIY7VWiluC1Cb4g94
+         tVV4FdsQ8bPHKQn0/i3s1WVHbCrj/1lMiEoRqbLQBnB97a2C76yvZHUntgHkCHRm10L6
+         CIlyiA0JNGMudBSFpyWCqrYCXN9buagh+95Rfnm0eOfXiUsL3A44pJ5NFNxt4VCDgxZn
+         I7NsxG/zpZfsc7okBEusMrzBA2Nhwl7gqNOQp0IAas3cfvldUiTnVz21q10z+3mnpXUU
+         C2QQOMN83qgG/q8Aw5ePSnji87aBxJx+DgUnYoRE1zOEj9cH6jdnsSJDRjeaeDAdkvaC
+         94ig==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@pm.mtasv.net header.s=pm20250806 header.b=Ecqff6yh;
+       dkim=pass header.i=@trytemelio.com header.s=20220925145447pm header.b=EBqRvreZ;
+       spf=pass (google.com: domain of pm_bounces@pm-bounces.trytemelio.com designates 104.245.209.200 as permitted sender) smtp.mailfrom=pm_bounces@pm-bounces.trytemelio.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=trytemelio.com
+Return-Path: <pm_bounces@pm-bounces.trytemelio.com>
+Received: from mta200a-ord.mtasv.net (mta200a-ord.mtasv.net. [104.245.209.200])
+        by mx.google.com with ESMTPS id 586e51a60fabf-47dfa29e178si1230550fac.377.2026.09.10.22.53.50
+        for <h4hwv2011@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 10 Sep 2026 22:53:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pm_bounces@pm-bounces.trytemelio.com designates 104.245.209.200 as permitted sender) client-ip=104.245.209.200;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@pm.mtasv.net header.s=pm20250806 header.b=Ecqff6yh;
+       dkim=pass header.i=@trytemelio.com header.s=20220925145447pm header.b=EBqRvreZ;
+       spf=pass (google.com: domain of pm_bounces@pm-bounces.trytemelio.com designates 104.245.209.200 as permitted sender) smtp.mailfrom=pm_bounces@pm-bounces.trytemelio.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=trytemelio.com
+X-KumoRef: eyJfQF8iOiJcXF8vIiwicmVjaXBpZW50IjoiaDRod3YyMDExQGdtYWlsLmNvbSJ9
+DKIM-Signature: v=1; a=rsa-sha256; d=pm.mtasv.net; s=pm20250806; c=relaxed/relaxed;
+	bh=ttw88yyxrG0Ri/TjWy2NtqvhiicR/Iw/Lw4I9n8jtoo=;
+	h=from:to:subject:date:mime-version:content-type:sender:cc:date:message-id;
+	t=1789106030; x=1789710830;
+	b=Ecqff6yhxhyu2K6D6sYer8o9pyKizmT95rg9U0rRg1C9uG4VQ/cWfcj5w1en2zCMVg1OV64YJ
+	OFv6AZ9plT82wuuomgrmW5/sh5ZuqdEO4PD4bFAjLF7gDUsqlBPfw7SGDawRlrh7c4Gq6jD6lSF
+	Mzn3Xb3CESLu49BWxzLCrF7qeTkU0kIrQV+KhF/edsAF92yhbWIwbEivpujvUjJve5Sa/oA0v8+
+	NULapyLWjbIgCAk+EXDYwdld4ilGaIusGw8X4UCarTKNN8hVgO19HuCUSl1+X5fxEL2kKZPo2Wv
+	YJ5RFSztLvRa7Tth9yztKW5leYPcR89ECY0IgrXvswfQ==;
+Received: from ip-172-26-13-220.us-east-2.compute.internal (172.26.13.220)
+  by production-pmta-useast2.internal.postmarkapp.com (KumoMTA 10.97.240.129) 
+  with ESMTP id 29cf4343ada511f1ae5a0211a4ec3d99 for <h4hwv2011@gmail.com>;
+  Fri, 11 Sep 2026 05:53:50 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=trytemelio.com; s=20220925145447pm;
+	c=relaxed/relaxed; i=support@trytemelio.com; t=1789106030; x=1789278830;
+	h=date:date:from:from:message-id:reply-to:reply-to:sender:subject:subject:to:
+	to:cc:feedback-id:mime-version:content-type;
+	bh=ttw88yyxrG0Ri/TjWy2NtqvhiicR/Iw/Lw4I9n8jtoo=;
+	b=EBqRvreZJ99QWQz8FxzRy5OVRRlN9bgIa1yN9OkoNWPDTijBl+RSv23pHMrADmv7MMtkz/i5J4B
+	AWtDZi0kYL783OebvURvrEO5dVobi4ICS0DLBQXZpgs+DAjZq+hsRQ1Oxf1FOev8KwleR8YJEgxpK
+	e+DDDR3YHqC4u/8zDAM=
+From: Milan Puskar Foundation <support@trytemelio.com>
+Date: Fri, 11 Sep 2026 05:53:50 +0000
+Subject: Thank you for submitting your application to Milan Puskar Foundation
+Message-Id: <b9d4021a-02b4-480c-98ba-4c84c8f07de3@mtasv.net>
+Reply-To: lori.maynard@puskarfoundation.org
+To: h4hwv2011@gmail.com
+Feedback-ID: s9527418-_:s9527418:a249084:postmark
+X-Complaints-To: abuse@postmarkapp.com
+X-Job: 249084_9527418
+X-PM-Message-Id: b9d4021a-02b4-480c-98ba-4c84c8f07de3
+X-PM-RCPT: |bTB8MjQ5MDg0fDk1Mjc0MTh8aDRod3YyMDExQGdtYWlsLmNvbQ==|
+X-PM-Message-Options: v1;1.LL3i9mU6pOnJD8sXPku0dg.tpaZXsqmPxYeYEmGHxUaULtU9pAgvNzjK9rltr6YpjA8ejfi5Q7AlGhfu2BPo2ZuRmj3cKiHG09YsMnlsLKK7j7XRV04NLtQAgTLtZ11S0in4OISB2NNKmZfjkP0pUA1g3oUvI0FBhfiJi7d1bbpEYlGnxu006EwXZiRuOdmLf7Mmkw6H6ASt_4l7z3hJxGV
+X-PM-Message-Details: v1;1.jtsFXTYtfYw_GE1xAzmkDw.C1BmeiqEmo9RsLuv_-WsggjFEVbW7d14kjuJtHM1Oa8xQtj2LEdjHOu6QlmvtIl09ygPu4LVWpseD4lMOb6Bu3eQjFGhRI4z_F4b0OhLuVzEorkoYXgexI_iqojjs8O2587v6N-0AqNTPtKsJhwEsPFlQ49wXXka8W77Y2ZOsmUSSIm36o53XVtNp-Ze5Ujb6NBe0DcNZulnNkuI9cIXZX7CIEmktrDZt4Z7a5VWNOMvJCpGpdc3h1dube2eT8ljBjr3Evtz254mOb9wNQWY8IOHz5XI3cs49v0htW1TRX8dGPp4Wof-AgzrENr5-cTLhVcYswL35JBFpwbvKpgM85_KYJIrAAn4T2bOb7u7PIxYQ20OzWNf-1vwavGbXBXEdc4Tz9j32pS-VKVFaBKOMEKx-BwF7XWXbtPStKEfBc7KzhNA8OQtcf9x3yghB2TKdj9huSJAggsjwOxMMhu6cgR6t6blZQPiGpFXSd_qD2mQJDjTBQ_owWc-AcS7hb5EiYGWnnUhDQyhciZI8263Aw
+MIME-Version: 1.0
+X-virtual-MTA: ord-104-245-209-200
+X-PM-MTA-Pool: transactional-3
+Content-Type: multipart/alternative;
+	boundary=mk3-d6ff405937dd40dfa18abe1dc028c4e9; charset=UTF-8
+
+--mk3-d6ff405937dd40dfa18abe1dc028c4e9
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+ ()
+
+
+
+=C2=A9 2021 . All rights reserved.
+
+--mk3-d6ff405937dd40dfa18abe1dc028c4e9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+    <meta name=3D"x-apple-disable-message-reformatting">
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+">
+    <meta name=3D"color-scheme" content=3D"light dark">
+    <meta name=3D"supported-color-schemes" content=3D"light dark">
+    <title></title>
+    <!--
+    The style block is collapsed on page load to save you some scrolling.
+    Postmark automatically inlines all CSS properties for maximum email cli=
+ent
+    compatibility. You can just update styles here, and Postmark does the r=
+est.
+  -->
+    <style type=3D"text/css" rel=3D"stylesheet" media=3D"all">@import url("=
+https://fonts.googleapis.com/css?family=3DNunito+Sans:400,700&display=3Dswa=
+p");
+@media only screen and (max-width: 500px) { .button { width: 100% !importan=
+t; text-align: center !important } }
+@media only screen and (max-width: 600px) { .email-body_inner, .email-foote=
+r { width: 100% !important } }
+@media (prefers-color-scheme: dark) { body, .email-body, .email-body_inner,=
+ .email-content, .email-wrapper, .email-masthead, .email-footer { backgroun=
+d-color: #333333 !important; color: #FFFFFF !important } p, ul, ol, blockqu=
+ote, h1, h2, h3, span, .purchase_item { color: #FFFFFF !important } .attrib=
+utes_content, .discount { background-color: #222222 !important } .email-mas=
+thead_name { text-shadow: none !important } }
+:root { color-scheme: light dark !important; supported-color-schemes: light=
+ dark !important }
+p:empty::before { content: "=C2=A0" !important }</style>
+    <!--[if mso]>
+    <style type=3D"text/css">
+      .f-fallback  {
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  <![endif]-->
+  </head>
+  <body style=3D"height: 100%; margin: 0; -webkit-text-size-adjust: none; f=
+ont-family: &quot;Nunito Sans&quot;, Helvetica, Arial, sans-serif; backgrou=
+nd-color: #F2F4F6; color: #51545E; width: 100% !important;">
+    <table class=3D"email-wrapper" width=3D"100%" cellpadding=3D"0" cellspa=
+cing=3D"0" role=3D"presentation" style=3D"width: 100%; margin: 0; padding: =
+0; -premailer-width: 100%; -premailer-cellpadding: 0; -premailer-cellspacin=
+g: 0; background-color: #F2F4F6;">
+      <tbody><tr>
+        <td align=3D"center" style=3D"font-family: &quot;Nunito Sans&quot;,=
+ Helvetica, Arial, sans-serif; font-size: 16px;">
+          <table class=3D"email-content" width=3D"100%" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"width: 100%; margin: 0; pad=
+ding: 0; -premailer-width: 100%; -premailer-cellpadding: 0; -premailer-cell=
+spacing: 0;">
+            <tbody><tr>
+              <td class=3D"email-masthead" style=3D"font-family: &quot;Nuni=
+to Sans&quot;, Helvetica, Arial, sans-serif; font-size: 16px; padding: 25px=
+ 0; text-align: center;">
+                <a href=3D"" class=3D"f-fallback email-masthead_name" style=
+=3D"color: #A8AAAF; font-size: 16px; font-weight: bold; text-decoration: no=
+ne; text-shadow: 0 1px #FFFFFF;">
+               =20
+              </a>
+              </td>
+            </tr>
+            <!-- Email Body -->
+            <tr>
+              <td class=3D"email-body" width=3D"570" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"font-family: &quot;Nunito Sans&quot;, Helvetica, Ari=
+al, sans-serif; font-size: 16px; width: 100%; margin: 0; padding: 0; -prema=
+iler-width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0;">
+                <table class=3D"email-body_inner" align=3D"center" width=3D=
+"570" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"wi=
+dth: 570px; margin: 0 auto; padding: 0; -premailer-width: 570px; -premailer=
+-cellpadding: 0; -premailer-cellspacing: 0; background-color: #FFFFFF;">
+                  <!-- Body content -->
+                  <tbody><tr>
+                    <td class=3D"content-cell" style=3D"font-family: &quot;=
+Nunito Sans&quot;, Helvetica, Arial, sans-serif; font-size: 16px; padding: =
+45px;">
+                      <div class=3D"f-fallback">
+                       =20
+
+<p style=3D"margin: 0; padding: 0 !important; font-size: 16px; line-height:=
+ 1.625; color: #51545E;">We are writing to confirm we have received Mount H=
+ope Community Champion Leadership Pilot for Harmony for Hope, Inc..</p>
+
+<p style=3D"margin: 0; font-size: 16px; line-height: 1.625; color: #51545E;=
+">
+  <a href=3D"https://track.pstmrk.it/3s/app.trytemelio.com%2Fnonprofit%2F80=
+abe9b1-a553-48bd-8be5-84d81790a259%2Fsubmissions%2F22e10920-5fe5-4ef7-8ef3-=
+6467cc64c1e2/emCR/YgPPAQ/AQ/b9d4021a-02b4-480c-98ba-4c84c8f07de3/1/rcosN8gU=
+Z6" target=3D"_blank" class=3D"button" style=3D"color: #FFFFFF; background-=
+color: #4CAF50; border: none; display: inline-block; text-decoration: none;=
+ border-radius: 3px; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16); -webkit-tex=
+t-size-adjust: none; box-sizing: border-box; padding: 15px 32px; text-align=
+: center; font-size: 16px; margin: 4px 2px; cursor: pointer;"><strong>Click=
+ here to view</strong></a>
+</p>
+
+<p class=3D"extra" style=3D"margin: 0; font-size: 16px; line-height: 1.625;=
+ color: #51545E;">Please sign in/sign up with the email that received this =
+communication: <strong>h4hwv2011@gmail.com</strong></p>
+<p class=3D"extra" style=3D"margin: 0; font-size: 16px; line-height: 1.625;=
+ color: #51545E;"><strong>If this is your first time logging into Temelio, =
+please click on <a href=3D"https://track.pstmrk.it/3s/app.trytemelio.com%2F=
+signup%3Fredirect_url%3Dhttps%253A%252F%252Fapp.trytemelio.com%252F/emCR/Yg=
+PPAQ/AQ/b9d4021a-02b4-480c-98ba-4c84c8f07de3/2/l52RZHSdcx" style=3D"color: =
+#3869D4;">sign up.</a></strong></p>
+<p class=3D"extra" style=3D"margin: 0; font-size: 16px; line-height: 1.625;=
+ color: #51545E;">Need to collaborate with your colleagues? Additional team=
+ members can be added to your profile during onboarding and in the system s=
+ettings page after logging in.</p>
+
+
+                      </div>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+            <tr>
+              <td style=3D"font-family: &quot;Nunito Sans&quot;, Helvetica,=
+ Arial, sans-serif; font-size: 16px;">
+                <table class=3D"email-footer" align=3D"center" width=3D"570=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:=
+ 570px; margin: 0 auto; padding: 0; -premailer-width: 570px; -premailer-cel=
+lpadding: 0; -premailer-cellspacing: 0; text-align: center;">
+                  <tbody><tr>
+                    <td class=3D"content-cell" align=3D"center" style=3D"fo=
+nt-family: &quot;Nunito Sans&quot;, Helvetica, Arial, sans-serif; font-size=
+: 16px; padding: 45px;">
+                      <p class=3D"f-fallback sub align-center" style=3D"mar=
+gin: 0; font-size: 13px; line-height: 1.625; color: #A8AAAF; text-align: ce=
+nter;">=C2=A9 2026 . All rights reserved.</p>
+                      <p class=3D"f-fallback sub align-center" style=3D"mar=
+gin: 0; font-size: 13px; line-height: 1.625; color: #A8AAAF; text-align: ce=
+nter;">
+                       =20
+                        <br>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+ =20
+<img src=3D"https://ea.pstmrk.it/open?m=3Dv3_1.9oSeyoTng9knFfv2qxtyLA.hylH8=
+8145CKYmuf_Xal8SSBg0WJMzHctnuSTV1z9fu7euaNd7TK_8j_KT7SAMH1oUbbNW7qwxuH42C8d=
+zDJ5bmofe-7vA1SHu6E3_2V4GKkpf8oflK0ci5uGKar4mpZRqHI6_oraU7A_gvlgrNwI4-w6T_l=
+G_NkusoyPjF1pqcHB67SuCzxn8YvOGK7D3A--idNkW4apgWDfqFQ-0792Fo0NqTjV-P8Wg0EgS3=
+JG37aLPAEHYzOyyKrWAhSormGqlAwvWUc_YKzXZY3XlpVV3P1-xxtc3vv1GYcRaSpX_bFo1OJA4=
+7L4GD3JFrd6Ngx5A67XUI21QBoS7OuV1U3L5TPFG3gqpYS2hY5bcG7jcLf4PRfik_T2RaZGilwc=
+28gMcAEdUzABxLLaFpPXvp4amJ_Wdh6Sh1lfHbq-FSFX-lPb5A190b6Mr-fSEzgxvXie0sw2Hm7=
+6CMTuF6SYwI9JEyfY4SLW-iiA7PnOYHBQAN_fRWu__vNi78oTCQzXGPpUDosxDHxV-feDFZzRvB=
+oIylGu1O6rfMrLJDN4-Tx3fLCxqOsIQl-H445qp3XS1dzDZNFnMO3yHGJStfRoz3KLtKrEmi9he=
+RMAwNjO_pdoADmKJrBWGJYsD5O2BE-XfTi3f90U_8_WQpQBzMQs23j1WHbdgSM4ZeJVIgBchAiN=
+v2yyKuhEfUCEL0CsA3kue4JHi8L_0nEVbmORAPNC0YkAy9e0WIKpyjuVVSRmT_A0hPVyUqo4DRi=
+BihkMSIJeoQsHjrufz8Bn--X2oEY34W6y4guTS_-mnM_N-7cTSpvr6jfnkfeXyolJxhdmVLvoFY=
+8xIc-4PTfXLAFhvnq_FAq9P9YSAkB1PSwuH0SOPvcsP7GZsGBhtY4UNaC9LKK44qzZGgWdmkkS4=
+mNm0Z8gTyPIjqdfCBMwDip3gwzljgcvIUv3Y5I0Z-MmEv21cp5ULufOpxbh4nZISOsZKtzZ_4Lw=
+VF0VUT9iGvDbKXGUYQUEvY6YEaElYssuv3erM-1UVNnzSWiK_eSenk6jLaCozzxV113uwUxuDCV=
+uJC01CziGqeYgvhJTFAQbHHUDt30g2KatxIOeFe7xliEGW6LkO2iORw" width=3D"1" height=
+=3D"1" border=3D"0" alt=3D"" /></body></html>
+
+--mk3-d6ff405937dd40dfa18abe1dc028c4e9--
