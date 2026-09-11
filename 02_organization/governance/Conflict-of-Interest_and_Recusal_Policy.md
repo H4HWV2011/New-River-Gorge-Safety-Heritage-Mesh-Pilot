@@ -1,14 +1,20 @@
+> **Public reference copy of adopted governance policy:** This Markdown document is provided for transparency, readability, and public portfolio review. The Conflict-of-Interest and Recusal Policy was adopted by the Board of Directors of Harmony for Hope, Inc. The organization retains the controlling Board adoption record, including applicable minutes, certifications, and signed governance records, in its official files. Signature fields are not reproduced in this public Markdown copy.
+
 # Conflict-of-Interest and Recusal Policy
 
 ## Harmony for Hope, Inc.
-### With DAO/DUNA-Side Mirror Provisions
+
+### With Prospective DAO/DUNA-Side Mirror Provisions
 
 **Document Number:** COI-001
 **Version:** 1.0
 **Date:** June 19, 2026
+**Status:** Adopted by the Board of Directors of Harmony for Hope, Inc.
+**Public Record Status:** Public reference copy of adopted governance policy
+**Controlling Record:** Board adoption record and related signed governance records retained in Harmony for Hope, Inc.'s official files
 **Related Documents:** Master Services Agreement, SOW-000, SOW-001, FA-001, FTIS-001, Founder Capital Instrument Agreement, MountainShares DAO Governance Charter, MountainShares Program Rules
 
-> **Notice:** This policy is a condition precedent to execution of the Founder Capital Instrument Agreement (§13, condition 5) and is referenced as a material condition in SOW-000 §10, SOW-001 §10, FA-001 §12, and FTIS-001 §12. It must be adopted by the H4H Board of Directors and reflected in DAO/DUNA governance records before any related-party transaction, Treasury Reserve draw for formation or transition costs, or founder-side capitalization instrument is executed.
+> **Governance Notice:** This Policy has been adopted by the Harmony for Hope, Inc. Board of Directors and governs applicable H4H conflict-of-interest, disclosure, recusal, disinterested-review, and related-party approval procedures. It is referenced as a material governance condition in related H4H–Contractor and MountainShares planning documents. Where future DAO/DUNA governance structures, Treasury Reserve mechanisms, founder-side capitalization instruments, or other later-phase structures become applicable, the relevant mirror provisions of this Policy must also be incorporated into the governing records and approval processes applicable to those structures before related actions are authorized.
 
 ---
 
@@ -16,33 +22,38 @@
 
 ### 1.1 Purpose
 
-This Conflict-of-Interest and Recusal Policy (the **Policy**) establishes the disclosure, recusal, and approval procedures that Harmony for Hope, Inc. (**H4H**) and the MountainShares DAO/DUNA are required to follow whenever a covered person holds, or may appear to hold, a material personal or financial interest in a matter before H4H's Board of Directors or the DAO/DUNA governance body.
+This Conflict-of-Interest and Recusal Policy (the **Policy**) establishes the disclosure, recusal, and approval procedures that Harmony for Hope, Inc. (**H4H**) is required to follow whenever a covered person holds, or may appear to hold, a material personal or financial interest in a matter before H4H's Board of Directors.
+
+The Policy also establishes prospective mirror principles for any future MountainShares DAO/DUNA governance structure where such a governance body is lawfully established and the relevant provisions become applicable.
 
 The Policy exists to:
 
-- protect H4H's status as a 501(c)(3) tax-exempt organization by preventing private inurement, private benefit, and excess-benefit transactions prohibited under IRC § 4958 and related authorities;
-- satisfy the structural integrity requirements embedded in the MountainShares contract documents, which collectively condition their enforceability on the existence of documented conflict-of-interest and recusal procedures;
-- provide a transparent, auditable record of how related-party decisions are made;
-- and protect covered persons themselves from allegations of self-dealing by ensuring decisions are made through a documented disinterested process.
+* protect H4H's status as a 501(c)(3) tax-exempt organization by preventing private inurement, impermissible private benefit, and excess-benefit transactions under applicable federal tax law;
+* provide a documented governance framework for related-party transactions;
+* support the structural integrity requirements contained in H4H–Contractor and MountainShares planning and governance documents;
+* provide a transparent, auditable record of how related-party decisions are made; and
+* protect H4H, its directors, officers, contractors, and other covered persons through a documented disinterested-review process.
 
 ### 1.2 Scope
 
 This Policy applies to:
 
-- all members of the H4H Board of Directors,
-- all officers of H4H,
-- all employees of H4H who have authority to commit H4H resources or approve expenditures,
-- all contractors with overlapping roles on both sides of an H4H transaction (including, without limitation, Carrie Ann Kidd in her capacity as both H4H principal officer and contractor / KTS founder),
-- and all DAO/DUNA governance participants exercising a formal vote on any matter in which they hold a material personal or financial interest.
+* all members of the H4H Board of Directors;
+* all officers of H4H;
+* all employees of H4H who have authority to commit H4H resources or approve expenditures;
+* all contractors with overlapping roles on both sides of an H4H transaction, including Carrie Ann Kidd in her capacity as both an H4H officer and Carrie Ann Kidd d/b/a Kidd's Technical Services;
+* and, where applicable in the future, DAO/DUNA governance participants exercising a formal vote on a matter in which they hold a material personal or financial interest.
 
-This Policy applies to all H4H decisions and DAO/DUNA governance decisions, including without limitation:
+For H4H, this Policy applies to decisions including:
 
-- approval of contracts, amendments, and statements of work between H4H and any related party,
-- approval of Treasury Reserve draws for formation, transition, or compliance costs,
-- approval of licensing terms between H4H or the DUNA and Kidd's Technical Services (KTS),
-- approval of the Annual Regulatory Compliance Budget,
-- any Board action touching the Founder Capital Instrument Agreement or KTS capitalization,
-- and any DAO/DUNA governance vote on matters in which a covered person stands on both sides.
+* approval or amendment of contracts and statements of work between H4H and a related party;
+* approval of related-party payments or reimbursements;
+* approval of licensing terms involving H4H and Kidd's Technical Services;
+* determination of fair-market or arm's-length compensation;
+* Board action involving founder-side or KTS-side transactions that may affect H4H;
+* and any other transaction in which a Covered Person may stand on both sides.
+
+Where future MountainShares DAO/DUNA governance, Treasury Reserve, Annual Regulatory Compliance Budget, licensing, capitalization, or similar structures become operative, the applicable mirror provisions of this Policy shall apply only after those structures have been lawfully established and the relevant governance documents have been adopted.
 
 ---
 
@@ -50,14 +61,18 @@ This Policy applies to all H4H decisions and DAO/DUNA governance decisions, incl
 
 For purposes of this Policy:
 
-- **Covered Person** means any individual described in §1.2.
-- **Conflict of Interest** means any situation in which a Covered Person has, or reasonably appears to have, a direct or indirect material personal or financial interest in a matter before H4H or the DAO/DUNA that could impair, or appear to impair, that person's ability to act solely in the best interest of H4H or the community.
-- **Related-Party Transaction** means any contract, amendment, payment, reimbursement, license, grant, or other commitment between H4H or the DUNA and (a) a Covered Person, (b) a business in which a Covered Person holds an ownership, officer, or director role, or (c) a family member of a Covered Person.
-- **Disinterested Director** means a member of the H4H Board of Directors who has no direct or indirect material personal or financial interest in the matter under consideration and who has not been designated as conflicted under this Policy with respect to that matter.
-- **Disinterested Quorum** means a quorum of the Board composed entirely of Disinterested Directors sufficient to act on the matter under H4H's governing documents and applicable West Virginia nonprofit law.
-- **Material Interest** means any financial interest, ownership interest, employment interest, or other interest that a reasonable person would conclude could influence the Covered Person's judgment on the matter in question, taking into account the size and nature of the interest relative to H4H's operations.
-- **Treasury Reserve Draw** means any authorized expenditure from the MountainShares Treasury Reserve for transition, formation, legal, compliance, or other approved costs under the MountainShares Phase Specifications and Program Rules.
-- **Annual Regulatory Compliance Budget (ARCB)** means the budget filed by H4H with the DAO each year covering legal, regulatory, compliance, and KTS-related transition costs, as described in the applicable Phase Specification.
+* **Covered Person** means any individual described in §1.2.
+* **Conflict of Interest** means any situation in which a Covered Person has, or reasonably appears to have, a direct or indirect material personal or financial interest in a matter before H4H that could impair, or appear to impair, that person's ability to act solely in the best interest of H4H.
+* **Related-Party Transaction** means any contract, amendment, payment, reimbursement, license, grant, or other commitment between H4H and:
+
+  * a Covered Person;
+  * a business in which a Covered Person holds an ownership, officer, director, or comparable role; or
+  * a family member of a Covered Person.
+* **Disinterested Director** means a member of the H4H Board of Directors who has no direct or indirect material personal or financial interest in the matter under consideration and who has not been designated as conflicted under this Policy with respect to that matter.
+* **Disinterested Quorum** means a quorum sufficient to act on the matter under H4H's governing documents and applicable law, excluding any Director who is required to recuse from that matter.
+* **Material Interest** means a financial, ownership, employment, contractual, family, or other interest that a reasonable person could conclude may influence the Covered Person's judgment on the matter in question.
+* **Treasury Reserve Draw** means, if and when a MountainShares Treasury Reserve is lawfully established and activated, an authorized expenditure from that reserve under the applicable governing documents.
+* **Annual Regulatory Compliance Budget (ARCB)** means, if and when applicable, the annual legal, regulatory, compliance, transition, or related budget described in applicable MountainShares governance documents.
 
 ---
 
@@ -65,37 +80,42 @@ For purposes of this Policy:
 
 ### 3.1 Annual Disclosure
 
-Each Covered Person shall complete and submit to the Board Secretary (or designated officer) an annual written disclosure statement identifying:
+Each Covered Person shall complete and submit to the Board Secretary or designated officer an annual written disclosure statement identifying:
 
-- all positions held as officer, director, employee, owner, or contractor of any entity that has or may have a business relationship with H4H or the DUNA;
-- all material financial interests in any such entity;
-- all family relationships that could give rise to a conflict;
-- and any other relationship or interest that a reasonable person would consider material to H4H's decisions.
+* positions held as officer, director, employee, owner, contractor, or other decision-making role in an entity that has or may have a business relationship with H4H;
+* material financial interests in any such entity;
+* family relationships that could give rise to a conflict; and
+* any other relationship or interest that a reasonable person would consider material to H4H's decisions.
 
 Annual disclosures shall be submitted at the beginning of each calendar year and updated promptly whenever a material change occurs.
 
 ### 3.2 Transaction-Level Disclosure
 
-In addition to annual disclosure, a Covered Person shall disclose any actual or potential conflict at the beginning of any Board meeting, committee meeting, or DAO/DUNA governance session at which a matter in which that person may have a conflict is to be considered.
+In addition to annual disclosure, a Covered Person shall disclose any actual or potential conflict at the beginning of any Board or committee consideration of a matter in which that person may have a conflict.
 
-Disclosure shall be made:
+Disclosure shall be documented through:
 
-- verbally at the opening of the relevant agenda item, and
-- in writing in the meeting minutes or governance record for that session.
+* verbal disclosure where appropriate during the relevant agenda item; and
+* written documentation in the meeting minutes, governance record, disclosure form, or related transaction record.
 
 ### 3.3 Carrie Ann Kidd — Standing Disclosure
 
-Because Carrie Ann Kidd presently holds overlapping roles as H4H principal officer, primary contractor under the Master Services Agreement and related SOWs, and founder / future principal of Kidd's Technical Services (KTS), a standing conflict-of-interest disclosure is entered into the record as of the adoption date of this Policy.
+Because Carrie Ann Kidd holds overlapping roles as an H4H officer and as the individual doing business as Kidd's Technical Services, a standing conflict-of-interest disclosure is incorporated into the governance record under this Policy.
 
-That standing disclosure covers, without limitation:
+That standing disclosure includes, without limitation:
 
-- all H4H–KTS agreements, including the Master Services Agreement, SOW-000, SOW-001, FA-001, and any successor or replacement agreements;
-- all Treasury Reserve draws that include any KTS-related formation, transition, or procurement cost line items;
-- all licensing arrangements between H4H or the DUNA and KTS;
-- all Board decisions touching the Founder Capital Instrument Agreement;
-- and all Annual Regulatory Compliance Budget line items that benefit or relate to KTS formation or capitalization.
+* the executed Master Services Agreement;
+* executed SOW-000;
+* proposed or future SOWs, including SOW-001 if it is presented for approval;
+* FA-001 or successor fee or compensation instruments, if applicable;
+* licensing arrangements involving H4H and Kidd's Technical Services;
+* Board action involving founder-side or KTS-side capitalization instruments where H4H interests are implicated;
+* related-party payments, reimbursements, or expense approvals; and
+* any future Treasury Reserve or Annual Regulatory Compliance Budget line item that directly benefits or relates to KTS, if such structures become operative.
 
-This standing disclosure does not relieve Ms. Kidd of the obligation to make transaction-level disclosure at each relevant meeting, but it establishes a documented baseline record.
+**SOW-001 is presently maintained as a draft for Board and counsel review and is not represented as executed or effective.** Its inclusion in this standing disclosure identifies it as a potential future related-party matter requiring review; it does not constitute Board approval or execution.
+
+This standing disclosure does not relieve Ms. Kidd of the obligation to make transaction-level disclosure when a specific related-party matter is presented for consideration.
 
 ---
 
@@ -103,34 +123,44 @@ This standing disclosure does not relieve Ms. Kidd of the obligation to make tra
 
 ### 4.1 Recusal Trigger
 
-A Covered Person shall recuse herself or himself from participation in any Board vote, committee vote, or DAO/DUNA governance vote on any matter in which that person has a disclosed or apparent conflict of interest, unless:
+A Covered Person shall recuse herself or himself from Board or committee deliberation and voting on a matter in which that person has a material actual or apparent conflict of interest.
 
-- the conflict has been evaluated by Disinterested Directors or DAO/DUNA disinterested participants,
-- those disinterested decision-makers have determined in writing that the transaction is fair, arm's length, and in H4H's or the community's best interest,
-- and the transaction has been approved by a Disinterested Quorum without the conflicted person's vote counting toward the required threshold.
+The existence of a conflict does not automatically prohibit H4H from entering into an otherwise lawful and appropriate transaction.
+
+Instead, the matter must be evaluated through the disinterested-review procedures established by this Policy.
 
 ### 4.2 Scope of Recusal
 
-Recusal means the Covered Person:
+Unless otherwise determined by applicable law or documented governance procedure, recusal means the Covered Person:
 
-- leaves the room (or exits the virtual meeting session) during deliberation and voting on the conflicted matter;
-- does not attempt to influence the outcome through informal communication before, during, or after the meeting;
-- is not counted toward quorum for purposes of the vote on the conflicted matter;
-- and does not vote on the matter.
+* discloses the conflict before substantive deliberation;
+* does not participate in the disinterested deliberation;
+* does not vote on the matter;
+* is not counted toward the vote threshold applicable to the conflicted transaction; and
+* does not improperly attempt to influence the outcome outside the formal review process.
 
-The Covered Person **may**, before recusing, provide factual information requested by the Board or governance body, answer questions about the scope or terms of a proposed transaction, or submit a written summary of relevant facts — but may not advocate for a particular outcome.
+Before recusing, the Covered Person may:
+
+* provide factual information requested by the Board;
+* answer questions about the proposed transaction;
+* provide documentation;
+* explain scope, pricing, deliverables, or other relevant facts; and
+* respond to questions needed for informed review.
+
+The Covered Person shall not participate in the final disinterested deliberation or vote.
 
 ### 4.3 Carrie Ann Kidd — Mandatory Recusal Matters
 
-Ms. Kidd shall recuse herself, without exception, from all Board votes and DAO/DUNA governance votes on:
+Ms. Kidd shall recuse herself from H4H Board decisions involving:
 
-- approval or amendment of any H4H–KTS contract, including all SOWs, the Master Services Agreement, FA-001, and any successor agreements;
-- approval of any Treasury Reserve draw that includes a KTS-related cost line item;
-- approval of any Annual Regulatory Compliance Budget line item that benefits KTS directly;
-- any Board action on the Founder Capital Instrument Agreement or related KTS capitalization instruments;
-- any H4H–KTS licensing arrangement;
-- any determination of whether a payment to KTS or to Ms. Kidd personally constitutes fair-market or arm's-length compensation;
-- and any matter in which the Board is evaluating a potential breach of this Policy or a related-party dispute involving Ms. Kidd.
+* approval or amendment of an H4H–KTS contract;
+* approval or amendment of any SOW involving Ms. Kidd or KTS;
+* approval of compensation, reimbursement, or payment to Ms. Kidd or KTS;
+* determination of whether compensation or payment to Ms. Kidd or KTS is fair-market or arm's-length;
+* an H4H–KTS licensing arrangement;
+* Board action involving a founder-capital or KTS capitalization instrument where H4H is a party or H4H resources are implicated;
+* any future Treasury Reserve or ARCB decision directly benefiting KTS, if those structures become operative; and
+* any matter involving an alleged breach of this Policy or a related-party dispute involving Ms. Kidd.
 
 ---
 
@@ -138,97 +168,121 @@ Ms. Kidd shall recuse herself, without exception, from all Board votes and DAO/D
 
 ### 5.1 Required Process for Related-Party Transactions
 
-Before H4H enters into any Related-Party Transaction, the Board shall:
+Before H4H enters into a Related-Party Transaction, the Board shall:
 
-1. **Identify the conflict** — confirm in the meeting record that a conflict exists and identify the Covered Person(s) affected.
-2. **Obtain disclosure** — confirm that the Covered Person has provided complete written disclosure of her or his interest.
-3. **Direct recusal** — direct the Covered Person to leave the session for deliberation and voting.
-4. **Determine disinterested composition** — confirm that a Disinterested Quorum exists to act on the matter.
-5. **Evaluate alternatives** — consider whether a comparable arrangement could be obtained from an unrelated party on similar or better terms.
-6. **Make a fairness finding** — determine and document in the minutes that the transaction is fair, arm's length, and in H4H's best interest.
-7. **Vote by Disinterested Quorum** — approve or reject the transaction by vote of Disinterested Directors only, with the vote count and outcome recorded in the minutes.
+1. **Identify the conflict** — confirm that an actual or apparent conflict exists and identify the Covered Person.
+2. **Obtain disclosure** — confirm that the Covered Person has provided sufficient disclosure of the relevant interest.
+3. **Direct recusal** — exclude the Covered Person from the disinterested deliberation and vote.
+4. **Determine disinterested authority** — confirm that the remaining decision-makers have authority under H4H's governing documents and applicable law to act.
+5. **Evaluate alternatives and comparability where appropriate** — consider whether comparable services, arrangements, or terms are available from an unrelated party where that comparison is reasonably available and relevant.
+6. **Determine organizational benefit and fairness** — determine and document that the proposed transaction is fair, reasonable, in H4H's interest, and consistent with H4H's charitable purposes.
+7. **Vote through disinterested decision-makers** — approve, reject, or table the transaction without the conflicted person's vote.
 
 ### 5.2 Documentation Required
 
-For each Related-Party Transaction approved under this Policy, the Board Secretary shall prepare and retain:
+For each Related-Party Transaction approved under this Policy, H4H shall retain documentation appropriate to the transaction, which may include:
 
-- the written disclosure statement from the Covered Person;
-- the meeting minutes reflecting the recusal, the disinterested deliberation, the fairness finding, and the vote;
-- any supporting documentation used in the fairness evaluation (e.g., comparable market rates, independent valuations, counsel opinions);
-- and a copy of the executed agreement or authorization.
+* the Covered Person's disclosure;
+* meeting minutes or written Board action reflecting recusal;
+* the disinterested decision;
+* documentation supporting the fairness or reasonableness determination;
+* comparable rates, bids, estimates, invoices, valuations, or counsel input where applicable; and
+* the executed agreement, authorization, or other controlling record.
 
-These records shall be retained for a minimum of seven years and made available to auditors, legal counsel, and regulatory authorities upon request.
+Governance and transaction records shall be retained in accordance with H4H's applicable record-retention practices and legal requirements.
 
-### 5.3 Treasury Reserve Draws — Additional Requirements
+### 5.3 Future Treasury Reserve Draws
 
-Any Treasury Reserve draw that includes a KTS-related cost must, in addition to the standard disinterested-approval process:
+If a MountainShares Treasury Reserve is later lawfully established and activated, a Treasury Reserve draw involving KTS or another related party shall additionally require:
 
-- be specifically line-itemed in the Annual Regulatory Compliance Budget approved by the DAO/DUNA;
-- have a written cost estimate or invoice supporting the amount;
-- be approved by the Board under the disinterested-approval process above;
-- and be recorded in the Related-Party Transaction Log described in §6.
+* authorization under the governing Treasury Reserve rules;
+* appropriate budget or line-item support where required;
+* documentation supporting the amount;
+* H4H disinterested review where H4H is involved;
+* any applicable DAO/DUNA approval after such governance exists; and
+* inclusion in the Related-Party Transaction Log where applicable.
+
+The existence of Treasury Reserve provisions in planning or governance documents does not establish that such a reserve presently exists, is funded, or is authorized for use.
 
 ---
 
 ## 6. Related-Party Transaction Log
 
-H4H shall maintain a **Related-Party Transaction Log** as a permanent governance record. The Log shall be updated within 30 days of each Related-Party Transaction approval and shall record, at minimum:
+H4H shall maintain a **Related-Party Transaction Log** as a governance record.
 
-| Field | Description |
-|---|---|
-| Date of Board approval | Calendar date of the approving vote |
-| Transaction type | Contract / Amendment / Payment / License / Budget approval / Other |
-| Covered Person(s) | Name(s) of the conflicted individual(s) |
-| Nature of interest | Brief description of the conflict |
-| Counterparty | Name of the related party |
-| Transaction summary | Brief description of the approved transaction and dollar amount or value |
-| Disinterested Directors voting | Names of Directors voting (conflicted person excluded) |
-| Vote outcome | Approved / Rejected / Tabled |
-| Fairness finding | One-sentence summary of the fairness determination |
-| Supporting documents | Reference to supporting files retained in H4H records |
+The Log shall document approved related-party transactions, as applicable, including:
 
-The Log shall be reviewed by the full Board annually and shall be available to the auditor, legal counsel, and any regulatory authority upon request.
+| Field                                       | Description                                                                       |
+| ------------------------------------------- | --------------------------------------------------------------------------------- |
+| Date of approval                            | Calendar date of the approving action                                             |
+| Transaction type                            | Contract / Amendment / Payment / License / Budget approval / Other                |
+| Covered Person(s)                           | Name(s) of conflicted individual(s)                                               |
+| Nature of interest                          | Brief description of the conflict                                                 |
+| Counterparty                                | Name of the related party                                                         |
+| Transaction summary                         | Brief description of the transaction and dollar amount or value, where applicable |
+| Disinterested decision-makers               | Directors or other authorized decision-makers participating                       |
+| Outcome                                     | Approved / Rejected / Tabled                                                      |
+| Fairness or organizational-interest finding | Brief summary of the determination                                                |
+| Supporting documents                        | Reference to retained supporting records                                          |
+
+The Log shall be reviewed periodically by the Board and retained with H4H's governance records.
 
 ---
 
-## 7. DAO/DUNA Mirror Provisions
+## 7. Prospective DAO/DUNA Mirror Provisions
 
 ### 7.1 Applicability
 
-The DAO/DUNA governance structure operates under community-governance rules set out in the MountainShares DAO Governance Charter. The following provisions of this Policy apply as mirror obligations within the DAO/DUNA governance layer, in addition to whatever conflict-of-interest provisions are contained in the Governance Charter itself.
+The provisions in this section are **prospective governance requirements** intended for incorporation into a future MountainShares DAO/DUNA governance structure if and when such a structure is lawfully formed, authorized, and placed into operation.
 
-### 7.2 DAO/DUNA Recusal Trigger
+Their inclusion in this adopted H4H Policy does not establish that:
 
-Any DAO/DUNA governance participant — including the founder in any DAO/DUNA capacity — shall recuse herself or himself from any formal governance vote in which that participant holds a material personal or financial interest that is distinct from and potentially adverse to the community interest being decided.
+* a DUNA has been formed;
+* a DAO/DUNA governance body is presently operating;
+* a Treasury Reserve is presently active;
+* an Annual Regulatory Compliance Budget is presently required;
+* or any future MountainShares governance mechanism has been authorized merely by being described here.
 
-### 7.3 Matters Requiring DAO/DUNA Recusal
+### 7.2 DAO/DUNA Recusal Principle
 
-Without limiting the general trigger, the founder shall recuse herself from DAO/DUNA votes on:
+If a DAO/DUNA governance structure becomes operative, a participant exercising formal governance authority shall disclose and recuse from matters in which the participant holds a material personal or financial interest that is distinct from and potentially adverse to the community interest being decided.
 
-- approval of any Annual Regulatory Compliance Budget line item that benefits KTS directly;
-- any DAO/DUNA vote on licensing terms between the DUNA and KTS;
-- any DAO/DUNA vote on Treasury Reserve draws for KTS formation or transition costs;
-- and any DAO/DUNA vote evaluating a potential breach of this Policy or a governance dispute involving the founder.
+### 7.3 Founder/KTS Matters
 
-### 7.4 Hard Triggers Override Governance
+If applicable future DAO/DUNA governance becomes operative, the founder shall not participate in a formal governance vote involving:
 
-For the avoidance of doubt: no recusal rule, no DAO/DUNA governance vote, and no Board action under this Policy may override the automatic hard triggers, reserve-ratio safety bands, or phase-reversion rules embedded in the MountainShares Phase Safety Specifications. Those rules operate automatically and are not subject to governance override at any threshold.
+* a budget line item directly benefiting KTS;
+* licensing terms between the DUNA and KTS;
+* Treasury Reserve expenditures benefiting KTS;
+* founder-side capitalization matters in which the governance body has formal authority; or
+* a governance dispute or alleged policy violation directly involving the founder.
+
+### 7.4 System Safety Controls
+
+No conflict-of-interest procedure, H4H Board action, or future DAO/DUNA vote may be treated as authority to override technical, security, safety, legal, financial, or other controls that are independently established as non-waivable under applicable governing documents.
+
+Any future automated hard trigger, reserve safety band, phase-reversion rule, or comparable control must derive its authority from the governing instrument that lawfully creates it.
 
 ---
 
-## 8. Excess Benefit and Inurement Prohibition
+## 8. Excess Benefit and Private Inurement
 
-No transaction approved under this Policy may result in:
+No Related-Party Transaction approved under this Policy may knowingly result in:
 
-- private inurement to any individual with a close relationship to H4H, within the meaning of IRC § 501(c)(3);
-- an excess benefit transaction within the meaning of IRC § 4958, under which a disqualified person receives economic value from H4H exceeding fair-market value;
-- or private benefit to any individual or entity that is more than incidental to H4H's charitable purposes.
+* impermissible private inurement;
+* an excess-benefit transaction under applicable federal tax law; or
+* private benefit that is inconsistent with H4H's charitable purposes.
 
-If at any time the Board determines that a previously approved Related-Party Transaction has resulted or is likely to result in an excess benefit, the Board shall:
+When determining whether a proposed related-party transaction is appropriate, H4H should consider:
 
-- immediately suspend further performance under the transaction,
-- consult qualified legal counsel,
-- and take corrective action as required by applicable law, including correction of the excess benefit and payment of any applicable excise taxes under IRC § 4958.
+* reasonableness of compensation or pricing;
+* comparability where reasonably available;
+* organizational need;
+* charitable purpose;
+* whether the transaction provides H4H with fair value; and
+* whether the transaction creates an inappropriate private benefit.
+
+If the Board determines that a previously approved transaction may constitute an excess-benefit or private-inurement problem, H4H shall seek appropriate professional advice and take corrective action as required.
 
 ---
 
@@ -236,26 +290,30 @@ If at any time the Board determines that a previously approved Related-Party Tra
 
 ### 9.1 Reporting
 
-Any Director, officer, employee, or contractor who becomes aware of a potential violation of this Policy shall promptly report it in writing to the Board Chair (or, if the Board Chair is the subject of the concern, to the next most senior Disinterested Director).
+Any Director, officer, employee, contractor, or other Covered Person who becomes aware of a potential violation of this Policy should promptly report the concern through the appropriate disinterested governance channel.
+
+If the person normally responsible for receiving the concern is the subject of the conflict, the report should be directed to another Disinterested Director or other appropriate independent reviewer.
 
 ### 9.2 Investigation
 
-Upon receiving a report, the Board shall:
+Upon receiving a credible concern, the Board may:
 
-- designate a Disinterested Director or independent counsel to investigate,
-- ensure the subject of the concern does not participate in the investigation or any related Board deliberations,
-- and complete the investigation within a reasonable time.
+* designate one or more Disinterested Directors to review the matter;
+* seek independent legal, accounting, or other professional advice where appropriate;
+* ensure the subject of the concern does not control the investigation or related deliberation; and
+* document the review and resulting decision.
 
-### 9.3 Consequences
+### 9.3 Corrective Action
 
-If the Board determines that a violation has occurred, it may:
+If the Board determines that a violation occurred, appropriate corrective action may include:
 
-- void or rescind the conflicted transaction,
-- require disgorgement of any benefit received,
-- impose corrective conditions on future transactions,
-- remove the Covered Person from a position if permitted by governing documents and law,
-- report the matter to the IRS or other regulatory authority if required,
-- and take such other action as legal counsel advises is necessary to protect H4H's tax-exempt status and charitable mission.
+* modification, suspension, or termination of the affected transaction;
+* repayment or correction of an improper benefit;
+* additional governance conditions;
+* amendment of procedures;
+* removal from an organizational role where authorized by H4H's governing documents and applicable law;
+* professional or regulatory consultation where required; or
+* other action reasonably necessary to protect H4H's charitable mission and legal compliance.
 
 ---
 
@@ -263,70 +321,105 @@ If the Board determines that a violation has occurred, it may:
 
 ### 10.1 Annual Review
 
-This Policy shall be reviewed by the Board of Directors at least once per calendar year. The review shall assess whether the Policy remains adequate given H4H's current operations, related-party relationships, and any changes in applicable law or IRS guidance.
+This Policy shall be reviewed by the Board of Directors at least once per calendar year.
+
+The review should consider:
+
+* changes in H4H operations;
+* related-party relationships;
+* new agreements or compensation arrangements;
+* changes in applicable law or professional guidance;
+* implementation of future MountainShares governance structures; and
+* whether the disclosure and recusal process remains adequate.
 
 ### 10.2 Director Certification
 
-At the beginning of each calendar year, each Director shall sign a written certification confirming that:
+At the beginning of each calendar year, each Director shall complete or reaffirm an appropriate conflict-of-interest disclosure and certify that they:
 
-- they have read and understand this Policy,
-- they have disclosed all known actual or potential conflicts,
-- and they agree to comply with the Policy's requirements during the coming year.
+* have read or reviewed this Policy;
+* understand the disclosure and recusal obligations applicable to their role;
+* have disclosed known actual or potential conflicts; and
+* agree to comply with this Policy.
 
-Certifications shall be retained in H4H's permanent records.
+Certifications shall be retained with H4H's governance records.
 
 ---
 
 ## 11. Relationship to Other Documents
 
-This Policy is a standalone governance instrument. It does not modify the substantive terms of any H4H contract, SOW, fee amendment, or DAO governance document. It operates alongside those documents and provides the procedural framework that each of them requires.
+This Policy is a standalone adopted governance instrument.
+
+It does not by itself:
+
+* execute a contract;
+* authorize a payment;
+* approve a Statement of Work;
+* create a Treasury Reserve;
+* form a DUNA;
+* activate MountainShares governance;
+* approve founder capitalization;
+* or establish that a related future document has itself been adopted or executed.
+
+Rather, it provides the conflict-of-interest and related-party governance procedures applicable when H4H considers matters covered by this Policy.
 
 Specifically:
 
-- **SOW-000 §10 and SOW-001 §10** reference this Policy as a material condition of each SOW.
-- **FA-001 §12** requires documented conflict-of-interest and recusal procedures for all approvals, payments, and reimbursements under that amendment.
-- **FTIS-001 §12** requires this Policy to apply to all use of that statement in accounting, contracting, board review, and grants.
-- **Founder Capital Instrument Agreement §13, condition 5** makes this Policy a condition precedent to execution of that Agreement.
-- **MountainShares Phase Specifications** require an Annual Regulatory Compliance Budget filed with the DAO and approved under governance procedures consistent with this Policy.
+* **The Master Services Agreement** is separately maintained as an executed agreement.
+* **SOW-000** is separately maintained as an executed Statement of Work.
+* **SOW-001** is presently a draft for Board and counsel review and is not represented as executed or effective.
+* **FA-001, FTIS-001, Founder Capital Instrument Agreement, and other related instruments** retain the independent status shown in their own controlling records.
+* **Future MountainShares DAO/DUNA or Treasury Reserve governance documents** become authoritative only upon their own lawful adoption, formation, authorization, or execution as applicable.
+
+References from another document to this Policy do not alter that other document's independent legal or governance status.
 
 ---
 
 ## 12. Governing Law
 
-This Policy shall be interpreted under the laws of the State of West Virginia and applicable federal tax law, including IRC §§ 501(c)(3) and 4958 and related Treasury regulations and IRS guidance.
+This Policy shall be interpreted consistently with:
+
+* the governing documents of Harmony for Hope, Inc.;
+* applicable West Virginia nonprofit law; and
+* applicable federal tax law governing organizations recognized under IRC § 501(c)(3), including the rules applicable to excess-benefit transactions and private inurement.
+
+Where legal interpretation is required for a particular transaction, H4H may seek advice from qualified counsel or another appropriate professional.
 
 ---
 
-**Adopted by the Board of Directors of Harmony for Hope, Inc.**
+## Public Reference Adoption Record
 
-By: __________________________
-Name: ________________________
-Title: Board Chair
-Date: __________________
+This Policy was adopted by the Board of Directors of Harmony for Hope, Inc.
 
-By: __________________________
-Name: ________________________
-Title: Board Secretary
-Date: __________________
+The official Board adoption record, including applicable minutes, signatures, certifications, and related governance documentation, is retained in Harmony for Hope, Inc.'s official records.
 
-**Acknowledged — Standing Conflicted Party:**
+The public Markdown copy does not reproduce private signatures.
 
-Carrie Ann Kidd
-(H4H Officer / Contractor / KTS Founder)
-Date: __________________
+**Board Adoption:** Confirmed in organizational governance records
+**Policy Status:** Adopted and in effect
+**Public Copy:** Reference copy; not a substitute for retained Board records
+
+### Standing Conflicted Party
+
+**Carrie Ann Kidd**
+H4H Officer / Contractor / Kidd's Technical Services
+
+The standing disclosure in §3.3 applies subject to the transaction-level disclosure and recusal requirements of this Policy.
 
 ---
 
-### Changelog
+## Changelog
 
-| Version | Date | Summary |
-|---|---|---|
-| 1.0 | June 19, 2026 | Initial adoption draft. Covers H4H Board COI/recusal, Carrie Ann Kidd standing disclosure and mandatory recusal matters, disinterested-approval process, Related-Party Transaction Log, Treasury Reserve draw additional requirements, DAO/DUNA mirror provisions, excess benefit prohibition, violations and remedies, and annual certification. Conditions precedent cross-reference to Founder Capital Instrument Agreement §13(5), SOW-000 §10, SOW-001 §10, FA-001 §12, FTIS-001 §12. |
+| Version                         | Date               | Summary                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.0                             | June 19, 2026      | **Initial adopted version.** Established H4H conflict-of-interest, disclosure, recusal, disinterested-review, related-party documentation, standing disclosure, transaction-log, annual-review, and prospective DAO/DUNA mirror provisions.                                                                                                                    |
+| Public-reference reconciliation | September 11, 2026 | Clarified the policy's adopted status; removed stale pre-adoption language; distinguished executed MSA and SOW-000 from draft SOW-001; clarified that DAO/DUNA, Treasury Reserve, ARCB, and related later-phase provisions are prospective unless separately established; and replaced blank public adoption signatures with a public-reference adoption note. |
 
 ---
 
 *COI-001 — Conflict-of-Interest and Recusal Policy*
-*Harmony for Hope, Inc. | With DAO/DUNA Mirror Provisions*
+*Harmony for Hope, Inc.*
+*Adopted governance policy — public reference copy*
+
 ---
 
 **End of COI-001 v1.0**
